@@ -1,3 +1,5 @@
+# MVP Green Services: qué ajustamos y cómo usarlo
+
 Hackatón EstudIA 2026 · Reto 4, IA en operaciones · Green Services and
 Solutions SAS
 
