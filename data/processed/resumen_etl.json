@@ -1,0 +1,13 @@
+{
+  "lote_id": "L20261114-160914",
+  "lineas_venta": 4230,
+  "facturas": 2189,
+  "clientes": 220,
+  "desde": "2024-01-03",
+  "hasta": "2026-10-27",
+  "ventas_total_cop": 51081741910.5285,
+  "participacion_usd": 0.681457026908939,
+  "lineas_con_costo": 1.0,
+  "lineas_con_costo_ligado": 1.0,
+  "rechazos": {}
+}

@@ -1,0 +1,7 @@
+__pycache__/
+.venv/
+.instalado
+.pytest_cache/
+*.pyc
+# Datos reales de la empresa: nunca se suben al repositorio
+data/real/

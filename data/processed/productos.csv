@@ -1,0 +1,19 @@
+producto_id,nombre,categoria,precio_lista,moneda,meses_renovacion,fuente,dato_ficticio,hash_registro,archivo_origen,fila_origen,lote_id
+P01,Licencia antivirus corporativo (usuario/año),Licenciamiento,38,USD,12,ERP maestro de productos (simulado),True,ae19f0093406,productos.csv,2,L20261114-160914
+P02,Licencia suite ofimática (usuario/año),Licenciamiento,95,USD,12,ERP maestro de productos (simulado),True,4c9bcfc27c69,productos.csv,3,L20261114-160914
+P03,Licencia software de respaldo (servidor/año),Licenciamiento,620,USD,12,ERP maestro de productos (simulado),True,e6a2ddd5fb7d,productos.csv,4,L20261114-160914
+P04,Licencia firewall de nueva generación (año),Licenciamiento,1450,USD,12,ERP maestro de productos (simulado),True,e2b8eae2e9ba,productos.csv,5,L20261114-160914
+P05,Servidor rack 2U,Infraestructura,7800,USD,36,ERP maestro de productos (simulado),True,b21a2aaffe4d,productos.csv,6,L20261114-160914
+P06,Switch administrable 48 puertos,Infraestructura,2100,USD,36,ERP maestro de productos (simulado),True,e77552efbb54,productos.csv,7,L20261114-160914
+P07,Equipo portátil empresarial,Infraestructura,1150,USD,36,ERP maestro de productos (simulado),True,64993ae9f9fa,productos.csv,8,L20261114-160914
+P08,Cabina de almacenamiento NAS 40 TB,Almacenamiento,5400,USD,36,ERP maestro de productos (simulado),True,eb7ee1fcec3f,productos.csv,9,L20261114-160914
+P09,Discos de respaldo (lote x10),Almacenamiento,900,USD,24,ERP maestro de productos (simulado),True,b8b85a06b939,productos.csv,10,L20261114-160914
+P10,Respaldo en la nube (TB/mes),Servicios gestionados,180000,COP,0,ERP maestro de productos (simulado),True,424744eda758,productos.csv,11,L20261114-160914
+P11,Mesa de ayuda (usuario/mes),Servicios gestionados,45000,COP,0,ERP maestro de productos (simulado),True,d03e225c51f7,productos.csv,12,L20261114-160914
+P12,Monitoreo de infraestructura (mes),Servicios gestionados,1900000,COP,0,ERP maestro de productos (simulado),True,a88057a8c6fa,productos.csv,13,L20261114-160914
+P13,Digitalización documental (1.000 folios),Gestión documental,420000,COP,0,ERP maestro de productos (simulado),True,4aa638c04401,productos.csv,14,L20261114-160914
+P14,Custodia de archivo físico (caja/mes),Gestión documental,9500,COP,0,ERP maestro de productos (simulado),True,60fd9c6bfc6a,productos.csv,15,L20261114-160914
+P15,Borrado seguro certificado (equipo),Ciclo de vida,85000,COP,0,ERP maestro de productos (simulado),True,061d3dc1b8fd,productos.csv,16,L20261114-160914
+P16,Disposición final de equipos (lote),Ciclo de vida,1300000,COP,0,ERP maestro de productos (simulado),True,87e22c9874ca,productos.csv,17,L20261114-160914
+P17,Consultoría en gobierno de datos (hora),Consultoría,260000,COP,0,ERP maestro de productos (simulado),True,b0db71725696,productos.csv,18,L20261114-160914
+P18,Implementación y puesta en marcha (proyecto),Consultoría,14000000,COP,0,ERP maestro de productos (simulado),True,b3cf66a7091f,productos.csv,19,L20261114-160914

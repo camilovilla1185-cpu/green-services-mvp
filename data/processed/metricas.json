@@ -1,0 +1,95 @@
+{
+  "corte": "2026-10-27",
+  "etl": {
+    "lote_id": "L20261114-160914",
+    "lineas_venta": 4230,
+    "facturas": 2189,
+    "clientes": 220,
+    "desde": "2024-01-03",
+    "hasta": "2026-10-27",
+    "ventas_total_cop": 51081741910.5285,
+    "participacion_usd": 0.681457026908939,
+    "lineas_con_costo": 1.0,
+    "lineas_con_costo_ligado": 1.0,
+    "rechazos": {}
+  },
+  "riesgo": {
+    "pruebas": [
+      {
+        "corte": "2026-07-29",
+        "clientes": 180,
+        "filas_entrenamiento": 3009,
+        "tasa_recompra": 0.5277777777777778,
+        "auc_regla": 0.820123839009288,
+        "auc_modelo": 0.8146130030959752,
+        "auc_mezcla": 0.8302167182662539,
+        "acierto_top30_mezcla": 0.9,
+        "acierto_top30_regla": 0.9333333333333333,
+        "brier_mezcla": 0.17300107022962566
+      },
+      {
+        "corte": "2026-06-29",
+        "clientes": 181,
+        "filas_entrenamiento": 2991,
+        "tasa_recompra": 0.5359116022099447,
+        "auc_regla": 0.8290991654393716,
+        "auc_modelo": 0.7825233186057928,
+        "auc_mezcla": 0.8118556701030928,
+        "acierto_top30_mezcla": 0.9666666666666667,
+        "acierto_top30_regla": 0.9666666666666667,
+        "brier_mezcla": 0.17721563040661917
+      },
+      {
+        "corte": "2026-05-29",
+        "clientes": 187,
+        "filas_entrenamiento": 2967,
+        "tasa_recompra": 0.5454545454545454,
+        "auc_regla": 0.7472895040369089,
+        "auc_modelo": 0.7632064590542099,
+        "auc_mezcla": 0.776239907727797,
+        "acierto_top30_mezcla": 0.8666666666666667,
+        "acierto_top30_regla": 0.8666666666666667,
+        "brier_mezcla": 0.19104410859059498
+      },
+      {
+        "corte": "2026-04-29",
+        "clientes": 190,
+        "filas_entrenamiento": 2932,
+        "tasa_recompra": 0.5421052631578948,
+        "auc_regla": 0.7539895100993192,
+        "auc_modelo": 0.8110701930588103,
+        "auc_mezcla": 0.8101774355540676,
+        "acierto_top30_mezcla": 0.9666666666666667,
+        "acierto_top30_regla": 0.9333333333333333,
+        "brier_mezcla": 0.17947342401831412
+      }
+    ],
+    "auc_regla_promedio": 0.7876255046462219,
+    "auc_modelo_promedio": 0.792853243453697,
+    "auc_mezcla_promedio": 0.8071224329128028,
+    "acierto_top30_mezcla_promedio": 0.925,
+    "acierto_top30_regla_promedio": 0.925,
+    "brier_mezcla_promedio": 0.1801835583112885,
+    "tasa_recompra_promedio": 0.5378122971500406,
+    "cortes_donde_mezcla_supera_regla": 3
+  },
+  "pronostico": {
+    "mape_pronostico": 0.15282410770623875,
+    "mape_mes_anterior": 0.19289198655475126
+  },
+  "segmentos": {
+    "Frío": 70,
+    "Frecuente": 69,
+    "Ocasional": 33,
+    "Nuevo": 24,
+    "En riesgo": 20,
+    "Sin compras": 4
+  },
+  "base_instalada": 174,
+  "alertas": {
+    "Renovación próxima": 25,
+    "Reactivación": 21,
+    "Cliente valioso en riesgo": 12,
+    "Renovación vencida": 11
+  }
+}
