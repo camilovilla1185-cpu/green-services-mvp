@@ -54,5 +54,5 @@ if not exist data\processed\metricas.json (
 echo.
 echo Abriendo el tablero en el navegador: http://localhost:8501
 echo Para cerrarlo, cierre esta ventana.
-python -m streamlit run app.py
+python -m streamlit run app.py --server.headless false
 pause

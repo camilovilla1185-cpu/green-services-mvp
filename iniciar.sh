@@ -10,4 +10,4 @@ else
   source .venv/bin/activate
 fi
 [ -f data/processed/metricas.json ] || python -m src.pipeline --demo
-streamlit run app.py
+streamlit run app.py --server.headless false
