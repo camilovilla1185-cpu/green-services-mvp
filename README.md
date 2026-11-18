@@ -57,6 +57,14 @@ o servidor interno de la empresa (la ficha del reto prohíbe divulgar los datos)
 
 ---
 
+### Personalizar la marca (logo y colores)
+En **Cargar datos → Personalizar marca** se sube el logo de la empresa (PNG, JPG o
+SVG, ideal con fondo transparente), se cambia el nombre que aparece y se eligen
+tres colores. Todo el tablero (encabezados, menú, indicadores y gráficas) toma
+esos colores. Se guardan en `assets/logo_empresa.*` y `assets/marca.json`.
+En la versión publicada, para que el logo no se pierda al reiniciar la app,
+súbalo también al repositorio en `assets/logo_empresa.png`.
+
 ## 2. Qué muestra cada sección
 
 | Sección | Para quién | Qué responde |
@@ -154,6 +162,7 @@ green_mvp/
 ├─ src/
 │  ├─ config.py            umbrales y esquema de archivos
 │  ├─ generar_datos.py     datos ficticios con trazabilidad
+│  ├─ estilo.py            colores de marca, logo, CSS y plantilla de gráficas
 │  ├─ etl.py               ingesta, validación, TRM, margen, bitácora
 │  ├─ importar_facturacion.py  convierte una exportación plana de facturación
 │  ├─ analitica.py         ficha 360, segmentos, renovaciones, alertas

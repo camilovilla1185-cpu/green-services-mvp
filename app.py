@@ -15,14 +15,15 @@ import plotly.graph_objects as go
 import streamlit as st
 
 from src import config as cfg
-from src import pipeline
+from src import estilo, pipeline
+from src.estilo import COLOR_ALERTA, COLOR_SEG, encabezado
 
 P = cfg.DATOS_PROCESADOS
-COLOR_SEG = {"Frecuente": "#1f6f50", "Ocasional": "#7fb89a", "Nuevo": "#4c78a8",
-             "En riesgo": "#e0a030", "Frío": "#c4554d", "Sin compras": "#b0b0b0"}
 ORDEN_SEG = list(COLOR_SEG)
 
-st.set_page_config(page_title="Operaciones · Green Services", page_icon="📊", layout="wide")
+st.set_page_config(page_title="Operaciones · Green Services", page_icon="🌿", layout="wide")
+MARCA = estilo.aplicar_estilo()
+VERDE = MARCA["color_principal"]
 
 
 # ---------------------------------------------------------------- utilidades
@@ -69,7 +70,7 @@ def a_excel(df: pd.DataFrame) -> bytes:
 
 # ---------------------------------------------------------------- sin datos
 if not (P / "metricas.json").exists():
-    st.title("Tablero de Operaciones")
+    encabezado("Tablero de Operaciones", "Inteligencia operativa y comercial")
     st.info("Todavía no hay datos procesados. Puede cargar archivos reales en la sección "
             "**Cargar datos** o generar un conjunto de prueba con datos ficticios.")
     if st.button("Generar datos de prueba y procesar", type="primary"):
@@ -83,7 +84,7 @@ ventas, ficha, alertas, met = D["ventas"], D["ficha"], D["alertas"], D["met"]
 corte = pd.Timestamp(met["corte"])
 
 # ---------------------------------------------------------------- menú
-st.sidebar.title("Operaciones")
+st.sidebar.markdown(f"### {MARCA['empresa']}")
 st.sidebar.caption(f"Datos con corte al **{corte:%d/%m/%Y}** · lote `{met['etl']['lote_id']}`")
 if ventas.get("dato_ficticio", pd.Series([False])).any():
     st.sidebar.warning("Modo prueba: todos los datos son ficticios.")
@@ -106,7 +107,8 @@ v12_ant = ventas[(ventas.fecha > hace12 - pd.DateOffset(months=12)) & (ventas.fe
 
 # ================================================================ RESUMEN
 if pagina == "Resumen":
-    st.title("Resumen de la operación")
+    encabezado("Resumen de la operación",
+               "Cómo van las ventas, los márgenes y la cartera de clientes en los últimos 12 meses.")
     st.caption("Últimos 12 meses frente a los 12 anteriores. Cifras en pesos; las ventas en "
                "dólares se convierten con la TRM del día de cada factura.")
     k = st.columns(5)
@@ -128,11 +130,11 @@ if pagina == "Resumen":
     serie = ventas.groupby("mes").valor_cop.sum().reset_index()
     pron = D["pron"]
     fig = go.Figure()
-    fig.add_bar(x=serie.mes, y=serie.valor_cop, name="Ventas reales", marker_color="#9bb7a6",
+    fig.add_bar(x=serie.mes, y=serie.valor_cop, name="Ventas reales", marker_color=MARCA["color_acento"], opacity=0.55,
                 hovertemplate="%{x|%b %Y}: $%{y:,.0f}<extra></extra>")
     if not filtro_com:
         fig.add_scatter(x=pron.mes, y=pron.pronostico_cop, mode="lines+markers", name="Pronóstico",
-                        line=dict(color="#1f6f50", width=3),
+                        line=dict(color=VERDE, width=3),
                         error_y=dict(type="data", symmetric=False,
                                      array=pron.maximo_cop - pron.pronostico_cop,
                                      arrayminus=pron.pronostico_cop - pron.minimo_cop),
@@ -153,7 +155,8 @@ if pagina == "Resumen":
     c1.plotly_chart(px.bar(cat, x="valor_cop", y="categoria", orientation="h",
                            text=cat.margen_pct.map(lambda m: "" if pd.isna(m) else f"{m:.0%} margen"),
                            title="Ventas 12 meses por categoría", labels={"valor_cop": "COP", "categoria": ""},
-                           color_discrete_sequence=["#1f6f50"]).update_layout(height=380),
+                           color=cat.valor_cop, color_continuous_scale=[MARCA["color_secundario"], MARCA["color_acento"], VERDE]
+                           ).update_layout(height=380, coloraxis_showscale=False),
                     width="stretch")
 
     # Exposición a la TRM: dato clave para la Gerencia Financiera
@@ -162,7 +165,7 @@ if pagina == "Resumen":
     trm = trm[trm.fecha > hace12 - pd.DateOffset(months=12)]
     c2.plotly_chart(px.line(trm, x="fecha", y="valor", title="TRM diaria (COP por USD)",
                             labels={"valor": "COP", "fecha": ""},
-                            color_discrete_sequence=["#4c78a8"]).update_layout(height=380),
+                            color_discrete_sequence=["#2D7DD2"]).update_traces(fill="tozeroy", fillcolor="rgba(45,125,210,.10)").update_layout(height=380),
                     width="stretch")
     usd_vendidos = usd.valor_original.sum()
     usd_costo = (usd.costo_cop / usd.trm).sum()
@@ -184,7 +187,8 @@ if pagina == "Resumen":
 
 # ================================================================ SEGMENTOS
 elif pagina == "Clientes y segmentos":
-    st.title("Clientes y segmentos")
+    encabezado("Clientes y segmentos",
+               "Quién compra seguido, quién se está enfriando y dónde está la base instalada.")
     st.caption(f"Frecuente: compró en al menos {cfg.MIN_COMPRAS_FRECUENTE} meses del último año y sigue activo · "
                f"En riesgo: entre {cfg.DIAS_ACTIVO} y {cfg.DIAS_RIESGO} días sin comprar · "
                f"Frío: más de {cfg.DIAS_RIESGO} días · Nuevo: primera compra hace menos de "
@@ -233,7 +237,7 @@ elif pagina == "Clientes y segmentos":
 
 # ================================================================ FICHA 360
 elif pagina == "Ficha del cliente":
-    st.title("Ficha del cliente")
+    encabezado("Ficha del cliente", "Todo lo que se le ha vendido a un cliente, en una sola vista.")
     opciones = ficha.sort_values("ventas_historicas_cop", ascending=False)
     eleccion = st.selectbox("Cliente", opciones.cliente_id,
                             format_func=lambda c: f"{c} · {opciones.set_index('cliente_id').loc[c, 'nombre']}")
@@ -303,9 +307,8 @@ elif pagina == "Ficha del cliente":
 
 # ================================================================ ALERTAS
 elif pagina == "Alertas del mes":
-    st.title("Alertas del mes")
-    st.caption("Lista de trabajo para el equipo comercial. Cada alerta trae la acción sugerida, "
-               "el contacto y la factura que la sustenta.")
+    encabezado("Alertas del mes", "Lista de trabajo para el equipo comercial. Cada alerta trae la acción "
+               "sugerida, el contacto y la factura que la sustenta.")
     tipos = st.multiselect("Tipo de alerta", sorted(alertas.tipo.unique()), placeholder="Todos")
     al = alertas[alertas.tipo.isin(tipos)] if tipos else alertas
     k = st.columns(4)
@@ -315,7 +318,7 @@ elif pagina == "Alertas del mes":
         k[i].metric(t, len(sub), cop(sub.valor_en_juego_cop.sum()) + " en juego", delta_color="off")
     porcom = al.groupby(["comercial", "tipo"]).size().reset_index(name="alertas")
     st.plotly_chart(px.bar(porcom, x="alertas", y="comercial", color="tipo", orientation="h",
-                           title="Alertas por comercial").update_layout(height=280, yaxis_title=""),
+                           color_discrete_map=COLOR_ALERTA, title="Alertas por comercial").update_layout(height=280, yaxis_title=""),
                     width="stretch")
     cols = ["alerta_id", "prioridad", "tipo", "nombre", "comercial", "detalle", "accion",
             "valor_en_juego_cop", "fecha_limite", "contacto_nombre", "contacto_email",
@@ -330,7 +333,7 @@ elif pagina == "Alertas del mes":
 
 # ================================================================ TRAZABILIDAD
 elif pagina == "Trazabilidad":
-    st.title("Trazabilidad")
+    encabezado("Trazabilidad", "Del indicador a la fila exacta del archivo de origen.")
     st.caption("Desde cualquier alerta o factura se puede llegar a la fila exacta del archivo "
                "que la originó, la orden de compra que fija su costo y la TRM que se le aplicó.")
     modo = st.radio("Buscar por", ["Alerta", "Factura"], horizontal=True)
@@ -392,7 +395,8 @@ elif pagina == "Trazabilidad":
 
 # ================================================================ CONFIABILIDAD
 elif pagina == "Confiabilidad":
-    st.title("¿Qué tanto se puede confiar en las predicciones?")
+    encabezado("¿Qué tanto se puede confiar en las predicciones?",
+               "Pruebas hacia atrás: el modelo se entrena con el pasado y se califica con lo que pasó después.")
     r = met["riesgo"]
     st.markdown(
         "La probabilidad de compra se probó **hacia atrás**: se tomaron cuatro fechas del pasado, se "
@@ -405,7 +409,7 @@ elif pagina == "Confiabilidad":
         {"auc_regla": "Regla de días sin comprar", "auc_modelo": "Modelo", "auc_mezcla": "Mezcla (la que se usa)"})
     st.plotly_chart(px.bar(larga, x="corte", y="auc", color="método", barmode="group",
                            title="Capacidad de ordenar clientes por riesgo (AUC; 0,5 = azar, 1 = perfecto)",
-                           color_discrete_sequence=["#b0b0b0", "#7fb89a", "#1f6f50"])
+                           color_discrete_sequence=["#A0AEC0", MARCA["color_acento"], VERDE])
                     .update_yaxes(range=[0.5, 1]).update_layout(height=380, xaxis_title="Fecha de prueba"),
                     width="stretch")
     k = st.columns(3)
@@ -420,7 +424,7 @@ elif pagina == "Confiabilidad":
 
 # ================================================================ CARGAR
 elif pagina == "Cargar datos":
-    st.title("Cargar datos del mes")
+    encabezado("Cargar datos del mes", "Suba las exportaciones del mes y personalice la marca del tablero.")
     st.warning("Si esta página está publicada en internet, **no suba datos reales**: la empresa no "
                "permite divulgarlos. Use datos reales solo en un equipo o servidor interno.")
 
@@ -472,4 +476,33 @@ elif pagina == "Cargar datos":
         with st.spinner("Generando..."):
             pipeline.ejecutar(demo=True)
         st.cache_data.clear()
+        st.rerun()
+
+    st.divider()
+    st.subheader("Personalizar marca")
+    st.caption("El logo y los colores se aplican a todo el tablero. En la versión publicada en internet "
+               "se pierden si la app se reinicia; para dejarlos fijos, suba el logo a la carpeta "
+               "assets/ del repositorio con el nombre logo_empresa.png.")
+    c1, c2 = st.columns([1, 1])
+    with c1:
+        logo = st.file_uploader("Logo de la empresa (PNG, JPG o SVG; ideal con fondo transparente)",
+                                type=["png", "jpg", "jpeg", "svg", "webp"], key="logo")
+        empresa = st.text_input("Nombre que aparece en el tablero", MARCA["empresa"])
+    with c2:
+        cc = st.columns(3)
+        principal = cc[0].color_picker("Color principal", MARCA["color_principal"])
+        acento = cc[1].color_picker("Color de acento", MARCA["color_acento"])
+        secundario = cc[2].color_picker("Color secundario", MARCA["color_secundario"])
+        st.image(str(estilo.ruta_logo()), caption="Logo actual", width=220)
+    b1, b2 = st.columns([1, 1])
+    if b1.button("Guardar marca", type="primary"):
+        if logo is not None:
+            estilo.guardar_logo(logo.name, logo.getvalue())
+        estilo.guardar_marca(empresa=empresa, color_principal=principal, color_acento=acento,
+                             color_secundario=secundario)
+        st.rerun()
+    if b2.button("Volver al diseño original"):
+        estilo.quitar_logo()
+        if estilo.ARCHIVO_MARCA.exists():
+            estilo.ARCHIVO_MARCA.unlink()
         st.rerun()
