@@ -24,7 +24,8 @@ import unicodedata
 import numpy as np
 import pandas as pd
 
-from src.config import DATOS_CRUDOS, SEMILLA
+from src.config import DATOS_CRUDOS, PRODUCTOS_GENERICOS, SEMILLA
+from src.productos import generizar
 
 INICIO = pd.Timestamp("2024-01-01")
 FIN = pd.Timestamp("2026-10-31")
@@ -51,6 +52,17 @@ PRODUCTOS = [
     ("P18", "Implementación y puesta en marcha (proyecto)", "Consultoría", 14_000_000, "COP", 0),
 ]
 CATEGORIAS = sorted({p[2] for p in PRODUCTOS})
+
+# Línea de negocio oficial de Green (greencss.com) a la que se asigna cada producto simulado
+LINEA_DE_PRODUCTO = {
+    "P01": "Cybersecurity", "P04": "Cybersecurity", "P03": "Cloud & Data Center",
+    "P02": "End User Solutions", "P07": "End User Solutions", "P11": "End User Solutions",
+    "P05": "Cloud & Data Center", "P06": "Cloud & Data Center", "P08": "Cloud & Data Center",
+    "P09": "Cloud & Data Center", "P10": "Cloud & Data Center", "P12": "Cloud & Data Center",
+    "P13": "Professional Services", "P14": "Professional Services", "P15": "Professional Services",
+    "P16": "Professional Services", "P18": "Professional Services",
+    "P17": "FLEX GPT",
+}
 
 # --- Piezas para inventar nombres (combinaciones al azar, no personas reales) ---
 NOMBRES = ["Ana", "Carlos", "Daniela", "Felipe", "Gloria", "Hernán", "Isabel", "Jorge",
@@ -248,8 +260,13 @@ def generar() -> None:
 
     clientes.drop(columns="_arquetipo").to_csv(DATOS_CRUDOS / "clientes.csv", index=False)
     comerciales.to_csv(DATOS_CRUDOS / "comerciales.csv", index=False)
-    (productos.reset_index().rename(columns={"precio": "precio_lista"})
-     .assign(fuente="ERP maestro de productos (simulado)", dato_ficticio=True)
+    # Al escribir: categoría = línea de negocio oficial de Green y, si así está configurado,
+    # nombres genéricos (la simulación interna usa los tipos de producto de arriba).
+    salida = productos.reset_index().rename(columns={"precio": "precio_lista"})
+    salida["categoria"] = salida.producto_id.map(LINEA_DE_PRODUCTO)
+    if PRODUCTOS_GENERICOS:
+        salida = generizar(salida)
+    (salida.assign(fuente="ERP maestro de productos (simulado)", dato_ficticio=True)
      .to_csv(DATOS_CRUDOS / "productos.csv", index=False))
     ventas.to_csv(DATOS_CRUDOS / "ventas.csv", index=False)
     compras.to_csv(DATOS_CRUDOS / "compras.csv", index=False)

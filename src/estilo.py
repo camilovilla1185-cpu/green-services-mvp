@@ -21,18 +21,21 @@ ASSETS = RAIZ / "assets"
 ARCHIVO_MARCA = ASSETS / "marca.json"
 LOGO_BASE = ASSETS / "logo_base.svg"
 
+# Tomado del sitio oficial (greencss.com): morado corporativo, verde azulado y azul,
+# con degradados de morado a verde azulado y tipografía Montserrat.
 MARCA_DEFECTO = {
     "empresa": "Green Services and Solutions",
-    "color_principal": "#1F6F50",
-    "color_acento": "#13A89E",
-    "color_secundario": "#8CC63F",
+    "color_principal": "#3F2683",
+    "color_acento": "#00AA90",
+    "color_secundario": "#2571B4",
 }
+COLOR_OSCURO = "#203456"   # azul oscuro de los degradados del sitio
 
 # Colores fijos para que cada segmento se reconozca en todo el tablero
-COLOR_SEG = {"Frecuente": "#1F9D55", "Ocasional": "#13A89E", "Nuevo": "#2D7DD2",
+COLOR_SEG = {"Frecuente": "#00AA90", "Ocasional": "#2571B4", "Nuevo": "#8174B4",
              "En riesgo": "#F2A541", "Frío": "#E4572E", "Sin compras": "#A0AEC0"}
 COLOR_ALERTA = {"Renovación vencida": "#E4572E", "Cliente valioso en riesgo": "#F2A541",
-                "Renovación próxima": "#2D7DD2", "Reactivación": "#7E5BEF"}
+                "Renovación próxima": "#2571B4", "Reactivación": "#8174B4"}
 
 
 # ----------------------------------------------------------------- marca
@@ -83,17 +86,17 @@ def _logo_data_uri() -> str:
 
 # ----------------------------------------------------------------- estilo
 def _plantilla_graficas(m: dict) -> None:
-    colores = [m["color_principal"], m["color_acento"], "#2D7DD2", "#F2A541",
-               m["color_secundario"], "#7E5BEF", "#E4572E", "#5A6B63"]
+    colores = [m["color_principal"], m["color_acento"], m["color_secundario"], "#8174B4",
+               "#F2A541", "#5F799E", "#E4572E", "#666666"]
     plantilla = go.layout.Template(pio.templates["plotly_white"])
     plantilla.layout.update(
         colorway=colores,
-        font=dict(family="Inter, Segoe UI, Arial, sans-serif", size=13, color="#1C2421"),
-        title=dict(font=dict(size=16, color="#1C2421"), x=0, xanchor="left"),
+        font=dict(family="Montserrat, Segoe UI, Arial, sans-serif", size=12.5, color="#212121"),
+        title=dict(font=dict(size=16, color="#212121"), x=0, xanchor="left"),
         paper_bgcolor="rgba(0,0,0,0)", plot_bgcolor="rgba(0,0,0,0)",
         margin=dict(l=10, r=10, t=50, b=10),
         hoverlabel=dict(bgcolor="white", font_size=13, bordercolor=m["color_principal"]),
-        legend=dict(bgcolor="rgba(0,0,0,0)", title_font=dict(size=12, color="#5A6B63")),
+        legend=dict(bgcolor="rgba(0,0,0,0)", title_font=dict(size=12, color="#666666")),
         xaxis=dict(gridcolor="#EEF2EF", zeroline=False, linecolor="#DDE4DF"),
         yaxis=dict(gridcolor="#EEF2EF", zeroline=False, linecolor="#DDE4DF"),
     )
@@ -109,16 +112,16 @@ def aplicar_estilo() -> dict:
     p, a, s = m["color_principal"], m["color_acento"], m["color_secundario"]
     st.markdown(f"""
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
-html, body, [class*="css"], .stMarkdown, .stText, button, input, textarea {{
-  font-family: 'Inter', 'Segoe UI', Arial, sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap');
+html, body, [class*="css"], .stMarkdown, .stText, button, input, textarea, h1, h2, h3 {{
+  font-family: 'Montserrat', 'Segoe UI', Arial, sans-serif;
 }}
 .block-container {{ padding-top: 1.6rem; padding-bottom: 3rem; max-width: 1400px; }}
 header[data-testid="stHeader"] {{ background: transparent; }}
 
 /* ---------- barra lateral ---------- */
 section[data-testid="stSidebar"] > div {{
-  background: linear-gradient(180deg, {p} 0%, color-mix(in srgb, {p} 45%, #0B1410) 100%);
+  background: linear-gradient(180deg, {p} 0%, {COLOR_OSCURO} 100%);
 }}
 section[data-testid="stSidebar"] * {{ color: #EAF4EE !important; }}
 section[data-testid="stSidebar"] [data-testid="stAlert"] {{
@@ -150,7 +153,7 @@ section[data-testid="stSidebar"] [data-baseweb="select"] > div {{
 /* ---------- encabezado de sección ---------- */
 .gs-hero {{
   position: relative; overflow: hidden;
-  background: linear-gradient(120deg, {p} 0%, {a} 62%, {s} 120%);
+  background: linear-gradient(110deg, {p} 0%, #4E2C8E 45%, {a} 115%);
   border-radius: 20px; padding: 26px 30px; margin: 0 0 18px 0; color: white;
   box-shadow: 0 10px 30px -12px {p}99;
   display: flex; align-items: center; justify-content: space-between; gap: 24px;
@@ -181,18 +184,18 @@ section[data-testid="stSidebar"] [data-baseweb="select"] > div {{
 [data-testid="stColumn"]:nth-of-type(3) [data-testid="stMetric"] {{ border-top-color: #2D7DD2; }}
 [data-testid="stColumn"]:nth-of-type(4) [data-testid="stMetric"] {{ border-top-color: #F2A541; }}
 [data-testid="stColumn"]:nth-of-type(5) [data-testid="stMetric"] {{ border-top-color: #7E5BEF; }}
-[data-testid="stMetricLabel"] p {{ font-size: .88rem; font-weight: 600; color: #5A6B63; }}
-[data-testid="stMetricValue"] {{ font-size: 1.75rem; font-weight: 800; color: #1C2421; }}
+[data-testid="stMetricLabel"] p {{ font-size: .88rem; font-weight: 600; color: #666666; }}
+[data-testid="stMetricValue"] {{ font-size: 1.75rem; font-weight: 800; color: #212121; }}
 
 /* ---------- gráficas, tablas y otros ---------- */
 [data-testid="stPlotlyChart"], [data-testid="stDataFrame"] {{
   background: white; border-radius: 16px; padding: 8px; border: 1px solid #E6ECE8;
   box-shadow: 0 4px 16px -10px rgba(28,36,33,.18);
 }}
-h2, h3 {{ color: #1C2421; font-weight: 700; }}
+h2, h3 {{ color: #212121; font-weight: 700; }}
 .stButton > button, .stDownloadButton > button {{ border-radius: 10px; font-weight: 600; }}
 .stButton > button[kind="primary"], .stDownloadButton > button {{
-  background: linear-gradient(120deg, {p}, {a}); border: none; color: white;
+  background: linear-gradient(90deg, {a} 0%, #4E2C8E 98%); border: none; color: white;
 }}
 [data-testid="stExpander"] {{ border-radius: 14px; border: 1px solid #E6ECE8; background: white; }}
 [data-testid="stAlert"] {{ border-radius: 12px; }}

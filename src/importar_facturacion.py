@@ -38,7 +38,8 @@ from pathlib import Path
 import numpy as np
 import pandas as pd
 
-from src.config import DATOS_CRUDOS, RAIZ
+from src.config import DATOS_CRUDOS, PRODUCTOS_GENERICOS, RAIZ
+from src.productos import generizar
 
 CATALOGO = RAIZ / "data" / "catalogo_facturacion.csv"
 
@@ -200,7 +201,9 @@ def importar(fuente, destino: Path = DATOS_CRUDOS, nombre_archivo: str | None = 
         "precio_lista": np.nan, "moneda": "COP", "meses_renovacion": prods.meses_renovacion,
         "fuente": "Derivado de la exportación + catálogo editable", "dato_ficticio": dato_ficticio,
     })
-    id_prod = dict(zip(productos.nombre, productos.producto_id))
+    id_prod = dict(zip(productos.nombre, productos.producto_id))  # se mapea con la descripción original
+    if PRODUCTOS_GENERICOS:
+        productos = generizar(productos)
 
     # --- Ventas: misma cantidad y orden de filas que el archivo original
     linea = df.groupby("factura").cumcount() + 1

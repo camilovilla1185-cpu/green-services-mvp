@@ -17,7 +17,8 @@ def test_numeros_con_punto_de_miles():
     assert s.tolist() == [12479000, -1000000, 2750, 1234.5]
 
 
-def test_importa_una_fila_por_fila_original(tmp_path):
+def test_importa_una_fila_por_fila_original(tmp_path, monkeypatch):
+    monkeypatch.setattr("src.importar_facturacion.PRODUCTOS_GENERICOS", False)
     r = importar(CSV, destino=tmp_path, nombre_archivo="prueba.csv")
     ventas = pd.read_csv(tmp_path / "ventas.csv")
     assert len(ventas) == 5 and r["clientes"] == 2 and r["comerciales"] == 2
@@ -30,3 +31,13 @@ def test_importa_una_fila_por_fila_original(tmp_path):
     productos = pd.read_csv(tmp_path / "productos.csv").set_index("nombre")
     assert productos.loc["Protección de endpoints", "meses_renovacion"] == 12
     assert productos.loc["Soporte y mesa de ayuda", "meses_renovacion"] == 0
+
+
+def test_nombres_genericos_por_linea(tmp_path, monkeypatch):
+    monkeypatch.setattr("src.importar_facturacion.PRODUCTOS_GENERICOS", True)
+    importar(CSV, destino=tmp_path, nombre_archivo="prueba.csv")
+    productos = pd.read_csv(tmp_path / "productos.csv")
+    assert productos.nombre.str.match(r"^Producto [A-Z]+$").all()
+    assert set(productos.categoria) == {"Ciberseguridad", "Servicios Profesionales", "End User Solutions"}
+    # Los meses de renovación se siguen asignando con la descripción original
+    assert productos.meses_renovacion.sum() == 12 + 36 + 12 * 0

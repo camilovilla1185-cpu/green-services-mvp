@@ -1,7 +1,7 @@
 {
   "corte": "2026-10-27",
   "etl": {
-    "lote_id": "L20261114-160914",
+    "lote_id": "L20261120-183430",
     "lineas_venta": 4230,
     "facturas": 2189,
     "clientes": 220,
@@ -21,11 +21,11 @@
         "filas_entrenamiento": 3009,
         "tasa_recompra": 0.5277777777777778,
         "auc_regla": 0.820123839009288,
-        "auc_modelo": 0.8146130030959752,
-        "auc_mezcla": 0.8302167182662539,
+        "auc_modelo": 0.8139938080495356,
+        "auc_mezcla": 0.8317027863777089,
         "acierto_top30_mezcla": 0.9,
         "acierto_top30_regla": 0.9333333333333333,
-        "brier_mezcla": 0.17300107022962566
+        "brier_mezcla": 0.17331390069397504
       },
       {
         "corte": "2026-06-29",
@@ -33,11 +33,11 @@
         "filas_entrenamiento": 2991,
         "tasa_recompra": 0.5359116022099447,
         "auc_regla": 0.8290991654393716,
-        "auc_modelo": 0.7825233186057928,
-        "auc_mezcla": 0.8118556701030928,
+        "auc_modelo": 0.7790868924889544,
+        "auc_mezcla": 0.8112420225822288,
         "acierto_top30_mezcla": 0.9666666666666667,
         "acierto_top30_regla": 0.9666666666666667,
-        "brier_mezcla": 0.17721563040661917
+        "brier_mezcla": 0.17741008041745676
       },
       {
         "corte": "2026-05-29",
@@ -45,11 +45,11 @@
         "filas_entrenamiento": 2967,
         "tasa_recompra": 0.5454545454545454,
         "auc_regla": 0.7472895040369089,
-        "auc_modelo": 0.7632064590542099,
-        "auc_mezcla": 0.776239907727797,
+        "auc_modelo": 0.7689158016147637,
+        "auc_mezcla": 0.7790657439446367,
         "acierto_top30_mezcla": 0.8666666666666667,
         "acierto_top30_regla": 0.8666666666666667,
-        "brier_mezcla": 0.19104410859059498
+        "brier_mezcla": 0.1904169089798863
       },
       {
         "corte": "2026-04-29",
@@ -57,25 +57,29 @@
         "filas_entrenamiento": 2932,
         "tasa_recompra": 0.5421052631578948,
         "auc_regla": 0.7539895100993192,
-        "auc_modelo": 0.8110701930588103,
-        "auc_mezcla": 0.8101774355540676,
+        "auc_modelo": 0.8140832496373174,
+        "auc_mezcla": 0.8106238143064389,
         "acierto_top30_mezcla": 0.9666666666666667,
         "acierto_top30_regla": 0.9333333333333333,
-        "brier_mezcla": 0.17947342401831412
+        "brier_mezcla": 0.17915220361139694
       }
     ],
     "auc_regla_promedio": 0.7876255046462219,
-    "auc_modelo_promedio": 0.792853243453697,
-    "auc_mezcla_promedio": 0.8071224329128028,
+    "auc_modelo_promedio": 0.7940199379476427,
+    "auc_mezcla_promedio": 0.8081585918027533,
     "acierto_top30_mezcla_promedio": 0.925,
     "acierto_top30_regla_promedio": 0.925,
-    "brier_mezcla_promedio": 0.1801835583112885,
+    "brier_mezcla_promedio": 0.18007327342567875,
     "tasa_recompra_promedio": 0.5378122971500406,
     "cortes_donde_mezcla_supera_regla": 3
   },
   "pronostico": {
-    "mape_pronostico": 0.15282410770623875,
-    "mape_mes_anterior": 0.19289198655475126
+    "mape_pronostico": 0.1468999396391729,
+    "mape_mes_anterior": 0.19289198655475126,
+    "metodo": "Holt amortiguado sobre ventas sin estacionalidad (peso de meses recientes 25%, sin tendencia)",
+    "alpha": 0.25,
+    "beta": 0.0,
+    "meses_historia_usados": 29
   },
   "segmentos": {
     "Frío": 70,

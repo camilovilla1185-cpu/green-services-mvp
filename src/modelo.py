@@ -147,40 +147,74 @@ def entrenar_y_puntuar(ventas: pd.DataFrame, corte: pd.Timestamp) -> tuple[pd.Da
     return prob.reset_index(), metricas
 
 
+def _recortar_arranque(serie: pd.Series) -> pd.Series:
+    """Quita los primeros meses si la historia arranca «desde cero» (por ejemplo, cuando
+    la exportación empieza a mitad de la vida de la cartera): no son estacionalidad."""
+    med, i = serie.median(), 0
+    while i < len(serie) - 12 and serie.iloc[i] < 0.6 * med:
+        i += 1
+    return serie.iloc[i:]
+
+
+def _indice_estacional(hist: pd.Series, encoger: float = 2.0) -> pd.Series:
+    """Razón contra la media móvil centrada de 12 meses. Con pocos años de historia cada
+    mes tiene 1 o 2 observaciones, así que el índice se acerca a 1 (no exagera picos)."""
+    mm = hist.rolling(12, center=True).mean().rolling(2).mean().shift(-1)
+    r = (hist / mm).dropna()
+    g = r.groupby(r.index.month).agg(["mean", "count"])
+    idx = (g["mean"] * g["count"] + encoger) / (g["count"] + encoger)
+    idx = idx.reindex(range(1, 13)).fillna(1.0)
+    return idx / idx.mean()
+
+
+def _holt(hist: pd.Series, objetivo: pd.Timestamp, alpha: float, beta: float,
+          phi: float = 0.8) -> float:
+    """Nivel y tendencia amortiguada (Holt) sobre ventas sin estacionalidad, luego se
+    vuelve a aplicar el índice del mes. beta = 0 equivale a no usar tendencia."""
+    hist = _recortar_arranque(hist)
+    idx = _indice_estacional(hist)
+    des = (hist / idx.loc[hist.index.month].to_numpy()).to_numpy()
+    nivel, tend = des[:6].mean(), 0.0
+    for y in des[6:]:
+        anterior = nivel
+        nivel = alpha * y + (1 - alpha) * (nivel + phi * tend)
+        tend = beta * (nivel - anterior) + (1 - beta) * phi * tend
+    h = (objetivo.year - hist.index[-1].year) * 12 + objetivo.month - hist.index[-1].month
+    return float((nivel + sum(phi ** k for k in range(1, h + 1)) * tend) * idx.loc[objetivo.month])
+
+
 def pronostico_ventas(ventas: pd.DataFrame, meses: int = 3) -> tuple[pd.DataFrame, dict]:
-    """Nivel reciente × índice estacional del mes. Simple, explicable y verificable."""
+    """Ventas sin estacionalidad suavizadas (Holt amortiguado) × índice estacional del mes.
+
+    La configuración (qué tanto pesan los meses recientes y si se usa tendencia) se elige
+    sola: la que menos se equivocó pronosticando cada uno de los últimos 6 meses."""
     serie = ventas.groupby("mes").valor_cop.sum().sort_index()
     serie = serie[serie.index < serie.index.max()] if _mes_incompleto(ventas) else serie
 
-    def indice_estacional(hist: pd.Series) -> pd.Series:
-        """Razón contra la media móvil centrada de 12 meses: separa la estacionalidad
-        del crecimiento de la cartera."""
-        mm = hist.rolling(12, center=True).mean().rolling(2).mean().shift(-1)
-        razon = (hist / mm).dropna()
-        idx = razon.groupby(razon.index.month).mean()
-        idx = idx.reindex(range(1, 13)).fillna(1.0)
-        return idx / idx.mean()
+    def error(f) -> list[float]:
+        return [abs(f(serie.iloc[:-i], serie.index[-i]) - serie.iloc[-i]) / serie.iloc[-i]
+                for i in range(6, 0, -1)]
 
-    def predecir(hist: pd.Series, objetivo: pd.Timestamp) -> float:
-        idx = indice_estacional(hist)
-        recientes = hist.iloc[-6:]
-        nivel = (recientes / idx.loc[recientes.index.month].to_numpy()).mean()
-        return float(nivel * idx.loc[objetivo.month])
+    candidatos = {(a, b): error(lambda h, o, a=a, b=b: _holt(h, o, a, b))
+                  for a in (0.25, 0.35, 0.5) for b in (0.0, 0.2)}
+    (alpha, beta), errores = min(candidatos.items(), key=lambda kv: np.mean(kv[1]))
+    errores_ingenuo = [abs(serie.iloc[-i - 1] - serie.iloc[-i]) / serie.iloc[-i] for i in range(6, 0, -1)]
 
-    # Prueba hacia atrás en los últimos 6 meses
-    errores, errores_ingenuo = [], []
-    for i in range(6, 0, -1):
-        hist, real = serie.iloc[:-i], serie.iloc[-i]
-        errores.append(abs(predecir(hist, serie.index[-i]) - real) / real)
-        errores_ingenuo.append(abs(hist.iloc[-1] - real) / real)
     futuro = pd.date_range(serie.index.max() + pd.DateOffset(months=1), periods=meses, freq="MS")
     pron = pd.DataFrame({"mes": futuro,
-                         "pronostico_cop": [predecir(serie, m) for m in futuro]})
+                         "pronostico_cop": [_holt(serie, m, alpha, beta) for m in futuro]})
     margen = np.mean(errores)
     pron["minimo_cop"] = pron.pronostico_cop * (1 - margen)
     pron["maximo_cop"] = pron.pronostico_cop * (1 + margen)
+    # Contexto: el mismo mes del año anterior (la estacionalidad se ve mejor así)
+    pron["anio_anterior_cop"] = [serie.get(m - pd.DateOffset(years=1), np.nan) for m in futuro]
+    pron["variacion_anual"] = pron.pronostico_cop / pron.anio_anterior_cop - 1
+    metodo = (f"Holt amortiguado sobre ventas sin estacionalidad (peso de meses recientes {alpha:.0%}, "
+              + ("con tendencia" if beta > 0 else "sin tendencia") + ")")
     return pron, {"mape_pronostico": float(np.mean(errores)),
-                  "mape_mes_anterior": float(np.mean(errores_ingenuo))}
+                  "mape_mes_anterior": float(np.mean(errores_ingenuo)),
+                  "metodo": metodo, "alpha": alpha, "beta": beta,
+                  "meses_historia_usados": int(len(_recortar_arranque(serie)))}
 
 
 def _mes_incompleto(ventas: pd.DataFrame) -> bool:

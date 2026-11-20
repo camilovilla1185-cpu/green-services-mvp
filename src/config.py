@@ -19,9 +19,16 @@ MIN_COMPRAS_FRECUENTE = 4   # meses distintos con compra en los últimos 12 mese
 DIAS_CLIENTE_NUEVO = 120    # primera compra hace menos de esto -> nuevo
 
 # --- Base instalada ---
-# Categorías de producto que dejan algo "instalado" en el cliente y generan
-# renovaciones, soporte o reposición.
-CATEGORIAS_INSTALABLES = {"Licenciamiento", "Infraestructura", "Almacenamiento"}
+# Un producto deja algo "instalado" en el cliente (y genera renovaciones, soporte o
+# reposición) si tiene meses_renovacion > 0 en el maestro de productos. Si además se
+# quiere marcar líneas completas como instalables, se agregan aquí.
+CATEGORIAS_INSTALABLES: set[str] = set()
+# Líneas de negocio oficiales de Green (greencss.com). Se usan como categoría.
+LINEAS_NEGOCIO = ["Cloud & Data Center", "Cybersecurity", "End User Solutions", "FLEX GPT",
+                  "Professional Services"]
+# Mientras no haya un catálogo confiable de Green, los productos se muestran como
+# «Producto A», «Producto B»… dentro de su línea de negocio. Con datos reales: False.
+PRODUCTOS_GENERICOS = True
 DIAS_AVISO_RENOVACION = 60  # alertar renovaciones que vencen en los próximos N días
 
 # --- Modelo de riesgo ---

@@ -1,8 +1,8 @@
 [theme]
-primaryColor = "#1f6f50"
+primaryColor = "#3F2683"
 backgroundColor = "#ffffff"
-secondaryBackgroundColor = "#f2f5f3"
-textColor = "#1c2421"
+secondaryBackgroundColor = "#F4F4F4"
+textColor = "#212121"
 font = "sans serif"
 
 [server]

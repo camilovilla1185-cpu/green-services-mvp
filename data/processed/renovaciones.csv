@@ -1,524 +1,524 @@
 cliente_id,producto_id,producto,categoria,meses_renovacion,ultima_compra,valor_ultimo_cop,factura_origen,vence,dias_para_vencer
-C0001,P05,Servidor rack 2U,Infraestructura,36,2025-05-23,32276935.8212,FE-10006,2028-05-23,574
-C0001,P08,Cabina de almacenamiento NAS 40 TB,Almacenamiento,36,2025-05-23,22125848.687,FE-10006,2028-05-23,574
-C0001,P09,Discos de respaldo (lote x10),Almacenamiento,24,2025-01-19,3363131.7936,FE-10004,2027-01-19,84
-C0002,P05,Servidor rack 2U,Infraestructura,36,2026-02-02,29070468.0,FE-10016,2029-02-02,829
-C0002,P07,Equipo portátil empresarial,Infraestructura,36,2025-11-12,3998534.1509,FE-10015,2028-11-12,747
-C0003,P08,Cabina de almacenamiento NAS 40 TB,Almacenamiento,36,2026-06-03,59980392.00000001,FE-10020,2029-06-03,950
-C0003,P09,Discos de respaldo (lote x10),Almacenamiento,24,2025-06-02,3322814.8635000004,FE-10018,2027-06-02,218
-C0005,P08,Cabina de almacenamiento NAS 40 TB,Almacenamiento,36,2025-03-15,43376212.974599995,FE-10028,2028-03-15,505
-C0005,P09,Discos de respaldo (lote x10),Almacenamiento,24,2025-03-15,7187976.919199999,FE-10028,2027-03-15,139
-C0006,P07,Equipo portátil empresarial,Infraestructura,36,2024-12-20,17890028.4992,FE-10031,2027-12-20,419
-C0006,P08,Cabina de almacenamiento NAS 40 TB,Almacenamiento,36,2024-12-20,44575031.696,FE-10031,2027-12-20,419
-C0007,P02,Licencia suite ofimática (usuario/año),Licenciamiento,12,2026-09-05,3896640.0000000005,FE-10038,2027-09-05,313
-C0007,P03,Licencia software de respaldo (servidor/año),Licenciamiento,12,2026-01-09,24001956.0,FE-10037,2027-01-09,74
-C0007,P04,Licencia firewall de nueva generación (año),Licenciamiento,12,2025-12-23,27805320.0,FE-10036,2026-12-23,57
-C0008,P06,Switch administrable 48 puertos,Infraestructura,36,2026-05-20,7183764.0,FE-10041,2029-05-20,936
-C0008,P07,Equipo portátil empresarial,Infraestructura,36,2026-09-12,21377159.999999996,FE-10043,2029-09-12,1051
-C0009,P01,Licencia antivirus corporativo (usuario/año),Licenciamiento,12,2025-09-25,523822.214,FE-10051,2026-09-25,-32
-C0009,P02,Licencia suite ofimática (usuario/año),Licenciamiento,12,2025-07-22,2354023.966,FE-10050,2026-07-22,-97
-C0009,P04,Licencia firewall de nueva generación (año),Licenciamiento,12,2025-05-12,34234230.2232,FE-10049,2026-05-12,-168
-C0010,P07,Equipo portátil empresarial,Infraestructura,36,2025-09-09,8725267.7116,FE-10057,2028-09-09,683
-C0010,P09,Discos de respaldo (lote x10),Almacenamiento,24,2025-12-02,3406680.0,FE-10058,2027-12-02,401
-C0011,P06,Switch administrable 48 puertos,Infraestructura,36,2025-01-01,7987806.2639999995,FE-10060,2028-01-01,431
-C0012,P08,Cabina de almacenamiento NAS 40 TB,Almacenamiento,36,2025-01-24,22525302.142,FE-10064,2028-01-24,454
-C0013,P06,Switch administrable 48 puertos,Infraestructura,36,2024-11-24,8600615.3072,FE-10069,2027-11-24,393
-C0013,P07,Equipo portátil empresarial,Infraestructura,36,2024-09-27,13509486.0606,FE-10067,2027-09-27,335
-C0014,P02,Licencia suite ofimática (usuario/año),Licenciamiento,12,2026-09-02,956232.0,FE-10070,2027-09-02,310
-C0014,P03,Licencia software de respaldo (servidor/año),Licenciamiento,12,2026-09-02,16462368.0,FE-10070,2027-09-02,310
-C0014,P04,Licencia firewall de nueva generación (año),Licenciamiento,12,2026-10-11,26599860.0,FE-10071,2027-10-11,349
-C0015,P02,Licencia suite ofimática (usuario/año),Licenciamiento,12,2024-12-20,1578853.7024,FE-10074,2025-12-20,-311
-C0015,P03,Licencia software de respaldo (servidor/año),Licenciamiento,12,2025-07-07,9716720.486399999,FE-10078,2026-07-07,-112
-C0015,P04,Licencia firewall de nueva generación (año),Licenciamiento,12,2025-01-15,30110455.364500005,FE-10075,2026-01-15,-285
-C0015,P09,Discos de respaldo (lote x10),Almacenamiento,24,2025-07-07,3337296.7788,FE-10078,2027-07-07,253
-C0018,P04,Licencia firewall de nueva generación (año),Licenciamiento,12,2026-10-18,60347807.99999999,FE-10092,2027-10-18,356
-C0019,P01,Licencia antivirus corporativo (usuario/año),Licenciamiento,12,2026-06-04,2974752.0,FE-10096,2027-06-04,220
-C0019,P02,Licencia suite ofimática (usuario/año),Licenciamiento,12,2026-09-21,10432800.0,FE-10098,2027-09-21,329
-C0019,P03,Licencia software de respaldo (servidor/año),Licenciamiento,12,2026-09-21,57134592.0,FE-10098,2027-09-21,329
-C0020,P01,Licencia antivirus corporativo (usuario/año),Licenciamiento,12,2026-09-04,1581552.0,FE-10108,2027-09-04,312
-C0020,P03,Licencia software de respaldo (servidor/año),Licenciamiento,12,2026-02-01,30804480.000000004,FE-10104,2027-02-01,97
-C0020,P04,Licencia firewall de nueva generación (año),Licenciamiento,12,2026-07-04,49277160.0,FE-10107,2027-07-04,250
-C0020,P05,Servidor rack 2U,Infraestructura,36,2024-04-07,65380668.18799999,FE-10099,2027-04-07,162
-C0022,P01,Licencia antivirus corporativo (usuario/año),Licenciamiento,12,2025-06-25,412106.36939999997,FE-10118,2026-06-25,-124
-C0022,P03,Licencia software de respaldo (servidor/año),Licenciamiento,12,2025-11-11,9677253.638400001,FE-10120,2026-11-11,15
-C0022,P04,Licencia firewall de nueva generación (año),Licenciamiento,12,2025-11-11,36236093.5146,FE-10120,2026-11-11,15
-C0022,P06,Switch administrable 48 puertos,Infraestructura,36,2025-06-25,8089813.913500001,FE-10118,2028-06-25,607
-C0022,P07,Equipo portátil empresarial,Infraestructura,36,2025-03-17,4642341.345,FE-10116,2028-03-17,507
-C0023,P05,Servidor rack 2U,Infraestructura,36,2026-07-06,28216908.0,FE-10125,2029-07-06,983
-C0024,P01,Licencia antivirus corporativo (usuario/año),Licenciamiento,12,2024-11-20,1793923.0848,FE-10129,2025-11-20,-341
-C0024,P02,Licencia suite ofimática (usuario/año),Licenciamiento,12,2026-07-27,4729860.000000001,FE-10134,2027-07-27,273
-C0024,P03,Licencia software de respaldo (servidor/año),Licenciamiento,12,2026-10-26,22813560.0,FE-10135,2027-10-26,364
-C0024,P04,Licencia firewall de nueva generación (año),Licenciamiento,12,2026-07-27,52651080.0,FE-10133,2027-07-27,273
-C0024,P08,Cabina de almacenamiento NAS 40 TB,Almacenamiento,36,2024-12-15,20099162.2482,FE-10130,2027-12-15,414
-C0025,P08,Cabina de almacenamiento NAS 40 TB,Almacenamiento,36,2026-03-12,20412040.311,FE-10145,2029-03-12,867
-C0025,P09,Discos de respaldo (lote x10),Almacenamiento,24,2025-03-04,6808849.5540000005,FE-10140,2027-03-04,128
-C0026,P01,Licencia antivirus corporativo (usuario/año),Licenciamiento,12,2026-09-16,1620828.0,FE-10157,2027-09-16,324
-C0026,P02,Licencia suite ofimática (usuario/año),Licenciamiento,12,2026-05-17,4753224.000000001,FE-10154,2027-05-17,202
-C0026,P03,Licencia software de respaldo (servidor/año),Licenciamiento,12,2026-04-04,21853440.0,FE-10153,2027-04-04,159
-C0026,P04,Licencia firewall de nueva generación (año),Licenciamiento,12,2025-03-03,65822554.050000004,FE-10148,2026-03-03,-238
-C0027,P01,Licencia antivirus corporativo (usuario/año),Licenciamiento,12,2025-12-17,836136.0,FE-10163,2026-12-17,51
-C0027,P02,Licencia suite ofimática (usuario/año),Licenciamiento,12,2025-05-16,1178124.4512,FE-10161,2026-05-16,-164
-C0027,P03,Licencia software de respaldo (servidor/año),Licenciamiento,12,2025-11-24,11926668.0285,FE-10162,2026-11-24,28
-C0027,P08,Cabina de almacenamiento NAS 40 TB,Almacenamiento,36,2025-03-17,21230036.379,FE-10159,2028-03-17,507
-C0028,P05,Servidor rack 2U,Infraestructura,36,2026-09-10,26740728.0,FE-10168,2029-09-10,1049
-C0028,P07,Equipo portátil empresarial,Infraestructura,36,2026-07-07,4288320.0,FE-10166,2029-07-07,984
-C0029,P02,Licencia suite ofimática (usuario/año),Licenciamiento,12,2024-12-05,2093016.1428,FE-10174,2025-12-05,-326
-C0029,P04,Licencia firewall de nueva generación (año),Licenciamiento,12,2025-06-16,16324976.7174,FE-10177,2026-06-16,-133
-C0029,P05,Servidor rack 2U,Infraestructura,36,2025-04-15,55720944.9888,FE-10176,2028-04-15,536
-C0029,P06,Switch administrable 48 puertos,Infraestructura,36,2025-06-16,8442607.295200001,FE-10177,2028-06-16,598
-C0029,P08,Cabina de almacenamiento NAS 40 TB,Almacenamiento,36,2025-06-16,21624284.8932,FE-10177,2028-06-16,598
-C0032,P08,Cabina de almacenamiento NAS 40 TB,Almacenamiento,36,2024-08-25,19540787.5332,FE-10221,2027-08-25,302
-C0032,P09,Discos de respaldo (lote x10),Almacenamiento,24,2024-11-01,6733974.8054,FE-10222,2026-11-01,5
-C0033,P03,Licencia software de respaldo (servidor/año),Licenciamiento,12,2026-10-13,8228160.0,FE-10224,2027-10-13,351
-C0033,P04,Licencia firewall de nueva generación (año),Licenciamiento,12,2026-10-13,25732259.999999996,FE-10224,2027-10-13,351
-C0034,P09,Discos de respaldo (lote x10),Almacenamiento,24,2026-10-07,3404988.0,FE-10225,2028-10-07,711
-C0035,P05,Servidor rack 2U,Infraestructura,36,2025-10-03,29245090.4424,FE-10234,2028-10-03,707
-C0035,P06,Switch administrable 48 puertos,Infraestructura,36,2026-08-04,7348032.0,FE-10241,2029-08-04,1012
-C0035,P07,Equipo portátil empresarial,Infraestructura,36,2025-12-14,4394988.0,FE-10236,2028-12-14,779
-C0036,P04,Licencia firewall de nueva generación (año),Licenciamiento,12,2026-10-24,54285840.00000001,FE-10244,2027-10-24,362
-C0036,P09,Discos de respaldo (lote x10),Almacenamiento,24,2026-10-24,3341484.0,FE-10244,2028-10-24,728
-C0037,P08,Cabina de almacenamiento NAS 40 TB,Almacenamiento,36,2026-09-20,18727308.0,FE-10263,2029-09-20,1059
-C0037,P09,Discos de respaldo (lote x10),Almacenamiento,24,2026-09-20,3065292.0,FE-10263,2028-09-20,694
-C0038,P01,Licencia antivirus corporativo (usuario/año),Licenciamiento,12,2026-10-21,714960.0,FE-10274,2027-10-21,359
-C0038,P03,Licencia software de respaldo (servidor/año),Licenciamiento,12,2026-05-20,8662464.0,FE-10272,2027-05-20,205
-C0038,P04,Licencia firewall de nueva generación (año),Licenciamiento,12,2026-09-03,32101272.0,FE-10273,2027-09-03,311
-C0038,P08,Cabina de almacenamiento NAS 40 TB,Almacenamiento,36,2025-12-23,41791608.0,FE-10271,2028-12-23,788
-C0039,P01,Licencia antivirus corporativo (usuario/año),Licenciamiento,12,2024-11-15,421365.7536,FE-10275,2025-11-15,-346
-C0039,P02,Licencia suite ofimática (usuario/año),Licenciamiento,12,2024-11-15,350674.0688,FE-10275,2025-11-15,-346
-C0039,P08,Cabina de almacenamiento NAS 40 TB,Almacenamiento,36,2025-03-26,20734881.142600004,FE-10276,2028-03-26,516
-C0039,P09,Discos de respaldo (lote x10),Almacenamiento,24,2025-03-26,3312091.2822000002,FE-10276,2027-03-26,150
-C0040,P01,Licencia antivirus corporativo (usuario/año),Licenciamiento,12,2026-10-24,389664.0,FE-10298,2027-10-24,362
-C0040,P03,Licencia software de respaldo (servidor/año),Licenciamiento,12,2026-07-05,14979635.999999998,FE-10297,2027-07-05,251
-C0040,P04,Licencia firewall de nueva generación (año),Licenciamiento,12,2026-07-24,27370979.999999996,FE-10296,2027-07-24,270
-C0041,P01,Licencia antivirus corporativo (usuario/año),Licenciamiento,12,2026-02-26,539455.4400000001,FE-10311,2027-02-26,122
-C0041,P03,Licencia software de respaldo (servidor/año),Licenciamiento,12,2026-02-26,6807455.52,FE-10311,2027-02-26,122
-C0041,P04,Licencia firewall de nueva generación (año),Licenciamiento,12,2026-03-17,20312642.714399997,FE-10312,2027-03-17,141
-C0041,P08,Cabina de almacenamiento NAS 40 TB,Almacenamiento,36,2026-07-12,18680148.0,FE-10315,2029-07-12,989
-C0041,P09,Discos de respaldo (lote x10),Almacenamiento,24,2026-08-08,6184224.0,FE-10316,2028-08-08,651
-C0043,P05,Servidor rack 2U,Infraestructura,36,2025-09-08,90088280.47440001,FE-10330,2028-09-08,682
-C0043,P06,Switch administrable 48 puertos,Infraestructura,36,2024-04-16,33832232.4052,FE-10323,2027-04-16,171
-C0043,P07,Equipo portátil empresarial,Infraestructura,36,2026-05-22,8828928.0,FE-10336,2029-05-22,938
-C0044,P03,Licencia software de respaldo (servidor/año),Licenciamiento,12,2025-01-04,29385140.7672,FE-10339,2026-01-04,-296
-C0044,P05,Servidor rack 2U,Infraestructura,36,2024-10-13,31395767.915299997,FE-10337,2027-10-13,351
-C0045,P07,Equipo portátil empresarial,Infraestructura,36,2025-05-08,4372437.5248,FE-10341,2028-05-08,559
-C0046,P01,Licencia antivirus corporativo (usuario/año),Licenciamiento,12,2025-12-17,1111104.0,FE-10352,2026-12-17,51
-C0046,P02,Licencia suite ofimática (usuario/año),Licenciamiento,12,2026-01-16,3127248.0,FE-10353,2027-01-16,81
-C0046,P03,Licencia software de respaldo (servidor/año),Licenciamiento,12,2026-06-01,20266848.0,FE-10354,2027-06-01,217
-C0046,P04,Licencia firewall de nueva generación (año),Licenciamiento,12,2026-09-11,21795408.0,FE-10357,2027-09-11,319
-C0047,P06,Switch administrable 48 puertos,Infraestructura,36,2026-03-24,7730295.462400001,FE-10377,2029-03-24,879
-C0047,P07,Equipo portátil empresarial,Infraestructura,36,2026-04-16,4154652.0,FE-10378,2029-04-16,902
-C0047,P08,Cabina de almacenamiento NAS 40 TB,Almacenamiento,36,2025-04-01,22776651.6808,FE-10369,2028-04-01,522
-C0047,P09,Discos de respaldo (lote x10),Almacenamiento,24,2026-06-04,3100104.0,FE-10379,2028-06-04,586
-C0048,P05,Servidor rack 2U,Infraestructura,36,2026-08-26,28373796.0,FE-10383,2029-08-26,1034
-C0048,P06,Switch administrable 48 puertos,Infraestructura,36,2026-08-26,7310340.0,FE-10383,2029-08-26,1034
-C0048,P09,Discos de respaldo (lote x10),Almacenamiento,24,2026-09-13,2995920.0,FE-10384,2028-09-13,687
-C0049,P01,Licencia antivirus corporativo (usuario/año),Licenciamiento,12,2026-06-20,2205504.0,FE-10392,2027-06-20,236
-C0049,P03,Licencia software de respaldo (servidor/año),Licenciamiento,12,2026-07-07,20549520.000000004,FE-10393,2027-07-07,253
-C0050,P02,Licencia suite ofimática (usuario/año),Licenciamiento,12,2025-05-11,5223264.4184,FE-10397,2026-05-11,-169
-C0050,P04,Licencia firewall de nueva generación (año),Licenciamiento,12,2024-11-27,92198660.2782,FE-10396,2025-11-27,-334
-C0051,P01,Licencia antivirus corporativo (usuario/año),Licenciamiento,12,2026-01-16,2277719.9999999995,FE-10407,2027-01-16,81
-C0051,P02,Licencia suite ofimática (usuario/año),Licenciamiento,12,2025-08-27,4711153.7256000005,FE-10405,2026-08-27,-61
-C0051,P03,Licencia software de respaldo (servidor/año),Licenciamiento,12,2025-10-03,21548053.245,FE-10406,2026-10-03,-24
-C0051,P04,Licencia firewall de nueva generación (año),Licenciamiento,12,2025-05-27,86080919.39250001,FE-10403,2026-05-27,-153
-C0052,P08,Cabina de almacenamiento NAS 40 TB,Almacenamiento,36,2025-11-12,20847401.3711,FE-10423,2028-11-12,747
-C0052,P09,Discos de respaldo (lote x10),Almacenamiento,24,2026-10-06,3482064.0,FE-10431,2028-10-06,710
-C0053,P03,Licencia software de respaldo (servidor/año),Licenciamiento,12,2026-10-07,15257592.0,FE-10434,2027-10-07,345
-C0053,P04,Licencia firewall de nueva generación (año),Licenciamiento,12,2026-09-13,22302720.0,FE-10433,2027-09-13,321
-C0054,P05,Servidor rack 2U,Infraestructura,36,2025-12-03,28686960.0,FE-10447,2028-12-03,768
-C0054,P06,Switch administrable 48 puertos,Infraestructura,36,2026-06-18,7857036.000000001,FE-10452,2029-06-18,965
-C0054,P07,Equipo portátil empresarial,Infraestructura,36,2026-01-26,3894372.0,FE-10448,2029-01-26,822
-C0054,P08,Cabina de almacenamiento NAS 40 TB,Almacenamiento,36,2025-07-24,18947447.860000003,FE-10443,2028-07-24,636
-C0054,P09,Discos de respaldo (lote x10),Almacenamiento,24,2026-06-18,3252852.0,FE-10452,2028-06-18,600
-C0055,P01,Licencia antivirus corporativo (usuario/año),Licenciamiento,12,2024-08-09,2768961.9420000003,FE-10456,2025-08-09,-444
-C0055,P02,Licencia suite ofimática (usuario/año),Licenciamiento,12,2026-03-14,12001918.648199998,FE-10461,2027-03-14,138
-C0055,P05,Servidor rack 2U,Infraestructura,36,2025-09-16,29761455.4678,FE-10459,2028-09-16,690
-C0055,P07,Equipo portátil empresarial,Infraestructura,36,2025-02-05,8378271.191999999,FE-10457,2028-02-05,466
-C0057,P06,Switch administrable 48 puertos,Infraestructura,36,2025-05-19,15245159.1644,FE-10473,2028-05-19,570
-C0057,P07,Equipo portátil empresarial,Infraestructura,36,2026-08-04,12671208.0,FE-10476,2029-08-04,1012
-C0058,P05,Servidor rack 2U,Infraestructura,36,2024-11-24,30166891.8208,FE-10480,2027-11-24,393
-C0058,P06,Switch administrable 48 puertos,Infraestructura,36,2024-03-07,8938558.9932,FE-10477,2027-03-07,131
-C0058,P07,Equipo portátil empresarial,Infraestructura,36,2025-12-23,3857184.0,FE-10483,2028-12-23,788
-C0060,P01,Licencia antivirus corporativo (usuario/año),Licenciamiento,12,2025-06-07,425818.437,FE-10496,2026-06-07,-142
-C0060,P02,Licencia suite ofimática (usuario/año),Licenciamiento,12,2025-06-07,1490325.896,FE-10496,2026-06-07,-142
-C0060,P03,Licencia software de respaldo (servidor/año),Licenciamiento,12,2025-07-07,11392007.778,FE-10497,2026-07-07,-112
-C0060,P04,Licencia firewall de nueva generación (año),Licenciamiento,12,2024-12-05,41639818.5462,FE-10494,2025-12-05,-326
-C0060,P08,Cabina de almacenamiento NAS 40 TB,Almacenamiento,36,2024-12-05,21551458.5528,FE-10494,2027-12-05,404
-C0060,P09,Discos de respaldo (lote x10),Almacenamiento,24,2025-07-07,3245203.7856,FE-10497,2027-07-07,253
-C0061,P03,Licencia software de respaldo (servidor/año),Licenciamiento,12,2025-02-21,53842668.187,FE-10504,2026-02-21,-248
-C0061,P04,Licencia firewall de nueva generación (año),Licenciamiento,12,2024-09-27,50675944.496,FE-10502,2025-09-27,-395
-C0064,P01,Licencia antivirus corporativo (usuario/año),Licenciamiento,12,2025-12-21,1132992.0,FE-10536,2026-12-21,55
-C0064,P03,Licencia software de respaldo (servidor/año),Licenciamiento,12,2026-03-13,25591442.3336,FE-10537,2027-03-13,137
-C0064,P06,Switch administrable 48 puertos,Infraestructura,36,2025-04-12,8691477.984,FE-10533,2028-04-12,533
-C0064,P07,Equipo portátil empresarial,Infraestructura,36,2025-03-13,4122861.9039999996,FE-10532,2028-03-13,503
-C0065,P08,Cabina de almacenamiento NAS 40 TB,Almacenamiento,36,2025-01-07,21989055.6446,FE-10543,2028-01-07,437
-C0065,P09,Discos de respaldo (lote x10),Almacenamiento,24,2024-09-01,3124518.536,FE-10540,2026-09-01,-56
-C0066,P02,Licencia suite ofimática (usuario/año),Licenciamiento,12,2026-05-20,2525291.9999999995,FE-10556,2027-05-20,205
-C0066,P03,Licencia software de respaldo (servidor/año),Licenciamiento,12,2026-03-03,23587777.976,FE-10554,2027-03-03,127
-C0066,P05,Servidor rack 2U,Infraestructura,36,2025-08-14,57897440.932799995,FE-10552,2028-08-14,657
-C0066,P07,Equipo portátil empresarial,Infraestructura,36,2026-05-20,7689600.0,FE-10556,2029-05-20,936
-C0068,P01,Licencia antivirus corporativo (usuario/año),Licenciamiento,12,2025-07-06,3512742.0743999993,FE-10566,2026-07-06,-113
-C0068,P04,Licencia firewall de nueva generación (año),Licenciamiento,12,2026-07-06,168708960.0,FE-10567,2027-07-06,252
-C0068,P06,Switch administrable 48 puertos,Infraestructura,36,2025-07-06,7754154.4905,FE-10566,2028-07-06,618
-C0069,P01,Licencia antivirus corporativo (usuario/año),Licenciamiento,12,2026-09-04,1424520.0,FE-10588,2027-09-04,312
-C0069,P02,Licencia suite ofimática (usuario/año),Licenciamiento,12,2026-07-20,6626591.999999999,FE-10586,2027-07-20,266
-C0069,P03,Licencia software de respaldo (servidor/año),Licenciamiento,12,2026-03-05,16589376.0,FE-10583,2027-03-05,129
-C0069,P04,Licencia firewall de nueva generación (año),Licenciamiento,12,2026-08-11,40975488.0,FE-10587,2027-08-11,288
-C0072,P02,Licencia suite ofimática (usuario/año),Licenciamiento,12,2026-09-25,4591080.0,FE-10608,2027-09-25,333
-C0072,P06,Switch administrable 48 puertos,Infraestructura,36,2026-09-25,21612204.0,FE-10608,2029-09-25,1064
-C0073,P08,Cabina de almacenamiento NAS 40 TB,Almacenamiento,36,2026-08-06,18445680.0,FE-10609,2029-08-06,1014
-C0075,P05,Servidor rack 2U,Infraestructura,36,2026-06-13,26488836.0,FE-10618,2029-06-13,960
-C0075,P06,Switch administrable 48 puertos,Infraestructura,36,2026-10-04,7139592.0,FE-10619,2029-10-04,1073
-C0075,P07,Equipo portátil empresarial,Infraestructura,36,2025-11-04,4401576.0,FE-10615,2028-11-04,739
-C0080,P01,Licencia antivirus corporativo (usuario/año),Licenciamiento,12,2025-06-01,2257334.5535999998,FE-10652,2026-06-01,-148
-C0080,P02,Licencia suite ofimática (usuario/año),Licenciamiento,12,2025-06-01,1346970.4416,FE-10652,2026-06-01,-148
-C0080,P05,Servidor rack 2U,Infraestructura,36,2024-11-08,86018040.5175,FE-10651,2027-11-08,377
-C0080,P07,Equipo portátil empresarial,Infraestructura,36,2025-06-01,4597530.663600001,FE-10652,2028-06-01,583
-C0081,P01,Licencia antivirus corporativo (usuario/año),Licenciamiento,12,2026-10-22,259055.99999999997,FE-10680,2027-10-22,360
-C0081,P03,Licencia software de respaldo (servidor/año),Licenciamiento,12,2026-09-22,19110492.0,FE-10679,2027-09-22,330
-C0081,P04,Licencia firewall de nueva generación (año),Licenciamiento,12,2026-10-17,15016751.999999998,FE-10681,2027-10-17,355
-C0081,P05,Servidor rack 2U,Infraestructura,36,2026-10-17,26818164.0,FE-10681,2029-10-17,1086
-C0081,P06,Switch administrable 48 puertos,Infraestructura,36,2025-12-22,7128648.0,FE-10670,2028-12-22,787
-C0081,P07,Equipo portátil empresarial,Infraestructura,36,2026-05-01,4257319.588699999,FE-10675,2029-05-01,917
-C0081,P08,Cabina de almacenamiento NAS 40 TB,Almacenamiento,36,2024-08-14,19786447.9101,FE-10658,2027-08-14,291
-C0082,P05,Servidor rack 2U,Infraestructura,36,2024-07-04,30271740.538000003,FE-10682,2027-07-04,250
-C0082,P06,Switch administrable 48 puertos,Infraestructura,36,2025-07-19,7764027.1038,FE-10684,2028-07-19,631
-C0082,P07,Equipo portátil empresarial,Infraestructura,36,2025-01-03,4584971.664000001,FE-10683,2028-01-03,433
-C0083,P05,Servidor rack 2U,Infraestructura,36,2026-10-16,26009676.0,FE-10704,2029-10-16,1085
-C0083,P06,Switch administrable 48 puertos,Infraestructura,36,2025-11-05,7020504.0,FE-10696,2028-11-05,740
-C0083,P07,Equipo portátil empresarial,Infraestructura,36,2026-09-26,3970764.0,FE-10703,2029-09-26,1065
-C0084,P05,Servidor rack 2U,Infraestructura,36,2026-06-03,29016108.0,FE-10722,2029-06-03,950
-C0084,P06,Switch administrable 48 puertos,Infraestructura,36,2026-10-27,7365708.0,FE-10725,2029-10-27,1096
-C0084,P07,Equipo portátil empresarial,Infraestructura,36,2026-04-17,3939372.0,FE-10720,2029-04-17,903
-C0085,P09,Discos de respaldo (lote x10),Almacenamiento,24,2026-09-05,3156480.0,FE-10735,2028-09-05,679
-C0086,P01,Licencia antivirus corporativo (usuario/año),Licenciamiento,12,2026-06-08,1000440.0000000001,FE-10755,2027-06-08,224
-C0086,P02,Licencia suite ofimática (usuario/año),Licenciamiento,12,2026-02-19,1779793.4370000002,FE-10752,2027-02-19,115
-C0086,P03,Licencia software de respaldo (servidor/año),Licenciamiento,12,2025-12-25,12560616.0,FE-10751,2026-12-25,59
-C0086,P04,Licencia firewall de nueva generación (año),Licenciamiento,12,2026-10-11,14932404.000000002,FE-10759,2027-10-11,349
-C0086,P08,Cabina de almacenamiento NAS 40 TB,Almacenamiento,36,2026-09-15,19256004.0,FE-10758,2029-09-15,1054
-C0087,P08,Cabina de almacenamiento NAS 40 TB,Almacenamiento,36,2026-10-13,18832068.0,FE-10776,2029-10-13,1082
-C0087,P09,Discos de respaldo (lote x10),Almacenamiento,24,2026-10-13,3475152.0,FE-10776,2028-10-13,717
-C0088,P05,Servidor rack 2U,Infraestructura,36,2026-09-27,26324928.0,FE-10800,2029-09-27,1066
-C0088,P06,Switch administrable 48 puertos,Infraestructura,36,2026-04-07,7325100.0,FE-10796,2029-04-07,893
-C0088,P07,Equipo portátil empresarial,Infraestructura,36,2026-09-27,3941856.0,FE-10800,2029-09-27,1066
-C0089,P05,Servidor rack 2U,Infraestructura,36,2026-08-19,110191248.0,FE-10808,2029-08-19,1027
-C0089,P06,Switch administrable 48 puertos,Infraestructura,36,2026-08-19,8020152.000000001,FE-10808,2029-08-19,1027
-C0089,P07,Equipo portátil empresarial,Infraestructura,36,2025-12-26,4422492.0,FE-10806,2028-12-26,791
-C0090,P05,Servidor rack 2U,Infraestructura,36,2026-09-14,28778544.0,FE-10810,2029-09-14,1053
-C0091,P08,Cabina de almacenamiento NAS 40 TB,Almacenamiento,36,2026-10-01,38437416.0,FE-10839,2029-10-01,1070
-C0091,P09,Discos de respaldo (lote x10),Almacenamiento,24,2026-09-02,3395304.0,FE-10838,2028-09-02,676
-C0092,P01,Licencia antivirus corporativo (usuario/año),Licenciamiento,12,2026-03-21,817626.6192000001,FE-10852,2027-03-21,145
-C0092,P04,Licencia firewall de nueva generación (año),Licenciamiento,12,2026-05-24,10757808.0,FE-10853,2027-05-24,209
-C0092,P05,Servidor rack 2U,Infraestructura,36,2026-02-11,29286465.537,FE-10851,2029-02-11,838
-C0092,P07,Equipo portátil empresarial,Infraestructura,36,2026-02-11,4259404.401,FE-10851,2029-02-11,838
-C0093,P05,Servidor rack 2U,Infraestructura,36,2026-08-15,54646848.0,FE-10854,2029-08-15,1023
-C0093,P06,Switch administrable 48 puertos,Infraestructura,36,2026-10-26,7959132.0,FE-10855,2029-10-26,1095
-C0093,P07,Equipo portátil empresarial,Infraestructura,36,2026-10-26,4436892.0,FE-10855,2029-10-26,1095
-C0094,P08,Cabina de almacenamiento NAS 40 TB,Almacenamiento,36,2026-06-04,19209204.0,FE-10873,2029-06-04,951
-C0094,P09,Discos de respaldo (lote x10),Almacenamiento,24,2026-06-04,3120588.0,FE-10873,2028-06-04,586
-C0095,P01,Licencia antivirus corporativo (usuario/año),Licenciamiento,12,2026-07-04,1506779.9999999998,FE-10896,2027-07-04,250
-C0095,P02,Licencia suite ofimática (usuario/año),Licenciamiento,12,2026-05-18,6296904.0,FE-10894,2027-05-18,203
-C0095,P03,Licencia software de respaldo (servidor/año),Licenciamiento,12,2026-03-03,27148367.336999997,FE-10892,2027-03-03,127
-C0096,P02,Licencia suite ofimática (usuario/año),Licenciamiento,12,2025-06-07,3854077.96,FE-10902,2026-06-07,-142
-C0096,P03,Licencia software de respaldo (servidor/año),Licenciamiento,12,2025-07-16,24286545.09,FE-10903,2026-07-16,-103
-C0096,P06,Switch administrable 48 puertos,Infraestructura,36,2025-07-16,8631701.901,FE-10903,2028-07-16,628
-C0096,P08,Cabina de almacenamiento NAS 40 TB,Almacenamiento,36,2025-07-16,21390693.435000002,FE-10903,2028-07-16,628
-C0097,P03,Licencia software de respaldo (servidor/año),Licenciamiento,12,2026-10-25,6834239.999999999,FE-10906,2027-10-25,363
-C0097,P04,Licencia firewall de nueva generación (año),Licenciamiento,12,2026-10-25,26290979.999999996,FE-10906,2027-10-25,363
-C0097,P08,Cabina de almacenamiento NAS 40 TB,Almacenamiento,36,2026-09-24,36259992.0,FE-10905,2029-09-24,1063
-C0097,P09,Discos de respaldo (lote x10),Almacenamiento,24,2026-09-24,3393396.0,FE-10905,2028-09-24,698
-C0098,P05,Servidor rack 2U,Infraestructura,36,2026-03-25,29535840.0,FE-10913,2029-03-25,880
-C0098,P06,Switch administrable 48 puertos,Infraestructura,36,2025-11-21,7483735.050000001,FE-10912,2028-11-21,756
-C0098,P08,Cabina de almacenamiento NAS 40 TB,Almacenamiento,36,2026-03-25,18739404.0,FE-10913,2029-03-25,880
-C0098,P09,Discos de respaldo (lote x10),Almacenamiento,24,2025-02-16,3254641.6385999997,FE-10909,2027-02-16,112
-C0101,P08,Cabina de almacenamiento NAS 40 TB,Almacenamiento,36,2026-06-27,20509236.0,FE-10939,2029-06-27,974
-C0103,P02,Licencia suite ofimática (usuario/año),Licenciamiento,12,2026-06-15,4874580.0,FE-10952,2027-06-15,231
-C0103,P04,Licencia firewall de nueva generación (año),Licenciamiento,12,2026-10-25,53243640.0,FE-10953,2027-10-25,363
-C0104,P05,Servidor rack 2U,Infraestructura,36,2026-10-02,26703252.0,FE-10955,2029-10-02,1071
-C0105,P01,Licencia antivirus corporativo (usuario/año),Licenciamiento,12,2025-12-13,1150560.0,FE-10961,2026-12-13,47
-C0105,P02,Licencia suite ofimática (usuario/año),Licenciamiento,12,2026-09-01,1745279.9999999998,FE-10963,2027-09-01,309
-C0105,P04,Licencia firewall de nueva generación (año),Licenciamiento,12,2026-09-01,27709020.000000004,FE-10963,2027-09-01,309
-C0105,P05,Servidor rack 2U,Infraestructura,36,2025-12-13,28030680.0,FE-10961,2028-12-13,778
-C0105,P06,Switch administrable 48 puertos,Infraestructura,36,2024-07-10,8428373.268,FE-10959,2027-07-10,256
-C0105,P07,Equipo portátil empresarial,Infraestructura,36,2024-07-10,4705886.9676,FE-10959,2027-07-10,256
-C0106,P08,Cabina de almacenamiento NAS 40 TB,Almacenamiento,36,2026-10-22,36023112.0,FE-10965,2029-10-22,1091
-C0108,P02,Licencia suite ofimática (usuario/año),Licenciamiento,12,2026-02-27,2124245.4336,FE-10973,2027-02-27,123
-C0108,P08,Cabina de almacenamiento NAS 40 TB,Almacenamiento,36,2026-02-27,18775414.3008,FE-10973,2029-02-27,854
-C0109,P03,Licencia software de respaldo (servidor/año),Licenciamiento,12,2026-10-26,6736176.0,FE-10980,2027-10-26,364
-C0109,P04,Licencia firewall de nueva generación (año),Licenciamiento,12,2026-07-25,40899168.0,FE-10979,2027-07-25,271
-C0113,P01,Licencia antivirus corporativo (usuario/año),Licenciamiento,12,2026-09-25,2184300.0,FE-11026,2027-09-25,333
-C0113,P02,Licencia suite ofimática (usuario/año),Licenciamiento,12,2026-10-14,5587776.0,FE-11027,2027-10-14,352
-C0113,P03,Licencia software de respaldo (servidor/año),Licenciamiento,12,2026-08-16,17631072.0,FE-11025,2027-08-16,293
-C0114,P05,Servidor rack 2U,Infraestructura,36,2026-08-08,54710928.0,FE-11049,2029-08-08,1016
-C0114,P06,Switch administrable 48 puertos,Infraestructura,36,2026-09-19,16191000.0,FE-11050,2029-09-19,1058
-C0114,P07,Equipo portátil empresarial,Infraestructura,36,2026-06-01,4365936.0,FE-11047,2029-06-01,948
-C0115,P02,Licencia suite ofimática (usuario/año),Licenciamiento,12,2026-03-12,316974.814,FE-11071,2027-03-12,136
-C0115,P03,Licencia software de respaldo (servidor/año),Licenciamiento,12,2026-06-21,8876304.0,FE-11073,2027-06-21,237
-C0115,P04,Licencia firewall de nueva generación (año),Licenciamiento,12,2026-05-19,27571680.0,FE-11072,2027-05-19,204
-C0115,P05,Servidor rack 2U,Infraestructura,36,2026-10-26,59878872.0,FE-11075,2029-10-26,1095
-C0115,P06,Switch administrable 48 puertos,Infraestructura,36,2025-08-18,7336881.798400001,FE-11064,2028-08-18,661
-C0115,P07,Equipo portátil empresarial,Infraestructura,36,2025-08-18,4092143.4246000005,FE-11064,2028-08-18,661
-C0115,P09,Discos de respaldo (lote x10),Almacenamiento,24,2026-09-05,3333060.0,FE-11074,2028-09-05,679
-C0117,P01,Licencia antivirus corporativo (usuario/año),Licenciamiento,12,2026-10-07,506592.0,FE-11088,2027-10-07,345
-C0117,P02,Licencia suite ofimática (usuario/año),Licenciamiento,12,2026-09-11,2241287.9999999995,FE-11086,2027-09-11,319
-C0117,P08,Cabina de almacenamiento NAS 40 TB,Almacenamiento,36,2025-11-17,18642429.244999997,FE-11083,2028-11-17,752
-C0117,P09,Discos de respaldo (lote x10),Almacenamiento,24,2026-06-23,3405780.0,FE-11085,2028-06-23,605
-C0119,P05,Servidor rack 2U,Infraestructura,36,2025-06-13,128423193.36479999,FE-11104,2028-06-13,595
-C0119,P06,Switch administrable 48 puertos,Infraestructura,36,2026-10-20,15463224.0,FE-11115,2029-10-20,1089
-C0119,P07,Equipo portátil empresarial,Infraestructura,36,2026-06-03,4405824.0,FE-11114,2029-06-03,950
-C0120,P06,Switch administrable 48 puertos,Infraestructura,36,2026-03-12,15693637.622,FE-11126,2029-03-12,867
-C0121,P02,Licencia suite ofimática (usuario/año),Licenciamiento,12,2026-06-06,5239620.0,FE-11135,2027-06-06,222
-C0121,P04,Licencia firewall de nueva generación (año),Licenciamiento,12,2026-02-17,48406683.304,FE-11133,2027-02-17,113
-C0121,P05,Servidor rack 2U,Infraestructura,36,2025-12-15,26736480.0,FE-11132,2028-12-15,780
-C0121,P06,Switch administrable 48 puertos,Infraestructura,36,2026-04-11,15786288.0,FE-11134,2029-04-11,897
-C0121,P07,Equipo portátil empresarial,Infraestructura,36,2026-04-11,3942576.0000000005,FE-11134,2029-04-11,897
-C0122,P01,Licencia antivirus corporativo (usuario/año),Licenciamiento,12,2024-06-02,1058317.2446,FE-11136,2025-06-02,-512
-C0122,P02,Licencia suite ofimática (usuario/año),Licenciamiento,12,2026-06-02,1634400.0,FE-11146,2027-06-02,218
-C0122,P03,Licencia software de respaldo (servidor/año),Licenciamiento,12,2026-07-17,22910976.0,FE-11147,2027-07-17,263
-C0122,P04,Licencia firewall de nueva generación (año),Licenciamiento,12,2025-08-25,57051564.936,FE-11144,2026-08-25,-63
-C0123,P06,Switch administrable 48 puertos,Infraestructura,36,2024-11-08,8136780.561,FE-11151,2027-11-08,377
-C0123,P07,Equipo portátil empresarial,Infraestructura,36,2024-10-06,4098723.3372,FE-11150,2027-10-06,344
-C0124,P05,Servidor rack 2U,Infraestructura,36,2024-12-16,32351939.220100004,FE-11155,2027-12-16,415
-C0124,P06,Switch administrable 48 puertos,Infraestructura,36,2024-12-16,7944814.3026,FE-11155,2027-12-16,415
-C0124,P07,Equipo portátil empresarial,Infraestructura,36,2024-12-16,4266754.3057,FE-11155,2027-12-16,415
-C0125,P06,Switch administrable 48 puertos,Infraestructura,36,2024-11-07,8509952.735100001,FE-11156,2027-11-07,376
-C0126,P01,Licencia antivirus corporativo (usuario/año),Licenciamiento,12,2026-07-19,550944.0,FE-11178,2027-07-19,265
-C0126,P02,Licencia suite ofimática (usuario/año),Licenciamiento,12,2026-08-24,967464.0,FE-11180,2027-08-24,301
-C0126,P03,Licencia software de respaldo (servidor/año),Licenciamiento,12,2026-06-18,16322796.000000002,FE-11177,2027-06-18,234
-C0126,P04,Licencia firewall de nueva generación (año),Licenciamiento,12,2026-09-05,44782848.0,FE-11181,2027-09-05,313
-C0127,P09,Discos de respaldo (lote x10),Almacenamiento,24,2026-09-26,6371424.0,FE-11191,2028-09-26,700
-C0129,P08,Cabina de almacenamiento NAS 40 TB,Almacenamiento,36,2025-11-15,18735654.7256,FE-11211,2028-11-15,750
-C0129,P09,Discos de respaldo (lote x10),Almacenamiento,24,2026-07-20,3231720.0,FE-11213,2028-07-20,632
-C0130,P08,Cabina de almacenamiento NAS 40 TB,Almacenamiento,36,2025-09-08,62604929.89920001,FE-11218,2028-09-08,682
-C0130,P09,Discos de respaldo (lote x10),Almacenamiento,24,2026-04-14,3093156.0,FE-11222,2028-04-14,535
-C0131,P05,Servidor rack 2U,Infraestructura,36,2026-02-22,26480659.478900004,FE-11231,2029-02-22,849
-C0131,P06,Switch administrable 48 puertos,Infraestructura,36,2026-02-22,7204627.7508000005,FE-11231,2029-02-22,849
-C0131,P07,Equipo portátil empresarial,Infraestructura,36,2026-01-11,4184928.0,FE-11230,2029-01-11,807
-C0132,P01,Licencia antivirus corporativo (usuario/año),Licenciamiento,12,2025-04-26,1108670.1832,FE-11238,2026-04-26,-184
-C0132,P02,Licencia suite ofimática (usuario/año),Licenciamiento,12,2026-07-07,1650600.0,FE-11243,2027-07-07,253
-C0132,P03,Licencia software de respaldo (servidor/año),Licenciamiento,12,2025-12-21,4625280.0,FE-11241,2026-12-21,55
-C0132,P05,Servidor rack 2U,Infraestructura,36,2025-10-22,30534072.0048,FE-11240,2028-10-22,726
-C0132,P06,Switch administrable 48 puertos,Infraestructura,36,2026-06-25,6988896.0,FE-11242,2029-06-25,972
-C0132,P07,Equipo portátil empresarial,Infraestructura,36,2026-06-25,4435632.0,FE-11242,2029-06-25,972
-C0133,P02,Licencia suite ofimática (usuario/año),Licenciamiento,12,2026-10-12,3479256.0,FE-11244,2027-10-12,350
-C0134,P05,Servidor rack 2U,Infraestructura,36,2025-12-12,25900092.0,FE-11260,2028-12-12,777
-C0134,P06,Switch administrable 48 puertos,Infraestructura,36,2024-10-27,8400734.104,FE-11249,2027-10-27,365
-C0134,P07,Equipo portátil empresarial,Infraestructura,36,2025-03-19,4246369.595,FE-11254,2028-03-19,509
-C0134,P08,Cabina de almacenamiento NAS 40 TB,Almacenamiento,36,2025-09-15,19720445.09,FE-11257,2028-09-15,689
-C0134,P09,Discos de respaldo (lote x10),Almacenamiento,24,2025-02-07,3748444.4933,FE-11253,2027-02-07,103
-C0135,P05,Servidor rack 2U,Infraestructura,36,2026-06-14,27067284.0,FE-11284,2029-06-14,961
-C0135,P06,Switch administrable 48 puertos,Infraestructura,36,2024-10-02,24156344.539799996,FE-11268,2027-10-02,340
-C0135,P07,Equipo portátil empresarial,Infraestructura,36,2025-11-27,12300488.297400001,FE-11278,2028-11-27,762
-C0135,P08,Cabina de almacenamiento NAS 40 TB,Almacenamiento,36,2026-01-21,18043020.0,FE-11280,2029-01-21,817
-C0135,P09,Discos de respaldo (lote x10),Almacenamiento,24,2026-04-08,3185136.0,FE-11283,2028-04-08,529
-C0136,P01,Licencia antivirus corporativo (usuario/año),Licenciamiento,12,2026-08-16,999180.0,FE-11314,2027-08-16,293
-C0136,P02,Licencia suite ofimática (usuario/año),Licenciamiento,12,2026-09-01,1467072.0,FE-11315,2027-09-01,309
-C0136,P03,Licencia software de respaldo (servidor/año),Licenciamiento,12,2024-06-19,14235681.3888,FE-11291,2025-06-19,-495
-C0136,P04,Licencia firewall de nueva generación (año),Licenciamiento,12,2026-10-18,37899540.0,FE-11316,2027-10-18,356
-C0137,P02,Licencia suite ofimática (usuario/año),Licenciamiento,12,2026-01-27,7375895.999999999,FE-11333,2027-01-27,92
-C0137,P04,Licencia firewall de nueva generación (año),Licenciamiento,12,2025-12-25,96067800.0,FE-11332,2026-12-25,59
-C0137,P08,Cabina de almacenamiento NAS 40 TB,Almacenamiento,36,2025-02-16,21494720.290999997,FE-11323,2028-02-16,477
-C0137,P09,Discos de respaldo (lote x10),Almacenamiento,24,2025-08-19,3603068.393,FE-11328,2027-08-19,296
-C0138,P01,Licencia antivirus corporativo (usuario/año),Licenciamiento,12,2026-10-15,2018015.9999999998,FE-11340,2027-10-15,353
-C0138,P03,Licencia software de respaldo (servidor/año),Licenciamiento,12,2026-10-15,25723008.000000004,FE-11340,2027-10-15,353
-C0138,P04,Licencia firewall de nueva generación (año),Licenciamiento,12,2026-08-20,67942728.0,FE-11339,2027-08-20,297
-C0138,P08,Cabina de almacenamiento NAS 40 TB,Almacenamiento,36,2026-10-15,18820260.0,FE-11340,2029-10-15,1084
-C0139,P02,Licencia suite ofimática (usuario/año),Licenciamiento,12,2026-02-06,6260148.0,FE-11344,2027-02-06,102
-C0139,P04,Licencia firewall de nueva generación (año),Licenciamiento,12,2026-08-14,67404096.0,FE-11346,2027-08-14,291
-C0139,P08,Cabina de almacenamiento NAS 40 TB,Almacenamiento,36,2025-06-24,19311161.7784,FE-11343,2028-06-24,606
-C0140,P01,Licencia antivirus corporativo (usuario/año),Licenciamiento,12,2026-03-01,785672.6496,FE-11350,2027-03-01,125
-C0140,P03,Licencia software de respaldo (servidor/año),Licenciamiento,12,2026-03-01,35318682.598400004,FE-11350,2027-03-01,125
-C0140,P08,Cabina de almacenamiento NAS 40 TB,Almacenamiento,36,2024-10-19,22238853.2695,FE-11347,2027-10-19,357
-C0140,P09,Discos de respaldo (lote x10),Almacenamiento,24,2025-02-26,3299708.8992,FE-11348,2027-02-26,122
-C0141,P06,Switch administrable 48 puertos,Infraestructura,36,2026-10-02,7179264.0,FE-11353,2029-10-02,1071
-C0141,P08,Cabina de almacenamiento NAS 40 TB,Almacenamiento,36,2026-10-02,18072792.0,FE-11353,2029-10-02,1071
-C0141,P09,Discos de respaldo (lote x10),Almacenamiento,24,2026-09-27,3120012.0,FE-11352,2028-09-27,701
-C0142,P03,Licencia software de respaldo (servidor/año),Licenciamiento,12,2026-09-19,2237436.0,FE-11356,2027-09-19,327
-C0142,P09,Discos de respaldo (lote x10),Almacenamiento,24,2026-09-19,3394188.0,FE-11356,2028-09-19,693
-C0143,P08,Cabina de almacenamiento NAS 40 TB,Almacenamiento,36,2024-05-15,20216985.4124,FE-11358,2027-05-15,200
-C0143,P09,Discos de respaldo (lote x10),Almacenamiento,24,2025-10-15,3470252.0130000003,FE-11362,2027-10-15,353
-C0147,P01,Licencia antivirus corporativo (usuario/año),Licenciamiento,12,2026-10-26,818208.0000000001,FE-11392,2027-10-26,364
-C0147,P02,Licencia suite ofimática (usuario/año),Licenciamiento,12,2026-02-20,2869561.3736,FE-11390,2027-02-20,116
-C0149,P01,Licencia antivirus corporativo (usuario/año),Licenciamiento,12,2025-03-27,283118.8932,FE-11401,2026-03-27,-214
-C0149,P02,Licencia suite ofimática (usuario/año),Licenciamiento,12,2025-06-16,1073246.5038,FE-11403,2026-06-16,-133
-C0149,P03,Licencia software de respaldo (servidor/año),Licenciamiento,12,2025-03-27,15398875.720800001,FE-11401,2026-03-27,-214
-C0149,P04,Licencia firewall de nueva generación (año),Licenciamiento,12,2026-01-20,33582384.0,FE-11407,2027-01-20,85
-C0149,P05,Servidor rack 2U,Infraestructura,36,2026-01-20,29086092.0,FE-11407,2029-01-20,816
-C0149,P07,Equipo portátil empresarial,Infraestructura,36,2026-04-03,4269780.0,FE-11408,2029-04-03,889
-C0149,P08,Cabina de almacenamiento NAS 40 TB,Almacenamiento,36,2025-05-26,20315391.9456,FE-11402,2028-05-26,577
-C0150,P01,Licencia antivirus corporativo (usuario/año),Licenciamiento,12,2026-10-21,2926152.0,FE-11434,2027-10-21,359
-C0150,P02,Licencia suite ofimática (usuario/año),Licenciamiento,12,2026-09-23,10033884.0,FE-11432,2027-09-23,331
-C0150,P03,Licencia software de respaldo (servidor/año),Licenciamiento,12,2026-06-21,68784984.0,FE-11429,2027-06-21,237
-C0150,P04,Licencia firewall de nueva generación (año),Licenciamiento,12,2026-10-17,159437592.0,FE-11433,2027-10-17,355
-C0150,P08,Cabina de almacenamiento NAS 40 TB,Almacenamiento,36,2026-08-21,56581200.0,FE-11431,2029-08-21,1029
-C0150,P09,Discos de respaldo (lote x10),Almacenamiento,24,2026-02-05,16583220.0,FE-11426,2028-02-05,466
-C0151,P08,Cabina de almacenamiento NAS 40 TB,Almacenamiento,36,2026-09-27,20394216.0,FE-11452,2029-09-27,1066
-C0151,P09,Discos de respaldo (lote x10),Almacenamiento,24,2026-07-03,6631704.0,FE-11451,2028-07-03,615
-C0152,P01,Licencia antivirus corporativo (usuario/año),Licenciamiento,12,2026-06-20,4725864.0,FE-11459,2027-06-20,236
-C0152,P04,Licencia firewall de nueva generación (año),Licenciamiento,12,2026-09-15,134042688.0,FE-11461,2027-09-15,323
-C0152,P09,Discos de respaldo (lote x10),Almacenamiento,24,2026-09-15,6704424.0,FE-11461,2028-09-15,689
-C0153,P04,Licencia firewall de nueva generación (año),Licenciamiento,12,2025-04-06,41481537.496700004,FE-11462,2026-04-06,-204
-C0153,P05,Servidor rack 2U,Infraestructura,36,2025-04-06,97179793.12650001,FE-11462,2028-04-06,527
-C0153,P07,Equipo portátil empresarial,Infraestructura,36,2025-04-06,9288638.6084,FE-11462,2028-04-06,527
-C0155,P01,Licencia antivirus corporativo (usuario/año),Licenciamiento,12,2025-09-22,1476186.9640000002,FE-11486,2026-09-22,-35
-C0155,P02,Licencia suite ofimática (usuario/año),Licenciamiento,12,2026-06-12,5524992.0,FE-11493,2027-06-12,228
-C0155,P03,Licencia software de respaldo (servidor/año),Licenciamiento,12,2026-10-08,40784472.0,FE-11498,2027-10-08,346
-C0155,P04,Licencia firewall de nueva generación (año),Licenciamiento,12,2026-10-08,77419260.00000001,FE-11498,2027-10-08,346
-C0156,P08,Cabina de almacenamiento NAS 40 TB,Almacenamiento,36,2024-10-24,42059030.8838,FE-11500,2027-10-24,362
-C0156,P09,Discos de respaldo (lote x10),Almacenamiento,24,2024-05-25,3245026.3823999995,FE-11499,2026-05-25,-155
-C0158,P05,Servidor rack 2U,Infraestructura,36,2026-05-11,26215701.144300003,FE-11511,2029-05-11,927
-C0158,P06,Switch administrable 48 puertos,Infraestructura,36,2024-10-15,7406886.8610000005,FE-11506,2027-10-15,353
-C0159,P06,Switch administrable 48 puertos,Infraestructura,36,2025-05-05,7877837.94,FE-11515,2028-05-05,556
-C0160,P01,Licencia antivirus corporativo (usuario/año),Licenciamiento,12,2025-11-12,554993.2772,FE-11530,2026-11-12,16
-C0160,P02,Licencia suite ofimática (usuario/año),Licenciamiento,12,2026-10-02,3321360.0,FE-11539,2027-10-02,340
-C0160,P03,Licencia software de respaldo (servidor/año),Licenciamiento,12,2026-06-06,11654100.0,FE-11536,2027-06-06,222
-C0160,P04,Licencia firewall de nueva generación (año),Licenciamiento,12,2026-07-15,44150508.0,FE-11537,2027-07-15,261
-C0162,P02,Licencia suite ofimática (usuario/año),Licenciamiento,12,2025-08-18,2038988.7672000001,FE-11553,2026-08-18,-70
-C0162,P03,Licencia software de respaldo (servidor/año),Licenciamiento,12,2026-03-09,13768966.5564,FE-11559,2027-03-09,133
-C0162,P04,Licencia firewall de nueva generación (año),Licenciamiento,12,2025-12-06,63026207.99999999,FE-11558,2026-12-06,40
-C0163,P01,Licencia antivirus corporativo (usuario/año),Licenciamiento,12,2025-12-16,1323540.0000000002,FE-11576,2026-12-16,50
-C0163,P02,Licencia suite ofimática (usuario/año),Licenciamiento,12,2026-07-16,1476144.0,FE-11580,2027-07-16,262
-C0163,P03,Licencia software de respaldo (servidor/año),Licenciamiento,12,2026-09-07,17933184.0,FE-11583,2027-09-07,315
-C0163,P04,Licencia firewall de nueva generación (año),Licenciamiento,12,2026-08-03,36154692.00000001,FE-11582,2027-08-03,280
-C0164,P02,Licencia suite ofimática (usuario/año),Licenciamiento,12,2025-10-27,4372559.3366,FE-11596,2026-10-27,0
-C0164,P03,Licencia software de respaldo (servidor/año),Licenciamiento,12,2025-11-03,20191356.000000004,FE-11597,2026-11-03,7
-C0164,P04,Licencia firewall de nueva generación (año),Licenciamiento,12,2026-03-05,106763832.0,FE-11598,2027-03-05,129
-C0166,P08,Cabina de almacenamiento NAS 40 TB,Almacenamiento,36,2026-10-03,35915688.0,FE-11628,2029-10-03,1072
-C0166,P09,Discos de respaldo (lote x10),Almacenamiento,24,2025-03-18,3555197.6859,FE-11614,2027-03-18,142
-C0167,P05,Servidor rack 2U,Infraestructura,36,2025-09-07,83036917.32360001,FE-11633,2028-09-07,681
-C0167,P07,Equipo portátil empresarial,Infraestructura,36,2025-09-07,8652800.9338,FE-11633,2028-09-07,681
-C0168,P01,Licencia antivirus corporativo (usuario/año),Licenciamiento,12,2026-07-15,1764720.0000000002,FE-11642,2027-07-15,261
-C0168,P03,Licencia software de respaldo (servidor/año),Licenciamiento,12,2026-07-15,22054320.0,FE-11642,2027-07-15,261
-C0169,P08,Cabina de almacenamiento NAS 40 TB,Almacenamiento,36,2025-02-24,39163009.0752,FE-11649,2028-02-24,485
-C0169,P09,Discos de respaldo (lote x10),Almacenamiento,24,2026-09-19,3107916.0,FE-11665,2028-09-19,693
-C0170,P01,Licencia antivirus corporativo (usuario/año),Licenciamiento,12,2026-01-19,4208364.0,FE-11682,2027-01-19,84
-C0170,P02,Licencia suite ofimática (usuario/año),Licenciamiento,12,2026-07-23,7182756.0,FE-11688,2027-07-23,269
-C0170,P03,Licencia software de respaldo (servidor/año),Licenciamiento,12,2026-10-15,58812804.00000001,FE-11691,2027-10-15,353
-C0170,P08,Cabina de almacenamiento NAS 40 TB,Almacenamiento,36,2026-04-04,18499284.0,FE-11685,2029-04-04,890
-C0170,P09,Discos de respaldo (lote x10),Almacenamiento,24,2026-09-19,6592032.0,FE-11690,2028-09-19,693
-C0172,P01,Licencia antivirus corporativo (usuario/año),Licenciamiento,12,2026-02-09,2981627.9999999995,FE-11698,2027-02-09,105
-C0172,P02,Licencia suite ofimática (usuario/año),Licenciamiento,12,2026-02-09,9546120.0,FE-11698,2027-02-09,105
-C0172,P03,Licencia software de respaldo (servidor/año),Licenciamiento,12,2026-06-02,54380664.0,FE-11700,2027-06-02,218
-C0172,P04,Licencia firewall de nueva generación (año),Licenciamiento,12,2026-05-02,98908976.1112,FE-11699,2027-05-02,187
-C0172,P08,Cabina de almacenamiento NAS 40 TB,Almacenamiento,36,2025-03-12,41434891.47,FE-11695,2028-03-12,502
-C0172,P09,Discos de respaldo (lote x10),Almacenamiento,24,2026-05-02,10187804.319300001,FE-11699,2028-05-02,553
-C0173,P01,Licencia antivirus corporativo (usuario/año),Licenciamiento,12,2026-07-11,1494108.0,FE-11705,2027-07-11,257
-C0173,P04,Licencia firewall de nueva generación (año),Licenciamiento,12,2026-10-01,70684992.0,FE-11706,2027-10-01,339
-C0174,P05,Servidor rack 2U,Infraestructura,36,2026-02-10,29511425.0119,FE-11724,2029-02-10,837
-C0174,P06,Switch administrable 48 puertos,Infraestructura,36,2024-11-17,7597645.1024,FE-11714,2027-11-17,386
-C0174,P08,Cabina de almacenamiento NAS 40 TB,Almacenamiento,36,2026-04-11,20688876.0,FE-11726,2029-04-11,897
-C0174,P09,Discos de respaldo (lote x10),Almacenamiento,24,2026-05-23,3112596.0,FE-11727,2028-05-23,574
-C0175,P02,Licencia suite ofimática (usuario/año),Licenciamiento,12,2026-04-24,11025792.0,FE-11738,2027-04-24,179
-C0175,P03,Licencia software de respaldo (servidor/año),Licenciamiento,12,2026-04-24,59493204.00000001,FE-11738,2027-04-24,179
-C0175,P04,Licencia firewall de nueva generación (año),Licenciamiento,12,2026-08-17,101953404.0,FE-11739,2027-08-17,294
-C0176,P09,Discos de respaldo (lote x10),Almacenamiento,24,2025-04-03,6992731.202400001,FE-11740,2027-04-03,158
-C0177,P01,Licencia antivirus corporativo (usuario/año),Licenciamiento,12,2025-07-08,4411176.0168,FE-11747,2026-07-08,-111
-C0177,P03,Licencia software de respaldo (servidor/año),Licenciamiento,12,2024-12-16,51886129.9374,FE-11745,2025-12-16,-315
-C0177,P04,Licencia firewall de nueva generación (año),Licenciamiento,12,2025-07-08,93015954.96000001,FE-11747,2026-07-08,-111
-C0177,P05,Servidor rack 2U,Infraestructura,36,2025-07-08,30380955.1076,FE-11747,2028-07-08,620
-C0177,P06,Switch administrable 48 puertos,Infraestructura,36,2024-08-25,7373882.088,FE-11743,2027-08-25,302
-C0178,P06,Switch administrable 48 puertos,Infraestructura,36,2024-08-04,8425021.28,FE-11749,2027-08-04,281
-C0178,P07,Equipo portátil empresarial,Infraestructura,36,2026-03-05,8237016.0,FE-11750,2029-03-05,860
-C0179,P08,Cabina de almacenamiento NAS 40 TB,Almacenamiento,36,2024-11-08,39991285.845,FE-11753,2027-11-08,377
-C0181,P08,Cabina de almacenamiento NAS 40 TB,Almacenamiento,36,2026-03-02,19843956.0,FE-11779,2029-03-02,857
-C0181,P09,Discos de respaldo (lote x10),Almacenamiento,24,2026-08-09,3332232.0,FE-11783,2028-08-09,652
-C0182,P08,Cabina de almacenamiento NAS 40 TB,Almacenamiento,36,2025-09-21,18373807.7671,FE-11795,2028-09-21,695
-C0182,P09,Discos de respaldo (lote x10),Almacenamiento,24,2026-10-15,3195936.0,FE-11802,2028-10-15,719
-C0183,P05,Servidor rack 2U,Infraestructura,36,2026-07-25,132180660.0,FE-11822,2029-07-25,1002
-C0183,P06,Switch administrable 48 puertos,Infraestructura,36,2026-01-24,22664232.0,FE-11816,2029-01-24,820
-C0183,P07,Equipo portátil empresarial,Infraestructura,36,2026-09-05,4134168.0000000005,FE-11823,2029-09-05,1044
-C0184,P01,Licencia antivirus corporativo (usuario/año),Licenciamiento,12,2025-07-10,293828.86220000003,FE-11831,2026-07-10,-109
-C0184,P02,Licencia suite ofimática (usuario/año),Licenciamiento,12,2025-10-21,692217.24,FE-11832,2026-10-21,-6
-C0184,P03,Licencia software de respaldo (servidor/año),Licenciamiento,12,2025-12-06,4666752.0,FE-11833,2026-12-06,40
-C0185,P01,Licencia antivirus corporativo (usuario/año),Licenciamiento,12,2026-09-19,676980.0,FE-11856,2027-09-19,327
-C0185,P02,Licencia suite ofimática (usuario/año),Licenciamiento,12,2026-07-11,1379088.0,FE-11854,2027-07-11,257
-C0185,P03,Licencia software de respaldo (servidor/año),Licenciamiento,12,2026-03-01,8784407.344,FE-11852,2027-03-01,125
-C0185,P04,Licencia firewall de nueva generación (año),Licenciamiento,12,2026-10-11,38550456.0,FE-11858,2027-10-11,349
-C0186,P03,Licencia software de respaldo (servidor/año),Licenciamiento,12,2025-06-22,9227276.475200001,FE-11860,2026-06-22,-127
-C0186,P04,Licencia firewall de nueva generación (año),Licenciamiento,12,2024-10-27,42507921.376,FE-11859,2025-10-27,-365
-C0186,P07,Equipo portátil empresarial,Infraestructura,36,2025-07-20,4186074.6869999995,FE-11861,2028-07-20,632
-C0187,P05,Servidor rack 2U,Infraestructura,36,2026-09-10,25834788.0,FE-11862,2029-09-10,1049
-C0187,P07,Equipo portátil empresarial,Infraestructura,36,2026-10-26,3847644.0,FE-11863,2029-10-26,1095
-C0189,P02,Licencia suite ofimática (usuario/año),Licenciamiento,12,2025-11-07,2844437.784,FE-11869,2026-11-07,11
-C0189,P04,Licencia firewall de nueva generación (año),Licenciamiento,12,2026-06-07,27144180.0,FE-11870,2027-06-07,223
-C0189,P08,Cabina de almacenamiento NAS 40 TB,Almacenamiento,36,2025-07-20,21217867.951,FE-11868,2028-07-20,632
-C0189,P09,Discos de respaldo (lote x10),Almacenamiento,24,2025-11-07,3231708.6559999995,FE-11869,2027-11-07,376
-C0191,P08,Cabina de almacenamiento NAS 40 TB,Almacenamiento,36,2025-12-13,20278944.0,FE-11885,2028-12-13,778
-C0191,P09,Discos de respaldo (lote x10),Almacenamiento,24,2025-03-18,6860975.9568,FE-11876,2027-03-18,142
-C0192,P08,Cabina de almacenamiento NAS 40 TB,Almacenamiento,36,2026-04-08,54670464.0,FE-11897,2029-04-08,894
-C0192,P09,Discos de respaldo (lote x10),Almacenamiento,24,2024-11-19,3652404.4825,FE-11892,2026-11-19,23
-C0193,P05,Servidor rack 2U,Infraestructura,36,2026-10-06,28636488.0,FE-11909,2029-10-06,1075
-C0193,P06,Switch administrable 48 puertos,Infraestructura,36,2026-09-25,7224552.0,FE-11908,2029-09-25,1064
-C0193,P07,Equipo portátil empresarial,Infraestructura,36,2026-10-06,4336092.0,FE-11909,2029-10-06,1075
-C0195,P01,Licencia antivirus corporativo (usuario/año),Licenciamiento,12,2026-06-20,412452.0,FE-11919,2027-06-20,236
-C0195,P02,Licencia suite ofimática (usuario/año),Licenciamiento,12,2026-10-22,1054944.0,FE-11922,2027-10-22,360
-C0195,P04,Licencia firewall de nueva generación (año),Licenciamiento,12,2026-08-21,4864608.0,FE-11921,2027-08-21,298
-C0196,P04,Licencia firewall de nueva generación (año),Licenciamiento,12,2026-10-26,49914144.0,FE-11923,2027-10-26,364
-C0198,P08,Cabina de almacenamiento NAS 40 TB,Almacenamiento,36,2025-06-10,22169225.345399998,FE-11954,2028-06-10,592
-C0198,P09,Discos de respaldo (lote x10),Almacenamiento,24,2025-07-01,3163461.4527999996,FE-11955,2027-07-01,247
-C0199,P01,Licencia antivirus corporativo (usuario/año),Licenciamiento,12,2026-09-19,2950164.0,FE-11967,2027-09-19,327
-C0199,P02,Licencia suite ofimática (usuario/año),Licenciamiento,12,2026-10-14,8697600.0,FE-11968,2027-10-14,352
-C0199,P03,Licencia software de respaldo (servidor/año),Licenciamiento,12,2026-09-19,46704168.0,FE-11967,2027-09-19,327
-C0199,P04,Licencia firewall de nueva generación (año),Licenciamiento,12,2024-11-06,132070841.2608,FE-11956,2025-11-06,-355
-C0199,P08,Cabina de almacenamiento NAS 40 TB,Almacenamiento,36,2026-06-25,53699868.0,FE-11965,2029-06-25,972
-C0199,P09,Discos de respaldo (lote x10),Almacenamiento,24,2026-10-14,13162464.0,FE-11968,2028-10-14,718
-C0200,P07,Equipo portátil empresarial,Infraestructura,36,2026-02-06,3888612.0000000005,FE-11976,2029-02-06,833
-C0201,P02,Licencia suite ofimática (usuario/año),Licenciamiento,12,2024-12-12,8355152.601599999,FE-11980,2025-12-12,-319
-C0201,P03,Licencia software de respaldo (servidor/año),Licenciamiento,12,2024-08-01,83789283.1545,FE-11979,2025-08-01,-452
-C0201,P08,Cabina de almacenamiento NAS 40 TB,Almacenamiento,36,2024-08-01,42123426.559200004,FE-11979,2027-08-01,278
-C0202,P07,Equipo portátil empresarial,Infraestructura,36,2025-03-09,4231041.5102,FE-11982,2028-03-09,499
-C0202,P08,Cabina de almacenamiento NAS 40 TB,Almacenamiento,36,2025-06-17,43395876.530999996,FE-11983,2028-06-17,599
-C0202,P09,Discos de respaldo (lote x10),Almacenamiento,24,2026-08-09,3231756.0,FE-11986,2028-08-09,652
-C0203,P09,Discos de respaldo (lote x10),Almacenamiento,24,2025-08-15,14245156.8864,FE-11989,2027-08-15,292
-C0204,P05,Servidor rack 2U,Infraestructura,36,2026-02-18,26816713.1844,FE-12012,2029-02-18,845
-C0204,P06,Switch administrable 48 puertos,Infraestructura,36,2025-06-05,7624099.9678,FE-12005,2028-06-05,587
-C0204,P07,Equipo portátil empresarial,Infraestructura,36,2025-06-05,4583093.3892,FE-12005,2028-06-05,587
-C0204,P08,Cabina de almacenamiento NAS 40 TB,Almacenamiento,36,2026-01-01,19396980.0,FE-12011,2029-01-01,797
-C0204,P09,Discos de respaldo (lote x10),Almacenamiento,24,2026-02-18,3023828.9063999997,FE-12012,2028-02-18,479
-C0205,P01,Licencia antivirus corporativo (usuario/año),Licenciamiento,12,2026-09-01,686340.0,FE-12038,2027-09-01,309
-C0205,P02,Licencia suite ofimática (usuario/año),Licenciamiento,12,2026-04-18,3658320.0,FE-12035,2027-04-18,173
-C0205,P03,Licencia software de respaldo (servidor/año),Licenciamiento,12,2026-09-01,4814136.0,FE-12038,2027-09-01,309
-C0205,P04,Licencia firewall de nueva generación (año),Licenciamiento,12,2026-10-23,33144120.000000004,FE-12039,2027-10-23,361
-C0205,P09,Discos de respaldo (lote x10),Almacenamiento,24,2024-11-22,3609667.4655999998,FE-12020,2026-11-22,26
-C0206,P01,Licencia antivirus corporativo (usuario/año),Licenciamiento,12,2026-09-07,581760.0,FE-12052,2027-09-07,315
-C0206,P02,Licencia suite ofimática (usuario/año),Licenciamiento,12,2025-11-10,2157372.7728,FE-12049,2026-11-10,14
-C0206,P03,Licencia software de respaldo (servidor/año),Licenciamiento,12,2025-11-10,9549859.5512,FE-12049,2026-11-10,14
-C0206,P04,Licencia firewall de nueva generación (año),Licenciamiento,12,2026-08-03,41462496.0,FE-12051,2027-08-03,280
-C0207,P01,Licencia antivirus corporativo (usuario/año),Licenciamiento,12,2026-09-16,2176200.0,FE-12076,2027-09-16,324
-C0207,P02,Licencia suite ofimática (usuario/año),Licenciamiento,12,2026-08-03,2890080.0000000005,FE-12075,2027-08-03,280
-C0207,P03,Licencia software de respaldo (servidor/año),Licenciamiento,12,2026-08-03,38685744.0,FE-12075,2027-08-03,280
-C0207,P04,Licencia firewall de nueva generación (año),Licenciamiento,12,2026-03-01,67056249.5928,FE-12069,2027-03-01,125
-C0207,P08,Cabina de almacenamiento NAS 40 TB,Almacenamiento,36,2026-10-02,19055016.0,FE-12077,2029-10-02,1071
-C0207,P09,Discos de respaldo (lote x10),Almacenamiento,24,2026-04-16,3279096.0,FE-12070,2028-04-16,537
-C0208,P01,Licencia antivirus corporativo (usuario/año),Licenciamiento,12,2026-03-21,289702.8076,FE-12098,2027-03-21,145
-C0208,P02,Licencia suite ofimática (usuario/año),Licenciamiento,12,2026-06-03,1268496.0,FE-12100,2027-06-03,219
-C0208,P03,Licencia software de respaldo (servidor/año),Licenciamiento,12,2026-06-19,9545040.0,FE-12099,2027-06-19,235
-C0208,P04,Licencia firewall de nueva generación (año),Licenciamiento,12,2025-04-02,46796534.576,FE-12088,2026-04-02,-208
-C0209,P05,Servidor rack 2U,Infraestructura,36,2025-06-08,30269771.18,FE-12109,2028-06-08,590
-C0209,P06,Switch administrable 48 puertos,Infraestructura,36,2024-12-24,16825839.3744,FE-12107,2027-12-24,423
-C0209,P07,Equipo portátil empresarial,Infraestructura,36,2025-03-20,4179438.2806,FE-12108,2028-03-20,510
-C0210,P08,Cabina de almacenamiento NAS 40 TB,Almacenamiento,36,2026-02-20,40740823.2052,FE-12119,2029-02-20,847
-C0210,P09,Discos de respaldo (lote x10),Almacenamiento,24,2025-11-01,3204177.9135999996,FE-12117,2027-11-01,370
-C0211,P01,Licencia antivirus corporativo (usuario/año),Licenciamiento,12,2026-06-20,1022688.0,FE-12124,2027-06-20,236
-C0211,P02,Licencia suite ofimática (usuario/año),Licenciamiento,12,2025-10-07,2965652.9999999995,FE-12121,2026-10-07,-20
-C0211,P04,Licencia firewall de nueva generación (año),Licenciamiento,12,2026-05-03,21843782.7776,FE-12123,2027-05-03,188
-C0212,P05,Servidor rack 2U,Infraestructura,36,2024-05-26,31209565.2787,FE-12129,2027-05-26,211
-C0212,P06,Switch administrable 48 puertos,Infraestructura,36,2026-10-04,7182720.0,FE-12133,2029-10-04,1073
-C0212,P07,Equipo portátil empresarial,Infraestructura,36,2026-10-04,4035384.0,FE-12133,2029-10-04,1073
-C0213,P05,Servidor rack 2U,Infraestructura,36,2026-09-19,29002068.0,FE-12141,2029-09-19,1058
-C0213,P06,Switch administrable 48 puertos,Infraestructura,36,2026-09-19,14927039.999999998,FE-12141,2029-09-19,1058
-C0214,P01,Licencia antivirus corporativo (usuario/año),Licenciamiento,12,2025-09-08,731191.6690000001,FE-12151,2026-09-08,-49
-C0214,P02,Licencia suite ofimática (usuario/año),Licenciamiento,12,2025-06-11,2560915.3261999995,FE-12149,2026-06-11,-138
-C0214,P03,Licencia software de respaldo (servidor/año),Licenciamiento,12,2025-09-08,16157101.123800002,FE-12151,2026-09-08,-49
-C0214,P04,Licencia firewall de nueva generación (año),Licenciamiento,12,2025-07-27,37854073.493599996,FE-12150,2026-07-27,-92
-C0214,P06,Switch administrable 48 puertos,Infraestructura,36,2025-09-08,7689388.155800001,FE-12151,2028-09-08,682
-C0214,P08,Cabina de almacenamiento NAS 40 TB,Almacenamiento,36,2026-01-09,18456732.0,FE-12152,2029-01-09,805
-C0214,P09,Discos de respaldo (lote x10),Almacenamiento,24,2026-03-20,3129873.7264,FE-12153,2028-03-20,510
-C0215,P08,Cabina de almacenamiento NAS 40 TB,Almacenamiento,36,2024-07-24,20391166.6258,FE-12154,2027-07-24,270
-C0218,P01,Licencia antivirus corporativo (usuario/año),Licenciamiento,12,2025-12-20,1220508.0,FE-12178,2026-12-20,54
-C0218,P03,Licencia software de respaldo (servidor/año),Licenciamiento,12,2026-05-17,15107651.999999998,FE-12179,2027-05-17,202
-C0218,P04,Licencia firewall de nueva generación (año),Licenciamiento,12,2025-12-20,53537400.0,FE-12178,2026-12-20,54
-C0218,P06,Switch administrable 48 puertos,Infraestructura,36,2026-05-17,7421004.0,FE-12179,2029-05-17,933
-C0218,P07,Equipo portátil empresarial,Infraestructura,36,2026-10-11,8362440.0,FE-12180,2029-10-11,1080
-C0219,P01,Licencia antivirus corporativo (usuario/año),Licenciamiento,12,2025-12-27,1185192.0,FE-12182,2026-12-27,61
-C0219,P06,Switch administrable 48 puertos,Infraestructura,36,2026-04-03,7394472.0,FE-12183,2029-04-03,889
-C0219,P09,Discos de respaldo (lote x10),Almacenamiento,24,2026-04-03,3361824.0,FE-12183,2028-04-03,524
+C0001,P05,Producto F,Cloud & Data Center,36,2025-05-23,32276935.8212,FE-10006,2028-05-23,574
+C0001,P08,Producto A,Cloud & Data Center,36,2025-05-23,22125848.687,FE-10006,2028-05-23,574
+C0001,P09,Producto B,Cloud & Data Center,24,2025-01-19,3363131.7936,FE-10004,2027-01-19,84
+C0002,P05,Producto F,Cloud & Data Center,36,2026-02-02,29070468.0,FE-10016,2029-02-02,829
+C0002,P07,Producto J,End User Solutions,36,2025-11-12,3998534.1509,FE-10015,2028-11-12,747
+C0003,P08,Producto A,Cloud & Data Center,36,2026-06-03,59980392.00000001,FE-10020,2029-06-03,950
+C0003,P09,Producto B,Cloud & Data Center,24,2025-06-02,3322814.8635000004,FE-10018,2027-06-02,218
+C0005,P08,Producto A,Cloud & Data Center,36,2025-03-15,43376212.974599995,FE-10028,2028-03-15,505
+C0005,P09,Producto B,Cloud & Data Center,24,2025-03-15,7187976.919199999,FE-10028,2027-03-15,139
+C0006,P07,Producto J,End User Solutions,36,2024-12-20,17890028.4992,FE-10031,2027-12-20,419
+C0006,P08,Producto A,Cloud & Data Center,36,2024-12-20,44575031.696,FE-10031,2027-12-20,419
+C0007,P02,Producto K,End User Solutions,12,2026-09-05,3896640.0000000005,FE-10038,2027-09-05,313
+C0007,P03,Producto C,Cloud & Data Center,12,2026-01-09,24001956.0,FE-10037,2027-01-09,74
+C0007,P04,Producto I,Cybersecurity,12,2025-12-23,27805320.0,FE-10036,2026-12-23,57
+C0008,P06,Producto G,Cloud & Data Center,36,2026-05-20,7183764.0,FE-10041,2029-05-20,936
+C0008,P07,Producto J,End User Solutions,36,2026-09-12,21377159.999999996,FE-10043,2029-09-12,1051
+C0009,P01,Producto H,Cybersecurity,12,2025-09-25,523822.214,FE-10051,2026-09-25,-32
+C0009,P02,Producto K,End User Solutions,12,2025-07-22,2354023.966,FE-10050,2026-07-22,-97
+C0009,P04,Producto I,Cybersecurity,12,2025-05-12,34234230.2232,FE-10049,2026-05-12,-168
+C0010,P07,Producto J,End User Solutions,36,2025-09-09,8725267.7116,FE-10057,2028-09-09,683
+C0010,P09,Producto B,Cloud & Data Center,24,2025-12-02,3406680.0,FE-10058,2027-12-02,401
+C0011,P06,Producto G,Cloud & Data Center,36,2025-01-01,7987806.2639999995,FE-10060,2028-01-01,431
+C0012,P08,Producto A,Cloud & Data Center,36,2025-01-24,22525302.142,FE-10064,2028-01-24,454
+C0013,P06,Producto G,Cloud & Data Center,36,2024-11-24,8600615.3072,FE-10069,2027-11-24,393
+C0013,P07,Producto J,End User Solutions,36,2024-09-27,13509486.0606,FE-10067,2027-09-27,335
+C0014,P02,Producto K,End User Solutions,12,2026-09-02,956232.0,FE-10070,2027-09-02,310
+C0014,P03,Producto C,Cloud & Data Center,12,2026-09-02,16462368.0,FE-10070,2027-09-02,310
+C0014,P04,Producto I,Cybersecurity,12,2026-10-11,26599860.0,FE-10071,2027-10-11,349
+C0015,P02,Producto K,End User Solutions,12,2024-12-20,1578853.7024,FE-10074,2025-12-20,-311
+C0015,P03,Producto C,Cloud & Data Center,12,2025-07-07,9716720.486399999,FE-10078,2026-07-07,-112
+C0015,P04,Producto I,Cybersecurity,12,2025-01-15,30110455.364500005,FE-10075,2026-01-15,-285
+C0015,P09,Producto B,Cloud & Data Center,24,2025-07-07,3337296.7788,FE-10078,2027-07-07,253
+C0018,P04,Producto I,Cybersecurity,12,2026-10-18,60347807.99999999,FE-10092,2027-10-18,356
+C0019,P01,Producto H,Cybersecurity,12,2026-06-04,2974752.0,FE-10096,2027-06-04,220
+C0019,P02,Producto K,End User Solutions,12,2026-09-21,10432800.0,FE-10098,2027-09-21,329
+C0019,P03,Producto C,Cloud & Data Center,12,2026-09-21,57134592.0,FE-10098,2027-09-21,329
+C0020,P01,Producto H,Cybersecurity,12,2026-09-04,1581552.0,FE-10108,2027-09-04,312
+C0020,P03,Producto C,Cloud & Data Center,12,2026-02-01,30804480.000000004,FE-10104,2027-02-01,97
+C0020,P04,Producto I,Cybersecurity,12,2026-07-04,49277160.0,FE-10107,2027-07-04,250
+C0020,P05,Producto F,Cloud & Data Center,36,2024-04-07,65380668.18799999,FE-10099,2027-04-07,162
+C0022,P01,Producto H,Cybersecurity,12,2025-06-25,412106.36939999997,FE-10118,2026-06-25,-124
+C0022,P03,Producto C,Cloud & Data Center,12,2025-11-11,9677253.638400001,FE-10120,2026-11-11,15
+C0022,P04,Producto I,Cybersecurity,12,2025-11-11,36236093.5146,FE-10120,2026-11-11,15
+C0022,P06,Producto G,Cloud & Data Center,36,2025-06-25,8089813.913500001,FE-10118,2028-06-25,607
+C0022,P07,Producto J,End User Solutions,36,2025-03-17,4642341.345,FE-10116,2028-03-17,507
+C0023,P05,Producto F,Cloud & Data Center,36,2026-07-06,28216908.0,FE-10125,2029-07-06,983
+C0024,P01,Producto H,Cybersecurity,12,2024-11-20,1793923.0848,FE-10129,2025-11-20,-341
+C0024,P02,Producto K,End User Solutions,12,2026-07-27,4729860.000000001,FE-10134,2027-07-27,273
+C0024,P03,Producto C,Cloud & Data Center,12,2026-10-26,22813560.0,FE-10135,2027-10-26,364
+C0024,P04,Producto I,Cybersecurity,12,2026-07-27,52651080.0,FE-10133,2027-07-27,273
+C0024,P08,Producto A,Cloud & Data Center,36,2024-12-15,20099162.2482,FE-10130,2027-12-15,414
+C0025,P08,Producto A,Cloud & Data Center,36,2026-03-12,20412040.311,FE-10145,2029-03-12,867
+C0025,P09,Producto B,Cloud & Data Center,24,2025-03-04,6808849.5540000005,FE-10140,2027-03-04,128
+C0026,P01,Producto H,Cybersecurity,12,2026-09-16,1620828.0,FE-10157,2027-09-16,324
+C0026,P02,Producto K,End User Solutions,12,2026-05-17,4753224.000000001,FE-10154,2027-05-17,202
+C0026,P03,Producto C,Cloud & Data Center,12,2026-04-04,21853440.0,FE-10153,2027-04-04,159
+C0026,P04,Producto I,Cybersecurity,12,2025-03-03,65822554.050000004,FE-10148,2026-03-03,-238
+C0027,P01,Producto H,Cybersecurity,12,2025-12-17,836136.0,FE-10163,2026-12-17,51
+C0027,P02,Producto K,End User Solutions,12,2025-05-16,1178124.4512,FE-10161,2026-05-16,-164
+C0027,P03,Producto C,Cloud & Data Center,12,2025-11-24,11926668.0285,FE-10162,2026-11-24,28
+C0027,P08,Producto A,Cloud & Data Center,36,2025-03-17,21230036.379,FE-10159,2028-03-17,507
+C0028,P05,Producto F,Cloud & Data Center,36,2026-09-10,26740728.0,FE-10168,2029-09-10,1049
+C0028,P07,Producto J,End User Solutions,36,2026-07-07,4288320.0,FE-10166,2029-07-07,984
+C0029,P02,Producto K,End User Solutions,12,2024-12-05,2093016.1428,FE-10174,2025-12-05,-326
+C0029,P04,Producto I,Cybersecurity,12,2025-06-16,16324976.7174,FE-10177,2026-06-16,-133
+C0029,P05,Producto F,Cloud & Data Center,36,2025-04-15,55720944.9888,FE-10176,2028-04-15,536
+C0029,P06,Producto G,Cloud & Data Center,36,2025-06-16,8442607.295200001,FE-10177,2028-06-16,598
+C0029,P08,Producto A,Cloud & Data Center,36,2025-06-16,21624284.8932,FE-10177,2028-06-16,598
+C0032,P08,Producto A,Cloud & Data Center,36,2024-08-25,19540787.5332,FE-10221,2027-08-25,302
+C0032,P09,Producto B,Cloud & Data Center,24,2024-11-01,6733974.8054,FE-10222,2026-11-01,5
+C0033,P03,Producto C,Cloud & Data Center,12,2026-10-13,8228160.0,FE-10224,2027-10-13,351
+C0033,P04,Producto I,Cybersecurity,12,2026-10-13,25732259.999999996,FE-10224,2027-10-13,351
+C0034,P09,Producto B,Cloud & Data Center,24,2026-10-07,3404988.0,FE-10225,2028-10-07,711
+C0035,P05,Producto F,Cloud & Data Center,36,2025-10-03,29245090.4424,FE-10234,2028-10-03,707
+C0035,P06,Producto G,Cloud & Data Center,36,2026-08-04,7348032.0,FE-10241,2029-08-04,1012
+C0035,P07,Producto J,End User Solutions,36,2025-12-14,4394988.0,FE-10236,2028-12-14,779
+C0036,P04,Producto I,Cybersecurity,12,2026-10-24,54285840.00000001,FE-10244,2027-10-24,362
+C0036,P09,Producto B,Cloud & Data Center,24,2026-10-24,3341484.0,FE-10244,2028-10-24,728
+C0037,P08,Producto A,Cloud & Data Center,36,2026-09-20,18727308.0,FE-10263,2029-09-20,1059
+C0037,P09,Producto B,Cloud & Data Center,24,2026-09-20,3065292.0,FE-10263,2028-09-20,694
+C0038,P01,Producto H,Cybersecurity,12,2026-10-21,714960.0,FE-10274,2027-10-21,359
+C0038,P03,Producto C,Cloud & Data Center,12,2026-05-20,8662464.0,FE-10272,2027-05-20,205
+C0038,P04,Producto I,Cybersecurity,12,2026-09-03,32101272.0,FE-10273,2027-09-03,311
+C0038,P08,Producto A,Cloud & Data Center,36,2025-12-23,41791608.0,FE-10271,2028-12-23,788
+C0039,P01,Producto H,Cybersecurity,12,2024-11-15,421365.7536,FE-10275,2025-11-15,-346
+C0039,P02,Producto K,End User Solutions,12,2024-11-15,350674.0688,FE-10275,2025-11-15,-346
+C0039,P08,Producto A,Cloud & Data Center,36,2025-03-26,20734881.142600004,FE-10276,2028-03-26,516
+C0039,P09,Producto B,Cloud & Data Center,24,2025-03-26,3312091.2822000002,FE-10276,2027-03-26,150
+C0040,P01,Producto H,Cybersecurity,12,2026-10-24,389664.0,FE-10298,2027-10-24,362
+C0040,P03,Producto C,Cloud & Data Center,12,2026-07-05,14979635.999999998,FE-10297,2027-07-05,251
+C0040,P04,Producto I,Cybersecurity,12,2026-07-24,27370979.999999996,FE-10296,2027-07-24,270
+C0041,P01,Producto H,Cybersecurity,12,2026-02-26,539455.4400000001,FE-10311,2027-02-26,122
+C0041,P03,Producto C,Cloud & Data Center,12,2026-02-26,6807455.52,FE-10311,2027-02-26,122
+C0041,P04,Producto I,Cybersecurity,12,2026-03-17,20312642.714399997,FE-10312,2027-03-17,141
+C0041,P08,Producto A,Cloud & Data Center,36,2026-07-12,18680148.0,FE-10315,2029-07-12,989
+C0041,P09,Producto B,Cloud & Data Center,24,2026-08-08,6184224.0,FE-10316,2028-08-08,651
+C0043,P05,Producto F,Cloud & Data Center,36,2025-09-08,90088280.47440001,FE-10330,2028-09-08,682
+C0043,P06,Producto G,Cloud & Data Center,36,2024-04-16,33832232.4052,FE-10323,2027-04-16,171
+C0043,P07,Producto J,End User Solutions,36,2026-05-22,8828928.0,FE-10336,2029-05-22,938
+C0044,P03,Producto C,Cloud & Data Center,12,2025-01-04,29385140.7672,FE-10339,2026-01-04,-296
+C0044,P05,Producto F,Cloud & Data Center,36,2024-10-13,31395767.915299997,FE-10337,2027-10-13,351
+C0045,P07,Producto J,End User Solutions,36,2025-05-08,4372437.5248,FE-10341,2028-05-08,559
+C0046,P01,Producto H,Cybersecurity,12,2025-12-17,1111104.0,FE-10352,2026-12-17,51
+C0046,P02,Producto K,End User Solutions,12,2026-01-16,3127248.0,FE-10353,2027-01-16,81
+C0046,P03,Producto C,Cloud & Data Center,12,2026-06-01,20266848.0,FE-10354,2027-06-01,217
+C0046,P04,Producto I,Cybersecurity,12,2026-09-11,21795408.0,FE-10357,2027-09-11,319
+C0047,P06,Producto G,Cloud & Data Center,36,2026-03-24,7730295.462400001,FE-10377,2029-03-24,879
+C0047,P07,Producto J,End User Solutions,36,2026-04-16,4154652.0,FE-10378,2029-04-16,902
+C0047,P08,Producto A,Cloud & Data Center,36,2025-04-01,22776651.6808,FE-10369,2028-04-01,522
+C0047,P09,Producto B,Cloud & Data Center,24,2026-06-04,3100104.0,FE-10379,2028-06-04,586
+C0048,P05,Producto F,Cloud & Data Center,36,2026-08-26,28373796.0,FE-10383,2029-08-26,1034
+C0048,P06,Producto G,Cloud & Data Center,36,2026-08-26,7310340.0,FE-10383,2029-08-26,1034
+C0048,P09,Producto B,Cloud & Data Center,24,2026-09-13,2995920.0,FE-10384,2028-09-13,687
+C0049,P01,Producto H,Cybersecurity,12,2026-06-20,2205504.0,FE-10392,2027-06-20,236
+C0049,P03,Producto C,Cloud & Data Center,12,2026-07-07,20549520.000000004,FE-10393,2027-07-07,253
+C0050,P02,Producto K,End User Solutions,12,2025-05-11,5223264.4184,FE-10397,2026-05-11,-169
+C0050,P04,Producto I,Cybersecurity,12,2024-11-27,92198660.2782,FE-10396,2025-11-27,-334
+C0051,P01,Producto H,Cybersecurity,12,2026-01-16,2277719.9999999995,FE-10407,2027-01-16,81
+C0051,P02,Producto K,End User Solutions,12,2025-08-27,4711153.7256000005,FE-10405,2026-08-27,-61
+C0051,P03,Producto C,Cloud & Data Center,12,2025-10-03,21548053.245,FE-10406,2026-10-03,-24
+C0051,P04,Producto I,Cybersecurity,12,2025-05-27,86080919.39250001,FE-10403,2026-05-27,-153
+C0052,P08,Producto A,Cloud & Data Center,36,2025-11-12,20847401.3711,FE-10423,2028-11-12,747
+C0052,P09,Producto B,Cloud & Data Center,24,2026-10-06,3482064.0,FE-10431,2028-10-06,710
+C0053,P03,Producto C,Cloud & Data Center,12,2026-10-07,15257592.0,FE-10434,2027-10-07,345
+C0053,P04,Producto I,Cybersecurity,12,2026-09-13,22302720.0,FE-10433,2027-09-13,321
+C0054,P05,Producto F,Cloud & Data Center,36,2025-12-03,28686960.0,FE-10447,2028-12-03,768
+C0054,P06,Producto G,Cloud & Data Center,36,2026-06-18,7857036.000000001,FE-10452,2029-06-18,965
+C0054,P07,Producto J,End User Solutions,36,2026-01-26,3894372.0,FE-10448,2029-01-26,822
+C0054,P08,Producto A,Cloud & Data Center,36,2025-07-24,18947447.860000003,FE-10443,2028-07-24,636
+C0054,P09,Producto B,Cloud & Data Center,24,2026-06-18,3252852.0,FE-10452,2028-06-18,600
+C0055,P01,Producto H,Cybersecurity,12,2024-08-09,2768961.9420000003,FE-10456,2025-08-09,-444
+C0055,P02,Producto K,End User Solutions,12,2026-03-14,12001918.648199998,FE-10461,2027-03-14,138
+C0055,P05,Producto F,Cloud & Data Center,36,2025-09-16,29761455.4678,FE-10459,2028-09-16,690
+C0055,P07,Producto J,End User Solutions,36,2025-02-05,8378271.191999999,FE-10457,2028-02-05,466
+C0057,P06,Producto G,Cloud & Data Center,36,2025-05-19,15245159.1644,FE-10473,2028-05-19,570
+C0057,P07,Producto J,End User Solutions,36,2026-08-04,12671208.0,FE-10476,2029-08-04,1012
+C0058,P05,Producto F,Cloud & Data Center,36,2024-11-24,30166891.8208,FE-10480,2027-11-24,393
+C0058,P06,Producto G,Cloud & Data Center,36,2024-03-07,8938558.9932,FE-10477,2027-03-07,131
+C0058,P07,Producto J,End User Solutions,36,2025-12-23,3857184.0,FE-10483,2028-12-23,788
+C0060,P01,Producto H,Cybersecurity,12,2025-06-07,425818.437,FE-10496,2026-06-07,-142
+C0060,P02,Producto K,End User Solutions,12,2025-06-07,1490325.896,FE-10496,2026-06-07,-142
+C0060,P03,Producto C,Cloud & Data Center,12,2025-07-07,11392007.778,FE-10497,2026-07-07,-112
+C0060,P04,Producto I,Cybersecurity,12,2024-12-05,41639818.5462,FE-10494,2025-12-05,-326
+C0060,P08,Producto A,Cloud & Data Center,36,2024-12-05,21551458.5528,FE-10494,2027-12-05,404
+C0060,P09,Producto B,Cloud & Data Center,24,2025-07-07,3245203.7856,FE-10497,2027-07-07,253
+C0061,P03,Producto C,Cloud & Data Center,12,2025-02-21,53842668.187,FE-10504,2026-02-21,-248
+C0061,P04,Producto I,Cybersecurity,12,2024-09-27,50675944.496,FE-10502,2025-09-27,-395
+C0064,P01,Producto H,Cybersecurity,12,2025-12-21,1132992.0,FE-10536,2026-12-21,55
+C0064,P03,Producto C,Cloud & Data Center,12,2026-03-13,25591442.3336,FE-10537,2027-03-13,137
+C0064,P06,Producto G,Cloud & Data Center,36,2025-04-12,8691477.984,FE-10533,2028-04-12,533
+C0064,P07,Producto J,End User Solutions,36,2025-03-13,4122861.9039999996,FE-10532,2028-03-13,503
+C0065,P08,Producto A,Cloud & Data Center,36,2025-01-07,21989055.6446,FE-10543,2028-01-07,437
+C0065,P09,Producto B,Cloud & Data Center,24,2024-09-01,3124518.536,FE-10540,2026-09-01,-56
+C0066,P02,Producto K,End User Solutions,12,2026-05-20,2525291.9999999995,FE-10556,2027-05-20,205
+C0066,P03,Producto C,Cloud & Data Center,12,2026-03-03,23587777.976,FE-10554,2027-03-03,127
+C0066,P05,Producto F,Cloud & Data Center,36,2025-08-14,57897440.932799995,FE-10552,2028-08-14,657
+C0066,P07,Producto J,End User Solutions,36,2026-05-20,7689600.0,FE-10556,2029-05-20,936
+C0068,P01,Producto H,Cybersecurity,12,2025-07-06,3512742.0743999993,FE-10566,2026-07-06,-113
+C0068,P04,Producto I,Cybersecurity,12,2026-07-06,168708960.0,FE-10567,2027-07-06,252
+C0068,P06,Producto G,Cloud & Data Center,36,2025-07-06,7754154.4905,FE-10566,2028-07-06,618
+C0069,P01,Producto H,Cybersecurity,12,2026-09-04,1424520.0,FE-10588,2027-09-04,312
+C0069,P02,Producto K,End User Solutions,12,2026-07-20,6626591.999999999,FE-10586,2027-07-20,266
+C0069,P03,Producto C,Cloud & Data Center,12,2026-03-05,16589376.0,FE-10583,2027-03-05,129
+C0069,P04,Producto I,Cybersecurity,12,2026-08-11,40975488.0,FE-10587,2027-08-11,288
+C0072,P02,Producto K,End User Solutions,12,2026-09-25,4591080.0,FE-10608,2027-09-25,333
+C0072,P06,Producto G,Cloud & Data Center,36,2026-09-25,21612204.0,FE-10608,2029-09-25,1064
+C0073,P08,Producto A,Cloud & Data Center,36,2026-08-06,18445680.0,FE-10609,2029-08-06,1014
+C0075,P05,Producto F,Cloud & Data Center,36,2026-06-13,26488836.0,FE-10618,2029-06-13,960
+C0075,P06,Producto G,Cloud & Data Center,36,2026-10-04,7139592.0,FE-10619,2029-10-04,1073
+C0075,P07,Producto J,End User Solutions,36,2025-11-04,4401576.0,FE-10615,2028-11-04,739
+C0080,P01,Producto H,Cybersecurity,12,2025-06-01,2257334.5535999998,FE-10652,2026-06-01,-148
+C0080,P02,Producto K,End User Solutions,12,2025-06-01,1346970.4416,FE-10652,2026-06-01,-148
+C0080,P05,Producto F,Cloud & Data Center,36,2024-11-08,86018040.5175,FE-10651,2027-11-08,377
+C0080,P07,Producto J,End User Solutions,36,2025-06-01,4597530.663600001,FE-10652,2028-06-01,583
+C0081,P01,Producto H,Cybersecurity,12,2026-10-22,259055.99999999997,FE-10680,2027-10-22,360
+C0081,P03,Producto C,Cloud & Data Center,12,2026-09-22,19110492.0,FE-10679,2027-09-22,330
+C0081,P04,Producto I,Cybersecurity,12,2026-10-17,15016751.999999998,FE-10681,2027-10-17,355
+C0081,P05,Producto F,Cloud & Data Center,36,2026-10-17,26818164.0,FE-10681,2029-10-17,1086
+C0081,P06,Producto G,Cloud & Data Center,36,2025-12-22,7128648.0,FE-10670,2028-12-22,787
+C0081,P07,Producto J,End User Solutions,36,2026-05-01,4257319.588699999,FE-10675,2029-05-01,917
+C0081,P08,Producto A,Cloud & Data Center,36,2024-08-14,19786447.9101,FE-10658,2027-08-14,291
+C0082,P05,Producto F,Cloud & Data Center,36,2024-07-04,30271740.538000003,FE-10682,2027-07-04,250
+C0082,P06,Producto G,Cloud & Data Center,36,2025-07-19,7764027.1038,FE-10684,2028-07-19,631
+C0082,P07,Producto J,End User Solutions,36,2025-01-03,4584971.664000001,FE-10683,2028-01-03,433
+C0083,P05,Producto F,Cloud & Data Center,36,2026-10-16,26009676.0,FE-10704,2029-10-16,1085
+C0083,P06,Producto G,Cloud & Data Center,36,2025-11-05,7020504.0,FE-10696,2028-11-05,740
+C0083,P07,Producto J,End User Solutions,36,2026-09-26,3970764.0,FE-10703,2029-09-26,1065
+C0084,P05,Producto F,Cloud & Data Center,36,2026-06-03,29016108.0,FE-10722,2029-06-03,950
+C0084,P06,Producto G,Cloud & Data Center,36,2026-10-27,7365708.0,FE-10725,2029-10-27,1096
+C0084,P07,Producto J,End User Solutions,36,2026-04-17,3939372.0,FE-10720,2029-04-17,903
+C0085,P09,Producto B,Cloud & Data Center,24,2026-09-05,3156480.0,FE-10735,2028-09-05,679
+C0086,P01,Producto H,Cybersecurity,12,2026-06-08,1000440.0000000001,FE-10755,2027-06-08,224
+C0086,P02,Producto K,End User Solutions,12,2026-02-19,1779793.4370000002,FE-10752,2027-02-19,115
+C0086,P03,Producto C,Cloud & Data Center,12,2025-12-25,12560616.0,FE-10751,2026-12-25,59
+C0086,P04,Producto I,Cybersecurity,12,2026-10-11,14932404.000000002,FE-10759,2027-10-11,349
+C0086,P08,Producto A,Cloud & Data Center,36,2026-09-15,19256004.0,FE-10758,2029-09-15,1054
+C0087,P08,Producto A,Cloud & Data Center,36,2026-10-13,18832068.0,FE-10776,2029-10-13,1082
+C0087,P09,Producto B,Cloud & Data Center,24,2026-10-13,3475152.0,FE-10776,2028-10-13,717
+C0088,P05,Producto F,Cloud & Data Center,36,2026-09-27,26324928.0,FE-10800,2029-09-27,1066
+C0088,P06,Producto G,Cloud & Data Center,36,2026-04-07,7325100.0,FE-10796,2029-04-07,893
+C0088,P07,Producto J,End User Solutions,36,2026-09-27,3941856.0,FE-10800,2029-09-27,1066
+C0089,P05,Producto F,Cloud & Data Center,36,2026-08-19,110191248.0,FE-10808,2029-08-19,1027
+C0089,P06,Producto G,Cloud & Data Center,36,2026-08-19,8020152.000000001,FE-10808,2029-08-19,1027
+C0089,P07,Producto J,End User Solutions,36,2025-12-26,4422492.0,FE-10806,2028-12-26,791
+C0090,P05,Producto F,Cloud & Data Center,36,2026-09-14,28778544.0,FE-10810,2029-09-14,1053
+C0091,P08,Producto A,Cloud & Data Center,36,2026-10-01,38437416.0,FE-10839,2029-10-01,1070
+C0091,P09,Producto B,Cloud & Data Center,24,2026-09-02,3395304.0,FE-10838,2028-09-02,676
+C0092,P01,Producto H,Cybersecurity,12,2026-03-21,817626.6192000001,FE-10852,2027-03-21,145
+C0092,P04,Producto I,Cybersecurity,12,2026-05-24,10757808.0,FE-10853,2027-05-24,209
+C0092,P05,Producto F,Cloud & Data Center,36,2026-02-11,29286465.537,FE-10851,2029-02-11,838
+C0092,P07,Producto J,End User Solutions,36,2026-02-11,4259404.401,FE-10851,2029-02-11,838
+C0093,P05,Producto F,Cloud & Data Center,36,2026-08-15,54646848.0,FE-10854,2029-08-15,1023
+C0093,P06,Producto G,Cloud & Data Center,36,2026-10-26,7959132.0,FE-10855,2029-10-26,1095
+C0093,P07,Producto J,End User Solutions,36,2026-10-26,4436892.0,FE-10855,2029-10-26,1095
+C0094,P08,Producto A,Cloud & Data Center,36,2026-06-04,19209204.0,FE-10873,2029-06-04,951
+C0094,P09,Producto B,Cloud & Data Center,24,2026-06-04,3120588.0,FE-10873,2028-06-04,586
+C0095,P01,Producto H,Cybersecurity,12,2026-07-04,1506779.9999999998,FE-10896,2027-07-04,250
+C0095,P02,Producto K,End User Solutions,12,2026-05-18,6296904.0,FE-10894,2027-05-18,203
+C0095,P03,Producto C,Cloud & Data Center,12,2026-03-03,27148367.336999997,FE-10892,2027-03-03,127
+C0096,P02,Producto K,End User Solutions,12,2025-06-07,3854077.96,FE-10902,2026-06-07,-142
+C0096,P03,Producto C,Cloud & Data Center,12,2025-07-16,24286545.09,FE-10903,2026-07-16,-103
+C0096,P06,Producto G,Cloud & Data Center,36,2025-07-16,8631701.901,FE-10903,2028-07-16,628
+C0096,P08,Producto A,Cloud & Data Center,36,2025-07-16,21390693.435000002,FE-10903,2028-07-16,628
+C0097,P03,Producto C,Cloud & Data Center,12,2026-10-25,6834239.999999999,FE-10906,2027-10-25,363
+C0097,P04,Producto I,Cybersecurity,12,2026-10-25,26290979.999999996,FE-10906,2027-10-25,363
+C0097,P08,Producto A,Cloud & Data Center,36,2026-09-24,36259992.0,FE-10905,2029-09-24,1063
+C0097,P09,Producto B,Cloud & Data Center,24,2026-09-24,3393396.0,FE-10905,2028-09-24,698
+C0098,P05,Producto F,Cloud & Data Center,36,2026-03-25,29535840.0,FE-10913,2029-03-25,880
+C0098,P06,Producto G,Cloud & Data Center,36,2025-11-21,7483735.050000001,FE-10912,2028-11-21,756
+C0098,P08,Producto A,Cloud & Data Center,36,2026-03-25,18739404.0,FE-10913,2029-03-25,880
+C0098,P09,Producto B,Cloud & Data Center,24,2025-02-16,3254641.6385999997,FE-10909,2027-02-16,112
+C0101,P08,Producto A,Cloud & Data Center,36,2026-06-27,20509236.0,FE-10939,2029-06-27,974
+C0103,P02,Producto K,End User Solutions,12,2026-06-15,4874580.0,FE-10952,2027-06-15,231
+C0103,P04,Producto I,Cybersecurity,12,2026-10-25,53243640.0,FE-10953,2027-10-25,363
+C0104,P05,Producto F,Cloud & Data Center,36,2026-10-02,26703252.0,FE-10955,2029-10-02,1071
+C0105,P01,Producto H,Cybersecurity,12,2025-12-13,1150560.0,FE-10961,2026-12-13,47
+C0105,P02,Producto K,End User Solutions,12,2026-09-01,1745279.9999999998,FE-10963,2027-09-01,309
+C0105,P04,Producto I,Cybersecurity,12,2026-09-01,27709020.000000004,FE-10963,2027-09-01,309
+C0105,P05,Producto F,Cloud & Data Center,36,2025-12-13,28030680.0,FE-10961,2028-12-13,778
+C0105,P06,Producto G,Cloud & Data Center,36,2024-07-10,8428373.268,FE-10959,2027-07-10,256
+C0105,P07,Producto J,End User Solutions,36,2024-07-10,4705886.9676,FE-10959,2027-07-10,256
+C0106,P08,Producto A,Cloud & Data Center,36,2026-10-22,36023112.0,FE-10965,2029-10-22,1091
+C0108,P02,Producto K,End User Solutions,12,2026-02-27,2124245.4336,FE-10973,2027-02-27,123
+C0108,P08,Producto A,Cloud & Data Center,36,2026-02-27,18775414.3008,FE-10973,2029-02-27,854
+C0109,P03,Producto C,Cloud & Data Center,12,2026-10-26,6736176.0,FE-10980,2027-10-26,364
+C0109,P04,Producto I,Cybersecurity,12,2026-07-25,40899168.0,FE-10979,2027-07-25,271
+C0113,P01,Producto H,Cybersecurity,12,2026-09-25,2184300.0,FE-11026,2027-09-25,333
+C0113,P02,Producto K,End User Solutions,12,2026-10-14,5587776.0,FE-11027,2027-10-14,352
+C0113,P03,Producto C,Cloud & Data Center,12,2026-08-16,17631072.0,FE-11025,2027-08-16,293
+C0114,P05,Producto F,Cloud & Data Center,36,2026-08-08,54710928.0,FE-11049,2029-08-08,1016
+C0114,P06,Producto G,Cloud & Data Center,36,2026-09-19,16191000.0,FE-11050,2029-09-19,1058
+C0114,P07,Producto J,End User Solutions,36,2026-06-01,4365936.0,FE-11047,2029-06-01,948
+C0115,P02,Producto K,End User Solutions,12,2026-03-12,316974.814,FE-11071,2027-03-12,136
+C0115,P03,Producto C,Cloud & Data Center,12,2026-06-21,8876304.0,FE-11073,2027-06-21,237
+C0115,P04,Producto I,Cybersecurity,12,2026-05-19,27571680.0,FE-11072,2027-05-19,204
+C0115,P05,Producto F,Cloud & Data Center,36,2026-10-26,59878872.0,FE-11075,2029-10-26,1095
+C0115,P06,Producto G,Cloud & Data Center,36,2025-08-18,7336881.798400001,FE-11064,2028-08-18,661
+C0115,P07,Producto J,End User Solutions,36,2025-08-18,4092143.4246000005,FE-11064,2028-08-18,661
+C0115,P09,Producto B,Cloud & Data Center,24,2026-09-05,3333060.0,FE-11074,2028-09-05,679
+C0117,P01,Producto H,Cybersecurity,12,2026-10-07,506592.0,FE-11088,2027-10-07,345
+C0117,P02,Producto K,End User Solutions,12,2026-09-11,2241287.9999999995,FE-11086,2027-09-11,319
+C0117,P08,Producto A,Cloud & Data Center,36,2025-11-17,18642429.244999997,FE-11083,2028-11-17,752
+C0117,P09,Producto B,Cloud & Data Center,24,2026-06-23,3405780.0,FE-11085,2028-06-23,605
+C0119,P05,Producto F,Cloud & Data Center,36,2025-06-13,128423193.36479999,FE-11104,2028-06-13,595
+C0119,P06,Producto G,Cloud & Data Center,36,2026-10-20,15463224.0,FE-11115,2029-10-20,1089
+C0119,P07,Producto J,End User Solutions,36,2026-06-03,4405824.0,FE-11114,2029-06-03,950
+C0120,P06,Producto G,Cloud & Data Center,36,2026-03-12,15693637.622,FE-11126,2029-03-12,867
+C0121,P02,Producto K,End User Solutions,12,2026-06-06,5239620.0,FE-11135,2027-06-06,222
+C0121,P04,Producto I,Cybersecurity,12,2026-02-17,48406683.304,FE-11133,2027-02-17,113
+C0121,P05,Producto F,Cloud & Data Center,36,2025-12-15,26736480.0,FE-11132,2028-12-15,780
+C0121,P06,Producto G,Cloud & Data Center,36,2026-04-11,15786288.0,FE-11134,2029-04-11,897
+C0121,P07,Producto J,End User Solutions,36,2026-04-11,3942576.0000000005,FE-11134,2029-04-11,897
+C0122,P01,Producto H,Cybersecurity,12,2024-06-02,1058317.2446,FE-11136,2025-06-02,-512
+C0122,P02,Producto K,End User Solutions,12,2026-06-02,1634400.0,FE-11146,2027-06-02,218
+C0122,P03,Producto C,Cloud & Data Center,12,2026-07-17,22910976.0,FE-11147,2027-07-17,263
+C0122,P04,Producto I,Cybersecurity,12,2025-08-25,57051564.936,FE-11144,2026-08-25,-63
+C0123,P06,Producto G,Cloud & Data Center,36,2024-11-08,8136780.561,FE-11151,2027-11-08,377
+C0123,P07,Producto J,End User Solutions,36,2024-10-06,4098723.3372,FE-11150,2027-10-06,344
+C0124,P05,Producto F,Cloud & Data Center,36,2024-12-16,32351939.220100004,FE-11155,2027-12-16,415
+C0124,P06,Producto G,Cloud & Data Center,36,2024-12-16,7944814.3026,FE-11155,2027-12-16,415
+C0124,P07,Producto J,End User Solutions,36,2024-12-16,4266754.3057,FE-11155,2027-12-16,415
+C0125,P06,Producto G,Cloud & Data Center,36,2024-11-07,8509952.735100001,FE-11156,2027-11-07,376
+C0126,P01,Producto H,Cybersecurity,12,2026-07-19,550944.0,FE-11178,2027-07-19,265
+C0126,P02,Producto K,End User Solutions,12,2026-08-24,967464.0,FE-11180,2027-08-24,301
+C0126,P03,Producto C,Cloud & Data Center,12,2026-06-18,16322796.000000002,FE-11177,2027-06-18,234
+C0126,P04,Producto I,Cybersecurity,12,2026-09-05,44782848.0,FE-11181,2027-09-05,313
+C0127,P09,Producto B,Cloud & Data Center,24,2026-09-26,6371424.0,FE-11191,2028-09-26,700
+C0129,P08,Producto A,Cloud & Data Center,36,2025-11-15,18735654.7256,FE-11211,2028-11-15,750
+C0129,P09,Producto B,Cloud & Data Center,24,2026-07-20,3231720.0,FE-11213,2028-07-20,632
+C0130,P08,Producto A,Cloud & Data Center,36,2025-09-08,62604929.89920001,FE-11218,2028-09-08,682
+C0130,P09,Producto B,Cloud & Data Center,24,2026-04-14,3093156.0,FE-11222,2028-04-14,535
+C0131,P05,Producto F,Cloud & Data Center,36,2026-02-22,26480659.478900004,FE-11231,2029-02-22,849
+C0131,P06,Producto G,Cloud & Data Center,36,2026-02-22,7204627.7508000005,FE-11231,2029-02-22,849
+C0131,P07,Producto J,End User Solutions,36,2026-01-11,4184928.0,FE-11230,2029-01-11,807
+C0132,P01,Producto H,Cybersecurity,12,2025-04-26,1108670.1832,FE-11238,2026-04-26,-184
+C0132,P02,Producto K,End User Solutions,12,2026-07-07,1650600.0,FE-11243,2027-07-07,253
+C0132,P03,Producto C,Cloud & Data Center,12,2025-12-21,4625280.0,FE-11241,2026-12-21,55
+C0132,P05,Producto F,Cloud & Data Center,36,2025-10-22,30534072.0048,FE-11240,2028-10-22,726
+C0132,P06,Producto G,Cloud & Data Center,36,2026-06-25,6988896.0,FE-11242,2029-06-25,972
+C0132,P07,Producto J,End User Solutions,36,2026-06-25,4435632.0,FE-11242,2029-06-25,972
+C0133,P02,Producto K,End User Solutions,12,2026-10-12,3479256.0,FE-11244,2027-10-12,350
+C0134,P05,Producto F,Cloud & Data Center,36,2025-12-12,25900092.0,FE-11260,2028-12-12,777
+C0134,P06,Producto G,Cloud & Data Center,36,2024-10-27,8400734.104,FE-11249,2027-10-27,365
+C0134,P07,Producto J,End User Solutions,36,2025-03-19,4246369.595,FE-11254,2028-03-19,509
+C0134,P08,Producto A,Cloud & Data Center,36,2025-09-15,19720445.09,FE-11257,2028-09-15,689
+C0134,P09,Producto B,Cloud & Data Center,24,2025-02-07,3748444.4933,FE-11253,2027-02-07,103
+C0135,P05,Producto F,Cloud & Data Center,36,2026-06-14,27067284.0,FE-11284,2029-06-14,961
+C0135,P06,Producto G,Cloud & Data Center,36,2024-10-02,24156344.539799996,FE-11268,2027-10-02,340
+C0135,P07,Producto J,End User Solutions,36,2025-11-27,12300488.297400001,FE-11278,2028-11-27,762
+C0135,P08,Producto A,Cloud & Data Center,36,2026-01-21,18043020.0,FE-11280,2029-01-21,817
+C0135,P09,Producto B,Cloud & Data Center,24,2026-04-08,3185136.0,FE-11283,2028-04-08,529
+C0136,P01,Producto H,Cybersecurity,12,2026-08-16,999180.0,FE-11314,2027-08-16,293
+C0136,P02,Producto K,End User Solutions,12,2026-09-01,1467072.0,FE-11315,2027-09-01,309
+C0136,P03,Producto C,Cloud & Data Center,12,2024-06-19,14235681.3888,FE-11291,2025-06-19,-495
+C0136,P04,Producto I,Cybersecurity,12,2026-10-18,37899540.0,FE-11316,2027-10-18,356
+C0137,P02,Producto K,End User Solutions,12,2026-01-27,7375895.999999999,FE-11333,2027-01-27,92
+C0137,P04,Producto I,Cybersecurity,12,2025-12-25,96067800.0,FE-11332,2026-12-25,59
+C0137,P08,Producto A,Cloud & Data Center,36,2025-02-16,21494720.290999997,FE-11323,2028-02-16,477
+C0137,P09,Producto B,Cloud & Data Center,24,2025-08-19,3603068.393,FE-11328,2027-08-19,296
+C0138,P01,Producto H,Cybersecurity,12,2026-10-15,2018015.9999999998,FE-11340,2027-10-15,353
+C0138,P03,Producto C,Cloud & Data Center,12,2026-10-15,25723008.000000004,FE-11340,2027-10-15,353
+C0138,P04,Producto I,Cybersecurity,12,2026-08-20,67942728.0,FE-11339,2027-08-20,297
+C0138,P08,Producto A,Cloud & Data Center,36,2026-10-15,18820260.0,FE-11340,2029-10-15,1084
+C0139,P02,Producto K,End User Solutions,12,2026-02-06,6260148.0,FE-11344,2027-02-06,102
+C0139,P04,Producto I,Cybersecurity,12,2026-08-14,67404096.0,FE-11346,2027-08-14,291
+C0139,P08,Producto A,Cloud & Data Center,36,2025-06-24,19311161.7784,FE-11343,2028-06-24,606
+C0140,P01,Producto H,Cybersecurity,12,2026-03-01,785672.6496,FE-11350,2027-03-01,125
+C0140,P03,Producto C,Cloud & Data Center,12,2026-03-01,35318682.598400004,FE-11350,2027-03-01,125
+C0140,P08,Producto A,Cloud & Data Center,36,2024-10-19,22238853.2695,FE-11347,2027-10-19,357
+C0140,P09,Producto B,Cloud & Data Center,24,2025-02-26,3299708.8992,FE-11348,2027-02-26,122
+C0141,P06,Producto G,Cloud & Data Center,36,2026-10-02,7179264.0,FE-11353,2029-10-02,1071
+C0141,P08,Producto A,Cloud & Data Center,36,2026-10-02,18072792.0,FE-11353,2029-10-02,1071
+C0141,P09,Producto B,Cloud & Data Center,24,2026-09-27,3120012.0,FE-11352,2028-09-27,701
+C0142,P03,Producto C,Cloud & Data Center,12,2026-09-19,2237436.0,FE-11356,2027-09-19,327
+C0142,P09,Producto B,Cloud & Data Center,24,2026-09-19,3394188.0,FE-11356,2028-09-19,693
+C0143,P08,Producto A,Cloud & Data Center,36,2024-05-15,20216985.4124,FE-11358,2027-05-15,200
+C0143,P09,Producto B,Cloud & Data Center,24,2025-10-15,3470252.0130000003,FE-11362,2027-10-15,353
+C0147,P01,Producto H,Cybersecurity,12,2026-10-26,818208.0000000001,FE-11392,2027-10-26,364
+C0147,P02,Producto K,End User Solutions,12,2026-02-20,2869561.3736,FE-11390,2027-02-20,116
+C0149,P01,Producto H,Cybersecurity,12,2025-03-27,283118.8932,FE-11401,2026-03-27,-214
+C0149,P02,Producto K,End User Solutions,12,2025-06-16,1073246.5038,FE-11403,2026-06-16,-133
+C0149,P03,Producto C,Cloud & Data Center,12,2025-03-27,15398875.720800001,FE-11401,2026-03-27,-214
+C0149,P04,Producto I,Cybersecurity,12,2026-01-20,33582384.0,FE-11407,2027-01-20,85
+C0149,P05,Producto F,Cloud & Data Center,36,2026-01-20,29086092.0,FE-11407,2029-01-20,816
+C0149,P07,Producto J,End User Solutions,36,2026-04-03,4269780.0,FE-11408,2029-04-03,889
+C0149,P08,Producto A,Cloud & Data Center,36,2025-05-26,20315391.9456,FE-11402,2028-05-26,577
+C0150,P01,Producto H,Cybersecurity,12,2026-10-21,2926152.0,FE-11434,2027-10-21,359
+C0150,P02,Producto K,End User Solutions,12,2026-09-23,10033884.0,FE-11432,2027-09-23,331
+C0150,P03,Producto C,Cloud & Data Center,12,2026-06-21,68784984.0,FE-11429,2027-06-21,237
+C0150,P04,Producto I,Cybersecurity,12,2026-10-17,159437592.0,FE-11433,2027-10-17,355
+C0150,P08,Producto A,Cloud & Data Center,36,2026-08-21,56581200.0,FE-11431,2029-08-21,1029
+C0150,P09,Producto B,Cloud & Data Center,24,2026-02-05,16583220.0,FE-11426,2028-02-05,466
+C0151,P08,Producto A,Cloud & Data Center,36,2026-09-27,20394216.0,FE-11452,2029-09-27,1066
+C0151,P09,Producto B,Cloud & Data Center,24,2026-07-03,6631704.0,FE-11451,2028-07-03,615
+C0152,P01,Producto H,Cybersecurity,12,2026-06-20,4725864.0,FE-11459,2027-06-20,236
+C0152,P04,Producto I,Cybersecurity,12,2026-09-15,134042688.0,FE-11461,2027-09-15,323
+C0152,P09,Producto B,Cloud & Data Center,24,2026-09-15,6704424.0,FE-11461,2028-09-15,689
+C0153,P04,Producto I,Cybersecurity,12,2025-04-06,41481537.496700004,FE-11462,2026-04-06,-204
+C0153,P05,Producto F,Cloud & Data Center,36,2025-04-06,97179793.12650001,FE-11462,2028-04-06,527
+C0153,P07,Producto J,End User Solutions,36,2025-04-06,9288638.6084,FE-11462,2028-04-06,527
+C0155,P01,Producto H,Cybersecurity,12,2025-09-22,1476186.9640000002,FE-11486,2026-09-22,-35
+C0155,P02,Producto K,End User Solutions,12,2026-06-12,5524992.0,FE-11493,2027-06-12,228
+C0155,P03,Producto C,Cloud & Data Center,12,2026-10-08,40784472.0,FE-11498,2027-10-08,346
+C0155,P04,Producto I,Cybersecurity,12,2026-10-08,77419260.00000001,FE-11498,2027-10-08,346
+C0156,P08,Producto A,Cloud & Data Center,36,2024-10-24,42059030.8838,FE-11500,2027-10-24,362
+C0156,P09,Producto B,Cloud & Data Center,24,2024-05-25,3245026.3823999995,FE-11499,2026-05-25,-155
+C0158,P05,Producto F,Cloud & Data Center,36,2026-05-11,26215701.144300003,FE-11511,2029-05-11,927
+C0158,P06,Producto G,Cloud & Data Center,36,2024-10-15,7406886.8610000005,FE-11506,2027-10-15,353
+C0159,P06,Producto G,Cloud & Data Center,36,2025-05-05,7877837.94,FE-11515,2028-05-05,556
+C0160,P01,Producto H,Cybersecurity,12,2025-11-12,554993.2772,FE-11530,2026-11-12,16
+C0160,P02,Producto K,End User Solutions,12,2026-10-02,3321360.0,FE-11539,2027-10-02,340
+C0160,P03,Producto C,Cloud & Data Center,12,2026-06-06,11654100.0,FE-11536,2027-06-06,222
+C0160,P04,Producto I,Cybersecurity,12,2026-07-15,44150508.0,FE-11537,2027-07-15,261
+C0162,P02,Producto K,End User Solutions,12,2025-08-18,2038988.7672000001,FE-11553,2026-08-18,-70
+C0162,P03,Producto C,Cloud & Data Center,12,2026-03-09,13768966.5564,FE-11559,2027-03-09,133
+C0162,P04,Producto I,Cybersecurity,12,2025-12-06,63026207.99999999,FE-11558,2026-12-06,40
+C0163,P01,Producto H,Cybersecurity,12,2025-12-16,1323540.0000000002,FE-11576,2026-12-16,50
+C0163,P02,Producto K,End User Solutions,12,2026-07-16,1476144.0,FE-11580,2027-07-16,262
+C0163,P03,Producto C,Cloud & Data Center,12,2026-09-07,17933184.0,FE-11583,2027-09-07,315
+C0163,P04,Producto I,Cybersecurity,12,2026-08-03,36154692.00000001,FE-11582,2027-08-03,280
+C0164,P02,Producto K,End User Solutions,12,2025-10-27,4372559.3366,FE-11596,2026-10-27,0
+C0164,P03,Producto C,Cloud & Data Center,12,2025-11-03,20191356.000000004,FE-11597,2026-11-03,7
+C0164,P04,Producto I,Cybersecurity,12,2026-03-05,106763832.0,FE-11598,2027-03-05,129
+C0166,P08,Producto A,Cloud & Data Center,36,2026-10-03,35915688.0,FE-11628,2029-10-03,1072
+C0166,P09,Producto B,Cloud & Data Center,24,2025-03-18,3555197.6859,FE-11614,2027-03-18,142
+C0167,P05,Producto F,Cloud & Data Center,36,2025-09-07,83036917.32360001,FE-11633,2028-09-07,681
+C0167,P07,Producto J,End User Solutions,36,2025-09-07,8652800.9338,FE-11633,2028-09-07,681
+C0168,P01,Producto H,Cybersecurity,12,2026-07-15,1764720.0000000002,FE-11642,2027-07-15,261
+C0168,P03,Producto C,Cloud & Data Center,12,2026-07-15,22054320.0,FE-11642,2027-07-15,261
+C0169,P08,Producto A,Cloud & Data Center,36,2025-02-24,39163009.0752,FE-11649,2028-02-24,485
+C0169,P09,Producto B,Cloud & Data Center,24,2026-09-19,3107916.0,FE-11665,2028-09-19,693
+C0170,P01,Producto H,Cybersecurity,12,2026-01-19,4208364.0,FE-11682,2027-01-19,84
+C0170,P02,Producto K,End User Solutions,12,2026-07-23,7182756.0,FE-11688,2027-07-23,269
+C0170,P03,Producto C,Cloud & Data Center,12,2026-10-15,58812804.00000001,FE-11691,2027-10-15,353
+C0170,P08,Producto A,Cloud & Data Center,36,2026-04-04,18499284.0,FE-11685,2029-04-04,890
+C0170,P09,Producto B,Cloud & Data Center,24,2026-09-19,6592032.0,FE-11690,2028-09-19,693
+C0172,P01,Producto H,Cybersecurity,12,2026-02-09,2981627.9999999995,FE-11698,2027-02-09,105
+C0172,P02,Producto K,End User Solutions,12,2026-02-09,9546120.0,FE-11698,2027-02-09,105
+C0172,P03,Producto C,Cloud & Data Center,12,2026-06-02,54380664.0,FE-11700,2027-06-02,218
+C0172,P04,Producto I,Cybersecurity,12,2026-05-02,98908976.1112,FE-11699,2027-05-02,187
+C0172,P08,Producto A,Cloud & Data Center,36,2025-03-12,41434891.47,FE-11695,2028-03-12,502
+C0172,P09,Producto B,Cloud & Data Center,24,2026-05-02,10187804.319300001,FE-11699,2028-05-02,553
+C0173,P01,Producto H,Cybersecurity,12,2026-07-11,1494108.0,FE-11705,2027-07-11,257
+C0173,P04,Producto I,Cybersecurity,12,2026-10-01,70684992.0,FE-11706,2027-10-01,339
+C0174,P05,Producto F,Cloud & Data Center,36,2026-02-10,29511425.0119,FE-11724,2029-02-10,837
+C0174,P06,Producto G,Cloud & Data Center,36,2024-11-17,7597645.1024,FE-11714,2027-11-17,386
+C0174,P08,Producto A,Cloud & Data Center,36,2026-04-11,20688876.0,FE-11726,2029-04-11,897
+C0174,P09,Producto B,Cloud & Data Center,24,2026-05-23,3112596.0,FE-11727,2028-05-23,574
+C0175,P02,Producto K,End User Solutions,12,2026-04-24,11025792.0,FE-11738,2027-04-24,179
+C0175,P03,Producto C,Cloud & Data Center,12,2026-04-24,59493204.00000001,FE-11738,2027-04-24,179
+C0175,P04,Producto I,Cybersecurity,12,2026-08-17,101953404.0,FE-11739,2027-08-17,294
+C0176,P09,Producto B,Cloud & Data Center,24,2025-04-03,6992731.202400001,FE-11740,2027-04-03,158
+C0177,P01,Producto H,Cybersecurity,12,2025-07-08,4411176.0168,FE-11747,2026-07-08,-111
+C0177,P03,Producto C,Cloud & Data Center,12,2024-12-16,51886129.9374,FE-11745,2025-12-16,-315
+C0177,P04,Producto I,Cybersecurity,12,2025-07-08,93015954.96000001,FE-11747,2026-07-08,-111
+C0177,P05,Producto F,Cloud & Data Center,36,2025-07-08,30380955.1076,FE-11747,2028-07-08,620
+C0177,P06,Producto G,Cloud & Data Center,36,2024-08-25,7373882.088,FE-11743,2027-08-25,302
+C0178,P06,Producto G,Cloud & Data Center,36,2024-08-04,8425021.28,FE-11749,2027-08-04,281
+C0178,P07,Producto J,End User Solutions,36,2026-03-05,8237016.0,FE-11750,2029-03-05,860
+C0179,P08,Producto A,Cloud & Data Center,36,2024-11-08,39991285.845,FE-11753,2027-11-08,377
+C0181,P08,Producto A,Cloud & Data Center,36,2026-03-02,19843956.0,FE-11779,2029-03-02,857
+C0181,P09,Producto B,Cloud & Data Center,24,2026-08-09,3332232.0,FE-11783,2028-08-09,652
+C0182,P08,Producto A,Cloud & Data Center,36,2025-09-21,18373807.7671,FE-11795,2028-09-21,695
+C0182,P09,Producto B,Cloud & Data Center,24,2026-10-15,3195936.0,FE-11802,2028-10-15,719
+C0183,P05,Producto F,Cloud & Data Center,36,2026-07-25,132180660.0,FE-11822,2029-07-25,1002
+C0183,P06,Producto G,Cloud & Data Center,36,2026-01-24,22664232.0,FE-11816,2029-01-24,820
+C0183,P07,Producto J,End User Solutions,36,2026-09-05,4134168.0000000005,FE-11823,2029-09-05,1044
+C0184,P01,Producto H,Cybersecurity,12,2025-07-10,293828.86220000003,FE-11831,2026-07-10,-109
+C0184,P02,Producto K,End User Solutions,12,2025-10-21,692217.24,FE-11832,2026-10-21,-6
+C0184,P03,Producto C,Cloud & Data Center,12,2025-12-06,4666752.0,FE-11833,2026-12-06,40
+C0185,P01,Producto H,Cybersecurity,12,2026-09-19,676980.0,FE-11856,2027-09-19,327
+C0185,P02,Producto K,End User Solutions,12,2026-07-11,1379088.0,FE-11854,2027-07-11,257
+C0185,P03,Producto C,Cloud & Data Center,12,2026-03-01,8784407.344,FE-11852,2027-03-01,125
+C0185,P04,Producto I,Cybersecurity,12,2026-10-11,38550456.0,FE-11858,2027-10-11,349
+C0186,P03,Producto C,Cloud & Data Center,12,2025-06-22,9227276.475200001,FE-11860,2026-06-22,-127
+C0186,P04,Producto I,Cybersecurity,12,2024-10-27,42507921.376,FE-11859,2025-10-27,-365
+C0186,P07,Producto J,End User Solutions,36,2025-07-20,4186074.6869999995,FE-11861,2028-07-20,632
+C0187,P05,Producto F,Cloud & Data Center,36,2026-09-10,25834788.0,FE-11862,2029-09-10,1049
+C0187,P07,Producto J,End User Solutions,36,2026-10-26,3847644.0,FE-11863,2029-10-26,1095
+C0189,P02,Producto K,End User Solutions,12,2025-11-07,2844437.784,FE-11869,2026-11-07,11
+C0189,P04,Producto I,Cybersecurity,12,2026-06-07,27144180.0,FE-11870,2027-06-07,223
+C0189,P08,Producto A,Cloud & Data Center,36,2025-07-20,21217867.951,FE-11868,2028-07-20,632
+C0189,P09,Producto B,Cloud & Data Center,24,2025-11-07,3231708.6559999995,FE-11869,2027-11-07,376
+C0191,P08,Producto A,Cloud & Data Center,36,2025-12-13,20278944.0,FE-11885,2028-12-13,778
+C0191,P09,Producto B,Cloud & Data Center,24,2025-03-18,6860975.9568,FE-11876,2027-03-18,142
+C0192,P08,Producto A,Cloud & Data Center,36,2026-04-08,54670464.0,FE-11897,2029-04-08,894
+C0192,P09,Producto B,Cloud & Data Center,24,2024-11-19,3652404.4825,FE-11892,2026-11-19,23
+C0193,P05,Producto F,Cloud & Data Center,36,2026-10-06,28636488.0,FE-11909,2029-10-06,1075
+C0193,P06,Producto G,Cloud & Data Center,36,2026-09-25,7224552.0,FE-11908,2029-09-25,1064
+C0193,P07,Producto J,End User Solutions,36,2026-10-06,4336092.0,FE-11909,2029-10-06,1075
+C0195,P01,Producto H,Cybersecurity,12,2026-06-20,412452.0,FE-11919,2027-06-20,236
+C0195,P02,Producto K,End User Solutions,12,2026-10-22,1054944.0,FE-11922,2027-10-22,360
+C0195,P04,Producto I,Cybersecurity,12,2026-08-21,4864608.0,FE-11921,2027-08-21,298
+C0196,P04,Producto I,Cybersecurity,12,2026-10-26,49914144.0,FE-11923,2027-10-26,364
+C0198,P08,Producto A,Cloud & Data Center,36,2025-06-10,22169225.345399998,FE-11954,2028-06-10,592
+C0198,P09,Producto B,Cloud & Data Center,24,2025-07-01,3163461.4527999996,FE-11955,2027-07-01,247
+C0199,P01,Producto H,Cybersecurity,12,2026-09-19,2950164.0,FE-11967,2027-09-19,327
+C0199,P02,Producto K,End User Solutions,12,2026-10-14,8697600.0,FE-11968,2027-10-14,352
+C0199,P03,Producto C,Cloud & Data Center,12,2026-09-19,46704168.0,FE-11967,2027-09-19,327
+C0199,P04,Producto I,Cybersecurity,12,2024-11-06,132070841.2608,FE-11956,2025-11-06,-355
+C0199,P08,Producto A,Cloud & Data Center,36,2026-06-25,53699868.0,FE-11965,2029-06-25,972
+C0199,P09,Producto B,Cloud & Data Center,24,2026-10-14,13162464.0,FE-11968,2028-10-14,718
+C0200,P07,Producto J,End User Solutions,36,2026-02-06,3888612.0000000005,FE-11976,2029-02-06,833
+C0201,P02,Producto K,End User Solutions,12,2024-12-12,8355152.601599999,FE-11980,2025-12-12,-319
+C0201,P03,Producto C,Cloud & Data Center,12,2024-08-01,83789283.1545,FE-11979,2025-08-01,-452
+C0201,P08,Producto A,Cloud & Data Center,36,2024-08-01,42123426.559200004,FE-11979,2027-08-01,278
+C0202,P07,Producto J,End User Solutions,36,2025-03-09,4231041.5102,FE-11982,2028-03-09,499
+C0202,P08,Producto A,Cloud & Data Center,36,2025-06-17,43395876.530999996,FE-11983,2028-06-17,599
+C0202,P09,Producto B,Cloud & Data Center,24,2026-08-09,3231756.0,FE-11986,2028-08-09,652
+C0203,P09,Producto B,Cloud & Data Center,24,2025-08-15,14245156.8864,FE-11989,2027-08-15,292
+C0204,P05,Producto F,Cloud & Data Center,36,2026-02-18,26816713.1844,FE-12012,2029-02-18,845
+C0204,P06,Producto G,Cloud & Data Center,36,2025-06-05,7624099.9678,FE-12005,2028-06-05,587
+C0204,P07,Producto J,End User Solutions,36,2025-06-05,4583093.3892,FE-12005,2028-06-05,587
+C0204,P08,Producto A,Cloud & Data Center,36,2026-01-01,19396980.0,FE-12011,2029-01-01,797
+C0204,P09,Producto B,Cloud & Data Center,24,2026-02-18,3023828.9063999997,FE-12012,2028-02-18,479
+C0205,P01,Producto H,Cybersecurity,12,2026-09-01,686340.0,FE-12038,2027-09-01,309
+C0205,P02,Producto K,End User Solutions,12,2026-04-18,3658320.0,FE-12035,2027-04-18,173
+C0205,P03,Producto C,Cloud & Data Center,12,2026-09-01,4814136.0,FE-12038,2027-09-01,309
+C0205,P04,Producto I,Cybersecurity,12,2026-10-23,33144120.000000004,FE-12039,2027-10-23,361
+C0205,P09,Producto B,Cloud & Data Center,24,2024-11-22,3609667.4655999998,FE-12020,2026-11-22,26
+C0206,P01,Producto H,Cybersecurity,12,2026-09-07,581760.0,FE-12052,2027-09-07,315
+C0206,P02,Producto K,End User Solutions,12,2025-11-10,2157372.7728,FE-12049,2026-11-10,14
+C0206,P03,Producto C,Cloud & Data Center,12,2025-11-10,9549859.5512,FE-12049,2026-11-10,14
+C0206,P04,Producto I,Cybersecurity,12,2026-08-03,41462496.0,FE-12051,2027-08-03,280
+C0207,P01,Producto H,Cybersecurity,12,2026-09-16,2176200.0,FE-12076,2027-09-16,324
+C0207,P02,Producto K,End User Solutions,12,2026-08-03,2890080.0000000005,FE-12075,2027-08-03,280
+C0207,P03,Producto C,Cloud & Data Center,12,2026-08-03,38685744.0,FE-12075,2027-08-03,280
+C0207,P04,Producto I,Cybersecurity,12,2026-03-01,67056249.5928,FE-12069,2027-03-01,125
+C0207,P08,Producto A,Cloud & Data Center,36,2026-10-02,19055016.0,FE-12077,2029-10-02,1071
+C0207,P09,Producto B,Cloud & Data Center,24,2026-04-16,3279096.0,FE-12070,2028-04-16,537
+C0208,P01,Producto H,Cybersecurity,12,2026-03-21,289702.8076,FE-12098,2027-03-21,145
+C0208,P02,Producto K,End User Solutions,12,2026-06-03,1268496.0,FE-12100,2027-06-03,219
+C0208,P03,Producto C,Cloud & Data Center,12,2026-06-19,9545040.0,FE-12099,2027-06-19,235
+C0208,P04,Producto I,Cybersecurity,12,2025-04-02,46796534.576,FE-12088,2026-04-02,-208
+C0209,P05,Producto F,Cloud & Data Center,36,2025-06-08,30269771.18,FE-12109,2028-06-08,590
+C0209,P06,Producto G,Cloud & Data Center,36,2024-12-24,16825839.3744,FE-12107,2027-12-24,423
+C0209,P07,Producto J,End User Solutions,36,2025-03-20,4179438.2806,FE-12108,2028-03-20,510
+C0210,P08,Producto A,Cloud & Data Center,36,2026-02-20,40740823.2052,FE-12119,2029-02-20,847
+C0210,P09,Producto B,Cloud & Data Center,24,2025-11-01,3204177.9135999996,FE-12117,2027-11-01,370
+C0211,P01,Producto H,Cybersecurity,12,2026-06-20,1022688.0,FE-12124,2027-06-20,236
+C0211,P02,Producto K,End User Solutions,12,2025-10-07,2965652.9999999995,FE-12121,2026-10-07,-20
+C0211,P04,Producto I,Cybersecurity,12,2026-05-03,21843782.7776,FE-12123,2027-05-03,188
+C0212,P05,Producto F,Cloud & Data Center,36,2024-05-26,31209565.2787,FE-12129,2027-05-26,211
+C0212,P06,Producto G,Cloud & Data Center,36,2026-10-04,7182720.0,FE-12133,2029-10-04,1073
+C0212,P07,Producto J,End User Solutions,36,2026-10-04,4035384.0,FE-12133,2029-10-04,1073
+C0213,P05,Producto F,Cloud & Data Center,36,2026-09-19,29002068.0,FE-12141,2029-09-19,1058
+C0213,P06,Producto G,Cloud & Data Center,36,2026-09-19,14927039.999999998,FE-12141,2029-09-19,1058
+C0214,P01,Producto H,Cybersecurity,12,2025-09-08,731191.6690000001,FE-12151,2026-09-08,-49
+C0214,P02,Producto K,End User Solutions,12,2025-06-11,2560915.3261999995,FE-12149,2026-06-11,-138
+C0214,P03,Producto C,Cloud & Data Center,12,2025-09-08,16157101.123800002,FE-12151,2026-09-08,-49
+C0214,P04,Producto I,Cybersecurity,12,2025-07-27,37854073.493599996,FE-12150,2026-07-27,-92
+C0214,P06,Producto G,Cloud & Data Center,36,2025-09-08,7689388.155800001,FE-12151,2028-09-08,682
+C0214,P08,Producto A,Cloud & Data Center,36,2026-01-09,18456732.0,FE-12152,2029-01-09,805
+C0214,P09,Producto B,Cloud & Data Center,24,2026-03-20,3129873.7264,FE-12153,2028-03-20,510
+C0215,P08,Producto A,Cloud & Data Center,36,2024-07-24,20391166.6258,FE-12154,2027-07-24,270
+C0218,P01,Producto H,Cybersecurity,12,2025-12-20,1220508.0,FE-12178,2026-12-20,54
+C0218,P03,Producto C,Cloud & Data Center,12,2026-05-17,15107651.999999998,FE-12179,2027-05-17,202
+C0218,P04,Producto I,Cybersecurity,12,2025-12-20,53537400.0,FE-12178,2026-12-20,54
+C0218,P06,Producto G,Cloud & Data Center,36,2026-05-17,7421004.0,FE-12179,2029-05-17,933
+C0218,P07,Producto J,End User Solutions,36,2026-10-11,8362440.0,FE-12180,2029-10-11,1080
+C0219,P01,Producto H,Cybersecurity,12,2025-12-27,1185192.0,FE-12182,2026-12-27,61
+C0219,P06,Producto G,Cloud & Data Center,36,2026-04-03,7394472.0,FE-12183,2029-04-03,889
+C0219,P09,Producto B,Cloud & Data Center,24,2026-04-03,3361824.0,FE-12183,2028-04-03,524

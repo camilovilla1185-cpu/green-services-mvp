@@ -196,3 +196,46 @@ igual que en la sección Confiabilidad.*
 Los ajustes se hicieron con apoyo de Claude (Anthropic). Se verificaron
 con las pruebas automáticas (9 de 9) y abriendo cada sección del tablero
 con los dos conjuntos de datos en Python 3.11, 3.12 y 3.13.
+
+
+# Ajustes del 20 de noviembre de 2026 (sugerencias del equipo)
+
+## 1. Marca alineada con el sitio oficial (greencss.com)
+- Colores tomados del sitio: morado corporativo **#3F2683**, verde azulado **#00AA90**,
+  azul **#2571B4** y azul oscuro **#203456**; degradados de morado a verde azulado como en la web.
+- Tipografía **Montserrat**, la misma del sitio.
+- El logo de Green no se copió del sitio: hay que pedirlo a la empresa en buena calidad
+  (PNG con fondo transparente o SVG) y subirlo en **Cargar datos → Personalizar marca**,
+  o dejarlo en `assets/logo_empresa.png` del repositorio para que quede fijo en la versión publicada.
+
+## 2. Pronóstico de ventas
+**Qué pasaba:** el modelo leía el arranque de los datos (ventas casi en cero a inicios de 2024,
+mientras «llegan» los clientes simulados) como si enero fuera siempre un mes malísimo, y solo
+promediaba los últimos 6 meses sin mirar la tendencia. Por eso pronosticaba una caída fuerte.
+
+**Qué se cambió (src/modelo.py):**
+- Se ignoran los primeros meses si la historia arranca «desde cero».
+- El índice estacional se suaviza cuando hay pocos años de historia (no exagera picos).
+- Nivel y tendencia con suavizado de Holt amortiguado; el tablero **elige solo** la configuración
+  que menos se equivocó pronosticando cada uno de los últimos 6 meses, y la muestra en pantalla.
+- El gráfico compara cada mes pronosticado con **el mismo mes del año anterior**, con su variación.
+
+**Resultado:**
+| Datos | Error antes | Error ahora | Repetir mes anterior |
+|---|---|---|---|
+| Generador (220 clientes) | 15,3 % | 14,7 % | 19,3 % |
+| ventas_prueba_green_2 | 21,6 % | 16,3 % | 20,8 % |
+
+**Ojo:** en `ventas_prueba_green_2` las ventas crecen de 2022 a 2025, pero **2026 viene más bajo**
+(enero–octubre: −19 % frente a 2025; septiembre y octubre: −36 %). El pronóstico refleja eso.
+Si ese archivo se construyó para mostrar crecimiento, hay que revisar los datos de 2026.
+
+## 3. Productos sin supuestos
+- Los productos se muestran como **«Producto A», «Producto B»…** dentro de su línea de negocio,
+  porque no hay un catálogo confiable de lo que vende Green.
+- Las categorías del generador son ahora las **5 líneas de negocio oficiales**: Cloud & Data Center,
+  Cybersecurity, End User Solutions, FLEX GPT y Professional Services.
+- Con datos reales de Green se cambia `PRODUCTOS_GENERICOS = False` en `src/config.py` para ver los nombres reales.
+- Los meses de renovación por producto siguen siendo un supuesto (`data/catalogo_facturacion.csv`):
+  conviene validarlos con Green.
+- Los segmentos, la base instalada (174) y las alertas (69) no cambian con esto.

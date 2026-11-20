@@ -130,22 +130,43 @@ if pagina == "Resumen":
     serie = ventas.groupby("mes").valor_cop.sum().reset_index()
     pron = D["pron"]
     fig = go.Figure()
-    fig.add_bar(x=serie.mes, y=serie.valor_cop, name="Ventas reales", marker_color=MARCA["color_acento"], opacity=0.55,
-                hovertemplate="%{x|%b %Y}: $%{y:,.0f}<extra></extra>")
+    fig.add_bar(x=serie.mes, y=serie.valor_cop, name="Ventas reales", marker_color=MARCA["color_acento"],
+                opacity=0.6, hovertemplate="%{x|%b %Y}: $%{y:,.0f}<extra></extra>")
     if not filtro_com:
-        fig.add_scatter(x=pron.mes, y=pron.pronostico_cop, mode="lines+markers", name="Pronóstico",
-                        line=dict(color=VERDE, width=3),
-                        error_y=dict(type="data", symmetric=False,
+        if "anio_anterior_cop" in pron:
+            fig.add_bar(x=pron.mes, y=pron.anio_anterior_cop, name="Mismo mes del año anterior",
+                        marker_color="#C9CED6", opacity=0.8,
+                        hovertemplate="%{x|%b %Y} (año anterior): $%{y:,.0f}<extra></extra>")
+        # La línea del pronóstico arranca en el último mes real para que se lea como continuación
+        meses_reales = serie[serie.mes <= pron.mes.min() - pd.DateOffset(months=1)]
+        ancla = meses_reales.tail(1)
+        fig.add_scatter(x=list(ancla.mes) + list(pron.mes), y=list(ancla.valor_cop) + list(pron.pronostico_cop),
+                        mode="lines+markers", name="Pronóstico", line=dict(color=VERDE, width=3, dash="dot"),
+                        marker=dict(size=[0] * len(ancla) + [10] * len(pron)),
+                        hovertemplate="%{x|%b %Y}: $%{y:,.0f}<extra>pronóstico</extra>")
+        fig.add_scatter(x=pron.mes, y=pron.pronostico_cop, mode="markers", showlegend=False,
+                        marker=dict(size=0.1, color=VERDE),
+                        error_y=dict(type="data", symmetric=False, color=VERDE, thickness=1.5,
                                      array=pron.maximo_cop - pron.pronostico_cop,
                                      arrayminus=pron.pronostico_cop - pron.minimo_cop),
-                        hovertemplate="%{x|%b %Y}: $%{y:,.0f}<extra>pronóstico</extra>")
-    fig.update_layout(title="Ventas por mes y pronóstico de los próximos tres meses",
-                      height=380, margin=dict(t=50, b=10), yaxis_title="COP", legend=dict(orientation="h"))
+                        hoverinfo="skip")
+    fig.update_layout(title="Ventas por mes y pronóstico de los próximos tres meses", barmode="overlay",
+                      height=400, margin=dict(t=50, b=10), yaxis_title="COP", legend=dict(orientation="h"))
     st.plotly_chart(fig, width="stretch")
     if not filtro_com:
-        st.caption(f"Error medio del pronóstico en los últimos 6 meses: "
-                   f"{met['pronostico']['mape_pronostico']:.0%} (repetir el mes anterior: "
-                   f"{met['pronostico']['mape_mes_anterior']:.0%}). El último mes puede estar incompleto.")
+        mp = met["pronostico"]
+        partes = []
+        for _, f in pron.iterrows():
+            mes_txt = f"{f.mes:%m/%Y}"
+            if "variacion_anual" in pron and pd.notna(f.get("variacion_anual")):
+                partes.append(f"**{mes_txt}:** {cop(f.pronostico_cop)} ({f.variacion_anual:+.0%} frente al mismo mes del año anterior)")
+            else:
+                partes.append(f"**{mes_txt}:** {cop(f.pronostico_cop)}")
+        st.markdown(" · ".join(partes))
+        st.caption(f"Método: {mp.get('metodo', 'nivel reciente × índice estacional')}. Error medio en los últimos "
+                   f"6 meses: {mp['mape_pronostico']:.0%} (repetir el mes anterior: {mp['mape_mes_anterior']:.0%}). "
+                   "Las ventas de cada mes cambian por temporada (enero suele ser más bajo), por eso conviene "
+                   "comparar con el mismo mes del año anterior y no solo con el mes previo.")
 
     c1, c2 = st.columns(2)
     cat = (v12.groupby("categoria").agg(valor_cop=("valor_cop", "sum"),
