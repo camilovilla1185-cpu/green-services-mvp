@@ -28,7 +28,7 @@ from pathlib import Path
 
 import pandas as pd
 
-from src.config import DATOS_CRUDOS, DATOS_PROCESADOS, ESQUEMA
+from src.config import DATOS_CRUDOS, DATOS_PROCESADOS, ESQUEMA, MONEDAS_ADMITIDAS
 
 
 class ErrorDeDatos(Exception):
@@ -149,8 +149,12 @@ def ejecutar(carpeta_entrada: Path = DATOS_CRUDOS,
         "cliente no existe en el maestro": ~ventas.cliente_id.isin(clientes.cliente_id),
         "producto no existe en el maestro": ~ventas.producto_id.isin(productos.producto_id),
         "valor vacío": ventas.precio_unitario.isna() | ventas.cantidad.isna(),
+        "venta anulada (no suma a ingresos ni a frecuencia)": (
+            ventas["estado"].astype(str).str.strip().str.lower().eq("anulada")
+            if "estado" in ventas.columns else pd.Series(False, index=ventas.index)),
         "cantidad o precio no positivos (nota crédito o error)": (ventas.cantidad <= 0) | (ventas.precio_unitario <= 0),
-        "moneda distinta de COP o USD": ~ventas.moneda.str.upper().isin(["COP", "USD"]),
+        "moneda distinta de COP o USD": ~ventas.moneda.astype(str).str.upper().str.strip()
+            .isin(MONEDAS_ADMITIDAS),
         "línea de factura duplicada": ventas.duplicated(["factura", "linea"]
                                                          if "linea" in ventas else ["factura", "producto_id"]),
     }, rechazos)

@@ -1,13 +1,15 @@
 {
-  "lote_id": "L20261120-183430",
-  "lineas_venta": 4230,
-  "facturas": 2189,
-  "clientes": 220,
-  "desde": "2024-01-03",
-  "hasta": "2026-10-27",
-  "ventas_total_cop": 51081741910.5285,
-  "participacion_usd": 0.681457026908939,
+  "lote_id": "L20261121-100648",
+  "lineas_venta": 1371,
+  "facturas": 1371,
+  "clientes": 120,
+  "desde": "2025-01-06",
+  "hasta": "2026-10-30",
+  "ventas_total_cop": 5647449456.372499,
+  "participacion_usd": 0.1633809144287879,
   "lineas_con_costo": 1.0,
-  "lineas_con_costo_ligado": 1.0,
-  "rechazos": {}
+  "lineas_con_costo_ligado": 0.0,
+  "rechazos": {
+    "venta anulada (no suma a ingresos ni a frecuencia)": 36
+  }
 }

@@ -1,19 +1,11 @@
-producto_id,nombre,categoria,precio_lista,moneda,meses_renovacion,fuente,dato_ficticio,hash_registro,archivo_origen,fila_origen,lote_id
-P01,Producto H,Cybersecurity,38,USD,12,ERP maestro de productos (simulado),True,8f1db81063e9,productos.csv,2,L20261120-183430
-P02,Producto K,End User Solutions,95,USD,12,ERP maestro de productos (simulado),True,177987bd0c9f,productos.csv,3,L20261120-183430
-P03,Producto C,Cloud & Data Center,620,USD,12,ERP maestro de productos (simulado),True,0327f8b21c29,productos.csv,4,L20261120-183430
-P04,Producto I,Cybersecurity,1450,USD,12,ERP maestro de productos (simulado),True,54c3a720aa6a,productos.csv,5,L20261120-183430
-P05,Producto F,Cloud & Data Center,7800,USD,36,ERP maestro de productos (simulado),True,be13a69dc3c3,productos.csv,6,L20261120-183430
-P06,Producto G,Cloud & Data Center,2100,USD,36,ERP maestro de productos (simulado),True,77fb8b6d0b5d,productos.csv,7,L20261120-183430
-P07,Producto J,End User Solutions,1150,USD,36,ERP maestro de productos (simulado),True,bf4b0cecf691,productos.csv,8,L20261120-183430
-P08,Producto A,Cloud & Data Center,5400,USD,36,ERP maestro de productos (simulado),True,bfb91153f52e,productos.csv,9,L20261120-183430
-P09,Producto B,Cloud & Data Center,900,USD,24,ERP maestro de productos (simulado),True,7cd4fd406b53,productos.csv,10,L20261120-183430
-P10,Producto E,Cloud & Data Center,180000,COP,0,ERP maestro de productos (simulado),True,20e2129678f1,productos.csv,11,L20261120-183430
-P11,Producto L,End User Solutions,45000,COP,0,ERP maestro de productos (simulado),True,cf33c0014af3,productos.csv,12,L20261120-183430
-P12,Producto D,Cloud & Data Center,1900000,COP,0,ERP maestro de productos (simulado),True,a92782152c79,productos.csv,13,L20261120-183430
-P13,Producto P,Professional Services,420000,COP,0,ERP maestro de productos (simulado),True,50b90ebf83b1,productos.csv,14,L20261120-183430
-P14,Producto O,Professional Services,9500,COP,0,ERP maestro de productos (simulado),True,7d4a5157f4ba,productos.csv,15,L20261120-183430
-P15,Producto N,Professional Services,85000,COP,0,ERP maestro de productos (simulado),True,83c6feaa9a9d,productos.csv,16,L20261120-183430
-P16,Producto Q,Professional Services,1300000,COP,0,ERP maestro de productos (simulado),True,7f0a331e7828,productos.csv,17,L20261120-183430
-P17,Producto M,FLEX GPT,260000,COP,0,ERP maestro de productos (simulado),True,9d4915259572,productos.csv,18,L20261120-183430
-P18,Producto R,Professional Services,14000000,COP,0,ERP maestro de productos (simulado),True,e188c7a9712f,productos.csv,19,L20261120-183430
+producto_id,nombre,categoria,tipo,precio_lista,moneda,costo_referencia,meses_renovacion,fuente,dato_ficticio,hash_registro,archivo_origen,fila_origen,lote_id
+PRO01,Licencia de gestión documental,Software,Recurrente,180,USD,111.6,12,Paquete oficial de recursos de prueba (productos.csv),True,40a91c14d4e8,productos.csv,2,L20261121-100648
+PRO02,Servicio de respaldo,Continuidad,Recurrente,350000,COP,217000.0,12,Paquete oficial de recursos de prueba (productos.csv),True,23cfbdfc46ee,productos.csv,3,L20261121-100648
+PRO03,Soporte operativo,Soporte,Recurrente,480000,COP,297600.0,6,Paquete oficial de recursos de prueba (productos.csv),True,0ae5cb906ca0,productos.csv,4,L20261121-100648
+PRO04,Implementación documental,Servicios,Único,2800000,COP,1736000.0,0,Paquete oficial de recursos de prueba (productos.csv),True,92ff821a6e83,productos.csv,5,L20261121-100648
+PRO05,Migración de información,Servicios,Único,1900000,COP,1178000.0,0,Paquete oficial de recursos de prueba (productos.csv),True,b31ff606441a,productos.csv,6,L20261121-100648
+PRO06,Almacenamiento de información,Continuidad,Recurrente,85,USD,52.7,12,Paquete oficial de recursos de prueba (productos.csv),True,4af4bb70843e,productos.csv,7,L20261121-100648
+PRO07,Capacitación de usuarios,Servicios,Único,720000,COP,446400.0,0,Paquete oficial de recursos de prueba (productos.csv),True,a77091d09773,productos.csv,8,L20261121-100648
+PRO08,Licencia de consulta,Software,Recurrente,95,USD,58.9,12,Paquete oficial de recursos de prueba (productos.csv),True,7da2a2540d15,productos.csv,9,L20261121-100648
+PRO09,Revisión de continuidad,Servicios,Único,1150000,COP,713000.0,0,Paquete oficial de recursos de prueba (productos.csv),True,8b62361ed4a9,productos.csv,10,L20261121-100648
+PRO10,Digitalización de prueba,Servicios,Único,650000,COP,403000.0,0,Paquete oficial de recursos de prueba (productos.csv),True,8dc8f8e0b814,productos.csv,11,L20261121-100648

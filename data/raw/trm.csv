@@ -1,1036 +1,670 @@
 registro_id,fecha,valor,fuente,dato_ficticio
-TRM-20240101,2024-01-01,3954.27,Simulada (formato datos.gov.co),True
-TRM-20240102,2024-01-02,3939.71,Simulada (formato datos.gov.co),True
-TRM-20240103,2024-01-03,3950.21,Simulada (formato datos.gov.co),True
-TRM-20240104,2024-01-04,3963.38,Simulada (formato datos.gov.co),True
-TRM-20240105,2024-01-05,3936.07,Simulada (formato datos.gov.co),True
-TRM-20240106,2024-01-06,3917.84,Simulada (formato datos.gov.co),True
-TRM-20240107,2024-01-07,3919.63,Simulada (formato datos.gov.co),True
-TRM-20240108,2024-01-08,3915.2,Simulada (formato datos.gov.co),True
-TRM-20240109,2024-01-09,3914.96,Simulada (formato datos.gov.co),True
-TRM-20240110,2024-01-10,3903.02,Simulada (formato datos.gov.co),True
-TRM-20240111,2024-01-11,3915.33,Simulada (formato datos.gov.co),True
-TRM-20240112,2024-01-12,3926.22,Simulada (formato datos.gov.co),True
-TRM-20240113,2024-01-13,3927.15,Simulada (formato datos.gov.co),True
-TRM-20240114,2024-01-14,3942.93,Simulada (formato datos.gov.co),True
-TRM-20240115,2024-01-15,3949.47,Simulada (formato datos.gov.co),True
-TRM-20240116,2024-01-16,3937.44,Simulada (formato datos.gov.co),True
-TRM-20240117,2024-01-17,3942.6,Simulada (formato datos.gov.co),True
-TRM-20240118,2024-01-18,3929.18,Simulada (formato datos.gov.co),True
-TRM-20240119,2024-01-19,3941.48,Simulada (formato datos.gov.co),True
-TRM-20240120,2024-01-20,3940.78,Simulada (formato datos.gov.co),True
-TRM-20240121,2024-01-21,3938.19,Simulada (formato datos.gov.co),True
-TRM-20240122,2024-01-22,3928.66,Simulada (formato datos.gov.co),True
-TRM-20240123,2024-01-23,3945.77,Simulada (formato datos.gov.co),True
-TRM-20240124,2024-01-24,3943.61,Simulada (formato datos.gov.co),True
-TRM-20240125,2024-01-25,3937.61,Simulada (formato datos.gov.co),True
-TRM-20240126,2024-01-26,3932.68,Simulada (formato datos.gov.co),True
-TRM-20240127,2024-01-27,3940.14,Simulada (formato datos.gov.co),True
-TRM-20240128,2024-01-28,3945.25,Simulada (formato datos.gov.co),True
-TRM-20240129,2024-01-29,3951.03,Simulada (formato datos.gov.co),True
-TRM-20240130,2024-01-30,3957.06,Simulada (formato datos.gov.co),True
-TRM-20240131,2024-01-31,3987.04,Simulada (formato datos.gov.co),True
-TRM-20240201,2024-02-01,3981.36,Simulada (formato datos.gov.co),True
-TRM-20240202,2024-02-02,3974.18,Simulada (formato datos.gov.co),True
-TRM-20240203,2024-02-03,3962.79,Simulada (formato datos.gov.co),True
-TRM-20240204,2024-02-04,3971.41,Simulada (formato datos.gov.co),True
-TRM-20240205,2024-02-05,3987.22,Simulada (formato datos.gov.co),True
-TRM-20240206,2024-02-06,3985.63,Simulada (formato datos.gov.co),True
-TRM-20240207,2024-02-07,3973.86,Simulada (formato datos.gov.co),True
-TRM-20240208,2024-02-08,3962.32,Simulada (formato datos.gov.co),True
-TRM-20240209,2024-02-09,3971.43,Simulada (formato datos.gov.co),True
-TRM-20240210,2024-02-10,3981.83,Simulada (formato datos.gov.co),True
-TRM-20240211,2024-02-11,3989.44,Simulada (formato datos.gov.co),True
-TRM-20240212,2024-02-12,3980.12,Simulada (formato datos.gov.co),True
-TRM-20240213,2024-02-13,3983.37,Simulada (formato datos.gov.co),True
-TRM-20240214,2024-02-14,3985.0,Simulada (formato datos.gov.co),True
-TRM-20240215,2024-02-15,3988.07,Simulada (formato datos.gov.co),True
-TRM-20240216,2024-02-16,4000.27,Simulada (formato datos.gov.co),True
-TRM-20240217,2024-02-17,4003.4,Simulada (formato datos.gov.co),True
-TRM-20240218,2024-02-18,4012.9,Simulada (formato datos.gov.co),True
-TRM-20240219,2024-02-19,4013.85,Simulada (formato datos.gov.co),True
-TRM-20240220,2024-02-20,4017.9,Simulada (formato datos.gov.co),True
-TRM-20240221,2024-02-21,4026.73,Simulada (formato datos.gov.co),True
-TRM-20240222,2024-02-22,4006.33,Simulada (formato datos.gov.co),True
-TRM-20240223,2024-02-23,4001.86,Simulada (formato datos.gov.co),True
-TRM-20240224,2024-02-24,3995.27,Simulada (formato datos.gov.co),True
-TRM-20240225,2024-02-25,3986.33,Simulada (formato datos.gov.co),True
-TRM-20240226,2024-02-26,3982.48,Simulada (formato datos.gov.co),True
-TRM-20240227,2024-02-27,4003.41,Simulada (formato datos.gov.co),True
-TRM-20240228,2024-02-28,3991.28,Simulada (formato datos.gov.co),True
-TRM-20240229,2024-02-29,4004.84,Simulada (formato datos.gov.co),True
-TRM-20240301,2024-03-01,3981.28,Simulada (formato datos.gov.co),True
-TRM-20240302,2024-03-02,3976.59,Simulada (formato datos.gov.co),True
-TRM-20240303,2024-03-03,3978.87,Simulada (formato datos.gov.co),True
-TRM-20240304,2024-03-04,3987.08,Simulada (formato datos.gov.co),True
-TRM-20240305,2024-03-05,3997.03,Simulada (formato datos.gov.co),True
-TRM-20240306,2024-03-06,4008.14,Simulada (formato datos.gov.co),True
-TRM-20240307,2024-03-07,4003.26,Simulada (formato datos.gov.co),True
-TRM-20240308,2024-03-08,3996.79,Simulada (formato datos.gov.co),True
-TRM-20240309,2024-03-09,4008.8,Simulada (formato datos.gov.co),True
-TRM-20240310,2024-03-10,4006.12,Simulada (formato datos.gov.co),True
-TRM-20240311,2024-03-11,3988.26,Simulada (formato datos.gov.co),True
-TRM-20240312,2024-03-12,3972.39,Simulada (formato datos.gov.co),True
-TRM-20240313,2024-03-13,3959.52,Simulada (formato datos.gov.co),True
-TRM-20240314,2024-03-14,3966.48,Simulada (formato datos.gov.co),True
-TRM-20240315,2024-03-15,3968.48,Simulada (formato datos.gov.co),True
-TRM-20240316,2024-03-16,3978.14,Simulada (formato datos.gov.co),True
-TRM-20240317,2024-03-17,3972.16,Simulada (formato datos.gov.co),True
-TRM-20240318,2024-03-18,3974.38,Simulada (formato datos.gov.co),True
-TRM-20240319,2024-03-19,3983.14,Simulada (formato datos.gov.co),True
-TRM-20240320,2024-03-20,3978.81,Simulada (formato datos.gov.co),True
-TRM-20240321,2024-03-21,3985.2,Simulada (formato datos.gov.co),True
-TRM-20240322,2024-03-22,3975.94,Simulada (formato datos.gov.co),True
-TRM-20240323,2024-03-23,3970.85,Simulada (formato datos.gov.co),True
-TRM-20240324,2024-03-24,3965.51,Simulada (formato datos.gov.co),True
-TRM-20240325,2024-03-25,3948.77,Simulada (formato datos.gov.co),True
-TRM-20240326,2024-03-26,3955.58,Simulada (formato datos.gov.co),True
-TRM-20240327,2024-03-27,3949.01,Simulada (formato datos.gov.co),True
-TRM-20240328,2024-03-28,3949.19,Simulada (formato datos.gov.co),True
-TRM-20240329,2024-03-29,3955.92,Simulada (formato datos.gov.co),True
-TRM-20240330,2024-03-30,3962.17,Simulada (formato datos.gov.co),True
-TRM-20240331,2024-03-31,3971.48,Simulada (formato datos.gov.co),True
-TRM-20240401,2024-04-01,3970.11,Simulada (formato datos.gov.co),True
-TRM-20240402,2024-04-02,3964.18,Simulada (formato datos.gov.co),True
-TRM-20240403,2024-04-03,3963.06,Simulada (formato datos.gov.co),True
-TRM-20240404,2024-04-04,3939.44,Simulada (formato datos.gov.co),True
-TRM-20240405,2024-04-05,3919.18,Simulada (formato datos.gov.co),True
-TRM-20240406,2024-04-06,3900.66,Simulada (formato datos.gov.co),True
-TRM-20240407,2024-04-07,3886.7,Simulada (formato datos.gov.co),True
-TRM-20240408,2024-04-08,3892.3,Simulada (formato datos.gov.co),True
-TRM-20240409,2024-04-09,3879.62,Simulada (formato datos.gov.co),True
-TRM-20240410,2024-04-10,3874.33,Simulada (formato datos.gov.co),True
-TRM-20240411,2024-04-11,3892.52,Simulada (formato datos.gov.co),True
-TRM-20240412,2024-04-12,3887.53,Simulada (formato datos.gov.co),True
-TRM-20240413,2024-04-13,3897.85,Simulada (formato datos.gov.co),True
-TRM-20240414,2024-04-14,3884.78,Simulada (formato datos.gov.co),True
-TRM-20240415,2024-04-15,3881.91,Simulada (formato datos.gov.co),True
-TRM-20240416,2024-04-16,3868.61,Simulada (formato datos.gov.co),True
-TRM-20240417,2024-04-17,3863.86,Simulada (formato datos.gov.co),True
-TRM-20240418,2024-04-18,3875.63,Simulada (formato datos.gov.co),True
-TRM-20240419,2024-04-19,3851.44,Simulada (formato datos.gov.co),True
-TRM-20240420,2024-04-20,3857.53,Simulada (formato datos.gov.co),True
-TRM-20240421,2024-04-21,3860.85,Simulada (formato datos.gov.co),True
-TRM-20240422,2024-04-22,3852.54,Simulada (formato datos.gov.co),True
-TRM-20240423,2024-04-23,3832.29,Simulada (formato datos.gov.co),True
-TRM-20240424,2024-04-24,3833.3,Simulada (formato datos.gov.co),True
-TRM-20240425,2024-04-25,3825.89,Simulada (formato datos.gov.co),True
-TRM-20240426,2024-04-26,3829.14,Simulada (formato datos.gov.co),True
-TRM-20240427,2024-04-27,3829.45,Simulada (formato datos.gov.co),True
-TRM-20240428,2024-04-28,3851.88,Simulada (formato datos.gov.co),True
-TRM-20240429,2024-04-29,3848.52,Simulada (formato datos.gov.co),True
-TRM-20240430,2024-04-30,3834.2,Simulada (formato datos.gov.co),True
-TRM-20240501,2024-05-01,3836.71,Simulada (formato datos.gov.co),True
-TRM-20240502,2024-05-02,3839.79,Simulada (formato datos.gov.co),True
-TRM-20240503,2024-05-03,3858.81,Simulada (formato datos.gov.co),True
-TRM-20240504,2024-05-04,3870.51,Simulada (formato datos.gov.co),True
-TRM-20240505,2024-05-05,3875.5,Simulada (formato datos.gov.co),True
-TRM-20240506,2024-05-06,3895.99,Simulada (formato datos.gov.co),True
-TRM-20240507,2024-05-07,3879.35,Simulada (formato datos.gov.co),True
-TRM-20240508,2024-05-08,3870.39,Simulada (formato datos.gov.co),True
-TRM-20240509,2024-05-09,3857.42,Simulada (formato datos.gov.co),True
-TRM-20240510,2024-05-10,3851.96,Simulada (formato datos.gov.co),True
-TRM-20240511,2024-05-11,3832.69,Simulada (formato datos.gov.co),True
-TRM-20240512,2024-05-12,3841.58,Simulada (formato datos.gov.co),True
-TRM-20240513,2024-05-13,3838.47,Simulada (formato datos.gov.co),True
-TRM-20240514,2024-05-14,3817.88,Simulada (formato datos.gov.co),True
-TRM-20240515,2024-05-15,3803.66,Simulada (formato datos.gov.co),True
-TRM-20240516,2024-05-16,3808.05,Simulada (formato datos.gov.co),True
-TRM-20240517,2024-05-17,3819.78,Simulada (formato datos.gov.co),True
-TRM-20240518,2024-05-18,3847.73,Simulada (formato datos.gov.co),True
-TRM-20240519,2024-05-19,3888.53,Simulada (formato datos.gov.co),True
-TRM-20240520,2024-05-20,3894.33,Simulada (formato datos.gov.co),True
-TRM-20240521,2024-05-21,3880.48,Simulada (formato datos.gov.co),True
-TRM-20240522,2024-05-22,3850.63,Simulada (formato datos.gov.co),True
-TRM-20240523,2024-05-23,3854.38,Simulada (formato datos.gov.co),True
-TRM-20240524,2024-05-24,3843.0,Simulada (formato datos.gov.co),True
-TRM-20240525,2024-05-25,3837.18,Simulada (formato datos.gov.co),True
-TRM-20240526,2024-05-26,3828.61,Simulada (formato datos.gov.co),True
-TRM-20240527,2024-05-27,3826.64,Simulada (formato datos.gov.co),True
-TRM-20240528,2024-05-28,3841.56,Simulada (formato datos.gov.co),True
-TRM-20240529,2024-05-29,3843.76,Simulada (formato datos.gov.co),True
-TRM-20240530,2024-05-30,3841.54,Simulada (formato datos.gov.co),True
-TRM-20240531,2024-05-31,3827.04,Simulada (formato datos.gov.co),True
-TRM-20240601,2024-06-01,3803.6,Simulada (formato datos.gov.co),True
-TRM-20240602,2024-06-02,3796.79,Simulada (formato datos.gov.co),True
-TRM-20240603,2024-06-03,3796.04,Simulada (formato datos.gov.co),True
-TRM-20240604,2024-06-04,3820.79,Simulada (formato datos.gov.co),True
-TRM-20240605,2024-06-05,3822.61,Simulada (formato datos.gov.co),True
-TRM-20240606,2024-06-06,3836.37,Simulada (formato datos.gov.co),True
-TRM-20240607,2024-06-07,3829.38,Simulada (formato datos.gov.co),True
-TRM-20240608,2024-06-08,3812.79,Simulada (formato datos.gov.co),True
-TRM-20240609,2024-06-09,3799.28,Simulada (formato datos.gov.co),True
-TRM-20240610,2024-06-10,3789.12,Simulada (formato datos.gov.co),True
-TRM-20240611,2024-06-11,3818.92,Simulada (formato datos.gov.co),True
-TRM-20240612,2024-06-12,3807.42,Simulada (formato datos.gov.co),True
-TRM-20240613,2024-06-13,3819.16,Simulada (formato datos.gov.co),True
-TRM-20240614,2024-06-14,3806.52,Simulada (formato datos.gov.co),True
-TRM-20240615,2024-06-15,3819.56,Simulada (formato datos.gov.co),True
-TRM-20240616,2024-06-16,3824.95,Simulada (formato datos.gov.co),True
-TRM-20240617,2024-06-17,3822.76,Simulada (formato datos.gov.co),True
-TRM-20240618,2024-06-18,3822.19,Simulada (formato datos.gov.co),True
-TRM-20240619,2024-06-19,3813.02,Simulada (formato datos.gov.co),True
-TRM-20240620,2024-06-20,3819.27,Simulada (formato datos.gov.co),True
-TRM-20240621,2024-06-21,3812.9,Simulada (formato datos.gov.co),True
-TRM-20240622,2024-06-22,3795.74,Simulada (formato datos.gov.co),True
-TRM-20240623,2024-06-23,3777.85,Simulada (formato datos.gov.co),True
-TRM-20240624,2024-06-24,3780.26,Simulada (formato datos.gov.co),True
-TRM-20240625,2024-06-25,3802.37,Simulada (formato datos.gov.co),True
-TRM-20240626,2024-06-26,3804.61,Simulada (formato datos.gov.co),True
-TRM-20240627,2024-06-27,3802.95,Simulada (formato datos.gov.co),True
-TRM-20240628,2024-06-28,3806.95,Simulada (formato datos.gov.co),True
-TRM-20240629,2024-06-29,3825.24,Simulada (formato datos.gov.co),True
-TRM-20240630,2024-06-30,3828.31,Simulada (formato datos.gov.co),True
-TRM-20240701,2024-07-01,3822.55,Simulada (formato datos.gov.co),True
-TRM-20240702,2024-07-02,3838.04,Simulada (formato datos.gov.co),True
-TRM-20240703,2024-07-03,3844.04,Simulada (formato datos.gov.co),True
-TRM-20240704,2024-07-04,3865.55,Simulada (formato datos.gov.co),True
-TRM-20240705,2024-07-05,3868.11,Simulada (formato datos.gov.co),True
-TRM-20240706,2024-07-06,3850.97,Simulada (formato datos.gov.co),True
-TRM-20240707,2024-07-07,3831.81,Simulada (formato datos.gov.co),True
-TRM-20240708,2024-07-08,3854.93,Simulada (formato datos.gov.co),True
-TRM-20240709,2024-07-09,3879.06,Simulada (formato datos.gov.co),True
-TRM-20240710,2024-07-10,3876.54,Simulada (formato datos.gov.co),True
-TRM-20240711,2024-07-11,3871.18,Simulada (formato datos.gov.co),True
-TRM-20240712,2024-07-12,3891.64,Simulada (formato datos.gov.co),True
-TRM-20240713,2024-07-13,3876.14,Simulada (formato datos.gov.co),True
-TRM-20240714,2024-07-14,3863.62,Simulada (formato datos.gov.co),True
-TRM-20240715,2024-07-15,3872.62,Simulada (formato datos.gov.co),True
-TRM-20240716,2024-07-16,3867.1,Simulada (formato datos.gov.co),True
-TRM-20240717,2024-07-17,3867.03,Simulada (formato datos.gov.co),True
-TRM-20240718,2024-07-18,3864.74,Simulada (formato datos.gov.co),True
-TRM-20240719,2024-07-19,3869.46,Simulada (formato datos.gov.co),True
-TRM-20240720,2024-07-20,3889.17,Simulada (formato datos.gov.co),True
-TRM-20240721,2024-07-21,3890.44,Simulada (formato datos.gov.co),True
-TRM-20240722,2024-07-22,3899.45,Simulada (formato datos.gov.co),True
-TRM-20240723,2024-07-23,3870.75,Simulada (formato datos.gov.co),True
-TRM-20240724,2024-07-24,3870.07,Simulada (formato datos.gov.co),True
-TRM-20240725,2024-07-25,3858.26,Simulada (formato datos.gov.co),True
-TRM-20240726,2024-07-26,3841.2,Simulada (formato datos.gov.co),True
-TRM-20240727,2024-07-27,3828.9,Simulada (formato datos.gov.co),True
-TRM-20240728,2024-07-28,3824.23,Simulada (formato datos.gov.co),True
-TRM-20240729,2024-07-29,3837.05,Simulada (formato datos.gov.co),True
-TRM-20240730,2024-07-30,3818.48,Simulada (formato datos.gov.co),True
-TRM-20240731,2024-07-31,3818.91,Simulada (formato datos.gov.co),True
-TRM-20240801,2024-08-01,3812.13,Simulada (formato datos.gov.co),True
-TRM-20240802,2024-08-02,3807.54,Simulada (formato datos.gov.co),True
-TRM-20240803,2024-08-03,3821.58,Simulada (formato datos.gov.co),True
-TRM-20240804,2024-08-04,3829.12,Simulada (formato datos.gov.co),True
-TRM-20240805,2024-08-05,3847.84,Simulada (formato datos.gov.co),True
-TRM-20240806,2024-08-06,3845.68,Simulada (formato datos.gov.co),True
-TRM-20240807,2024-08-07,3835.93,Simulada (formato datos.gov.co),True
-TRM-20240808,2024-08-08,3832.8,Simulada (formato datos.gov.co),True
-TRM-20240809,2024-08-09,3836.19,Simulada (formato datos.gov.co),True
-TRM-20240810,2024-08-10,3838.67,Simulada (formato datos.gov.co),True
-TRM-20240811,2024-08-11,3823.48,Simulada (formato datos.gov.co),True
-TRM-20240812,2024-08-12,3824.75,Simulada (formato datos.gov.co),True
-TRM-20240813,2024-08-13,3827.95,Simulada (formato datos.gov.co),True
-TRM-20240814,2024-08-14,3863.19,Simulada (formato datos.gov.co),True
-TRM-20240815,2024-08-15,3889.47,Simulada (formato datos.gov.co),True
-TRM-20240816,2024-08-16,3877.52,Simulada (formato datos.gov.co),True
-TRM-20240817,2024-08-17,3873.5,Simulada (formato datos.gov.co),True
-TRM-20240818,2024-08-18,3853.01,Simulada (formato datos.gov.co),True
-TRM-20240819,2024-08-19,3844.74,Simulada (formato datos.gov.co),True
-TRM-20240820,2024-08-20,3849.16,Simulada (formato datos.gov.co),True
-TRM-20240821,2024-08-21,3866.04,Simulada (formato datos.gov.co),True
-TRM-20240822,2024-08-22,3855.83,Simulada (formato datos.gov.co),True
-TRM-20240823,2024-08-23,3846.68,Simulada (formato datos.gov.co),True
-TRM-20240824,2024-08-24,3816.61,Simulada (formato datos.gov.co),True
-TRM-20240825,2024-08-25,3814.34,Simulada (formato datos.gov.co),True
-TRM-20240826,2024-08-26,3799.46,Simulada (formato datos.gov.co),True
-TRM-20240827,2024-08-27,3792.05,Simulada (formato datos.gov.co),True
-TRM-20240828,2024-08-28,3779.77,Simulada (formato datos.gov.co),True
-TRM-20240829,2024-08-29,3778.45,Simulada (formato datos.gov.co),True
-TRM-20240830,2024-08-30,3753.85,Simulada (formato datos.gov.co),True
-TRM-20240831,2024-08-31,3733.31,Simulada (formato datos.gov.co),True
-TRM-20240901,2024-09-01,3763.12,Simulada (formato datos.gov.co),True
-TRM-20240902,2024-09-02,3745.09,Simulada (formato datos.gov.co),True
-TRM-20240903,2024-09-03,3729.74,Simulada (formato datos.gov.co),True
-TRM-20240904,2024-09-04,3755.45,Simulada (formato datos.gov.co),True
-TRM-20240905,2024-09-05,3796.13,Simulada (formato datos.gov.co),True
-TRM-20240906,2024-09-06,3779.72,Simulada (formato datos.gov.co),True
-TRM-20240907,2024-09-07,3774.57,Simulada (formato datos.gov.co),True
-TRM-20240908,2024-09-08,3779.35,Simulada (formato datos.gov.co),True
-TRM-20240909,2024-09-09,3803.55,Simulada (formato datos.gov.co),True
-TRM-20240910,2024-09-10,3789.74,Simulada (formato datos.gov.co),True
-TRM-20240911,2024-09-11,3786.3,Simulada (formato datos.gov.co),True
-TRM-20240912,2024-09-12,3797.18,Simulada (formato datos.gov.co),True
-TRM-20240913,2024-09-13,3803.27,Simulada (formato datos.gov.co),True
-TRM-20240914,2024-09-14,3798.01,Simulada (formato datos.gov.co),True
-TRM-20240915,2024-09-15,3796.13,Simulada (formato datos.gov.co),True
-TRM-20240916,2024-09-16,3776.88,Simulada (formato datos.gov.co),True
-TRM-20240917,2024-09-17,3773.55,Simulada (formato datos.gov.co),True
-TRM-20240918,2024-09-18,3769.82,Simulada (formato datos.gov.co),True
-TRM-20240919,2024-09-19,3773.07,Simulada (formato datos.gov.co),True
-TRM-20240920,2024-09-20,3765.3,Simulada (formato datos.gov.co),True
-TRM-20240921,2024-09-21,3771.9,Simulada (formato datos.gov.co),True
-TRM-20240922,2024-09-22,3786.07,Simulada (formato datos.gov.co),True
-TRM-20240923,2024-09-23,3788.25,Simulada (formato datos.gov.co),True
-TRM-20240924,2024-09-24,3793.18,Simulada (formato datos.gov.co),True
-TRM-20240925,2024-09-25,3793.92,Simulada (formato datos.gov.co),True
-TRM-20240926,2024-09-26,3793.92,Simulada (formato datos.gov.co),True
-TRM-20240927,2024-09-27,3783.82,Simulada (formato datos.gov.co),True
-TRM-20240928,2024-09-28,3788.25,Simulada (formato datos.gov.co),True
-TRM-20240929,2024-09-29,3786.89,Simulada (formato datos.gov.co),True
-TRM-20240930,2024-09-30,3816.19,Simulada (formato datos.gov.co),True
-TRM-20241001,2024-10-01,3838.22,Simulada (formato datos.gov.co),True
-TRM-20241002,2024-10-02,3843.62,Simulada (formato datos.gov.co),True
-TRM-20241003,2024-10-03,3832.94,Simulada (formato datos.gov.co),True
-TRM-20241004,2024-10-04,3817.36,Simulada (formato datos.gov.co),True
-TRM-20241005,2024-10-05,3834.04,Simulada (formato datos.gov.co),True
-TRM-20241006,2024-10-06,3837.72,Simulada (formato datos.gov.co),True
-TRM-20241007,2024-10-07,3844.44,Simulada (formato datos.gov.co),True
-TRM-20241008,2024-10-08,3820.02,Simulada (formato datos.gov.co),True
-TRM-20241009,2024-10-09,3833.0,Simulada (formato datos.gov.co),True
-TRM-20241010,2024-10-10,3839.36,Simulada (formato datos.gov.co),True
-TRM-20241011,2024-10-11,3823.82,Simulada (formato datos.gov.co),True
-TRM-20241012,2024-10-12,3817.22,Simulada (formato datos.gov.co),True
-TRM-20241013,2024-10-13,3820.91,Simulada (formato datos.gov.co),True
-TRM-20241014,2024-10-14,3821.64,Simulada (formato datos.gov.co),True
-TRM-20241015,2024-10-15,3817.55,Simulada (formato datos.gov.co),True
-TRM-20241016,2024-10-16,3816.1,Simulada (formato datos.gov.co),True
-TRM-20241017,2024-10-17,3812.57,Simulada (formato datos.gov.co),True
-TRM-20241018,2024-10-18,3814.71,Simulada (formato datos.gov.co),True
-TRM-20241019,2024-10-19,3835.31,Simulada (formato datos.gov.co),True
-TRM-20241020,2024-10-20,3799.38,Simulada (formato datos.gov.co),True
-TRM-20241021,2024-10-21,3796.06,Simulada (formato datos.gov.co),True
-TRM-20241022,2024-10-22,3798.53,Simulada (formato datos.gov.co),True
-TRM-20241023,2024-10-23,3802.68,Simulada (formato datos.gov.co),True
-TRM-20241024,2024-10-24,3797.47,Simulada (formato datos.gov.co),True
-TRM-20241025,2024-10-25,3772.88,Simulada (formato datos.gov.co),True
-TRM-20241026,2024-10-26,3777.47,Simulada (formato datos.gov.co),True
-TRM-20241027,2024-10-27,3801.65,Simulada (formato datos.gov.co),True
-TRM-20241028,2024-10-28,3780.18,Simulada (formato datos.gov.co),True
-TRM-20241029,2024-10-29,3792.27,Simulada (formato datos.gov.co),True
-TRM-20241030,2024-10-30,3787.67,Simulada (formato datos.gov.co),True
-TRM-20241031,2024-10-31,3786.81,Simulada (formato datos.gov.co),True
-TRM-20241101,2024-11-01,3772.07,Simulada (formato datos.gov.co),True
-TRM-20241102,2024-11-02,3767.39,Simulada (formato datos.gov.co),True
-TRM-20241103,2024-11-03,3785.59,Simulada (formato datos.gov.co),True
-TRM-20241104,2024-11-04,3793.75,Simulada (formato datos.gov.co),True
-TRM-20241105,2024-11-05,3818.0,Simulada (formato datos.gov.co),True
-TRM-20241106,2024-11-06,3834.48,Simulada (formato datos.gov.co),True
-TRM-20241107,2024-11-07,3840.63,Simulada (formato datos.gov.co),True
-TRM-20241108,2024-11-08,3865.05,Simulada (formato datos.gov.co),True
-TRM-20241109,2024-11-09,3871.19,Simulada (formato datos.gov.co),True
-TRM-20241110,2024-11-10,3882.78,Simulada (formato datos.gov.co),True
-TRM-20241111,2024-11-11,3878.63,Simulada (formato datos.gov.co),True
-TRM-20241112,2024-11-12,3879.56,Simulada (formato datos.gov.co),True
-TRM-20241113,2024-11-13,3869.8,Simulada (formato datos.gov.co),True
-TRM-20241114,2024-11-14,3883.65,Simulada (formato datos.gov.co),True
-TRM-20241115,2024-11-15,3867.16,Simulada (formato datos.gov.co),True
-TRM-20241116,2024-11-16,3878.11,Simulada (formato datos.gov.co),True
-TRM-20241117,2024-11-17,3875.44,Simulada (formato datos.gov.co),True
-TRM-20241118,2024-11-18,3891.84,Simulada (formato datos.gov.co),True
-TRM-20241119,2024-11-19,3902.35,Simulada (formato datos.gov.co),True
-TRM-20241120,2024-11-20,3927.84,Simulada (formato datos.gov.co),True
-TRM-20241121,2024-11-21,3938.07,Simulada (formato datos.gov.co),True
-TRM-20241122,2024-11-22,3916.06,Simulada (formato datos.gov.co),True
-TRM-20241123,2024-11-23,3915.13,Simulada (formato datos.gov.co),True
-TRM-20241124,2024-11-24,3898.72,Simulada (formato datos.gov.co),True
-TRM-20241125,2024-11-25,3891.46,Simulada (formato datos.gov.co),True
-TRM-20241126,2024-11-26,3912.62,Simulada (formato datos.gov.co),True
-TRM-20241127,2024-11-27,3921.54,Simulada (formato datos.gov.co),True
-TRM-20241128,2024-11-28,3911.76,Simulada (formato datos.gov.co),True
-TRM-20241129,2024-11-29,3897.57,Simulada (formato datos.gov.co),True
-TRM-20241130,2024-11-30,3898.03,Simulada (formato datos.gov.co),True
-TRM-20241201,2024-12-01,3880.99,Simulada (formato datos.gov.co),True
-TRM-20241202,2024-12-02,3871.6,Simulada (formato datos.gov.co),True
-TRM-20241203,2024-12-03,3875.97,Simulada (formato datos.gov.co),True
-TRM-20241204,2024-12-04,3892.14,Simulada (formato datos.gov.co),True
-TRM-20241205,2024-12-05,3900.66,Simulada (formato datos.gov.co),True
-TRM-20241206,2024-12-06,3868.59,Simulada (formato datos.gov.co),True
-TRM-20241207,2024-12-07,3872.85,Simulada (formato datos.gov.co),True
-TRM-20241208,2024-12-08,3873.85,Simulada (formato datos.gov.co),True
-TRM-20241209,2024-12-09,3879.65,Simulada (formato datos.gov.co),True
-TRM-20241210,2024-12-10,3902.28,Simulada (formato datos.gov.co),True
-TRM-20241211,2024-12-11,3873.39,Simulada (formato datos.gov.co),True
-TRM-20241212,2024-12-12,3865.12,Simulada (formato datos.gov.co),True
-TRM-20241213,2024-12-13,3873.39,Simulada (formato datos.gov.co),True
-TRM-20241214,2024-12-14,3851.25,Simulada (formato datos.gov.co),True
-TRM-20241215,2024-12-15,3871.91,Simulada (formato datos.gov.co),True
-TRM-20241216,2024-12-16,3877.07,Simulada (formato datos.gov.co),True
-TRM-20241217,2024-12-17,3888.92,Simulada (formato datos.gov.co),True
-TRM-20241218,2024-12-18,3880.92,Simulada (formato datos.gov.co),True
-TRM-20241219,2024-12-19,3892.32,Simulada (formato datos.gov.co),True
-TRM-20241220,2024-12-20,3907.28,Simulada (formato datos.gov.co),True
-TRM-20241221,2024-12-21,3910.54,Simulada (formato datos.gov.co),True
-TRM-20241222,2024-12-22,3913.82,Simulada (formato datos.gov.co),True
-TRM-20241223,2024-12-23,3917.6,Simulada (formato datos.gov.co),True
-TRM-20241224,2024-12-24,3905.52,Simulada (formato datos.gov.co),True
-TRM-20241225,2024-12-25,3903.45,Simulada (formato datos.gov.co),True
-TRM-20241226,2024-12-26,3901.32,Simulada (formato datos.gov.co),True
-TRM-20241227,2024-12-27,3906.68,Simulada (formato datos.gov.co),True
-TRM-20241228,2024-12-28,3920.68,Simulada (formato datos.gov.co),True
-TRM-20241229,2024-12-29,3905.86,Simulada (formato datos.gov.co),True
-TRM-20241230,2024-12-30,3904.11,Simulada (formato datos.gov.co),True
-TRM-20241231,2024-12-31,3924.85,Simulada (formato datos.gov.co),True
-TRM-20250101,2025-01-01,3914.44,Simulada (formato datos.gov.co),True
-TRM-20250102,2025-01-02,3902.93,Simulada (formato datos.gov.co),True
-TRM-20250103,2025-01-03,3905.76,Simulada (formato datos.gov.co),True
-TRM-20250104,2025-01-04,3917.58,Simulada (formato datos.gov.co),True
-TRM-20250105,2025-01-05,3917.74,Simulada (formato datos.gov.co),True
-TRM-20250106,2025-01-06,3936.35,Simulada (formato datos.gov.co),True
-TRM-20250107,2025-01-07,3948.34,Simulada (formato datos.gov.co),True
-TRM-20250108,2025-01-08,3960.13,Simulada (formato datos.gov.co),True
-TRM-20250109,2025-01-09,3967.89,Simulada (formato datos.gov.co),True
-TRM-20250110,2025-01-10,4000.47,Simulada (formato datos.gov.co),True
-TRM-20250111,2025-01-11,3997.6,Simulada (formato datos.gov.co),True
-TRM-20250112,2025-01-12,3969.55,Simulada (formato datos.gov.co),True
-TRM-20250113,2025-01-13,3992.01,Simulada (formato datos.gov.co),True
-TRM-20250114,2025-01-14,3985.6,Simulada (formato datos.gov.co),True
-TRM-20250115,2025-01-15,3987.11,Simulada (formato datos.gov.co),True
-TRM-20250116,2025-01-16,4005.45,Simulada (formato datos.gov.co),True
-TRM-20250117,2025-01-17,3983.02,Simulada (formato datos.gov.co),True
-TRM-20250118,2025-01-18,3965.49,Simulada (formato datos.gov.co),True
-TRM-20250119,2025-01-19,3943.08,Simulada (formato datos.gov.co),True
-TRM-20250120,2025-01-20,3931.96,Simulada (formato datos.gov.co),True
-TRM-20250121,2025-01-21,3938.11,Simulada (formato datos.gov.co),True
-TRM-20250122,2025-01-22,3945.45,Simulada (formato datos.gov.co),True
-TRM-20250123,2025-01-23,3949.32,Simulada (formato datos.gov.co),True
-TRM-20250124,2025-01-24,3929.54,Simulada (formato datos.gov.co),True
-TRM-20250125,2025-01-25,3897.2,Simulada (formato datos.gov.co),True
-TRM-20250126,2025-01-26,3897.96,Simulada (formato datos.gov.co),True
-TRM-20250127,2025-01-27,3891.35,Simulada (formato datos.gov.co),True
-TRM-20250128,2025-01-28,3897.79,Simulada (formato datos.gov.co),True
-TRM-20250129,2025-01-29,3907.61,Simulada (formato datos.gov.co),True
-TRM-20250130,2025-01-30,3909.55,Simulada (formato datos.gov.co),True
-TRM-20250131,2025-01-31,3920.19,Simulada (formato datos.gov.co),True
-TRM-20250201,2025-02-01,3923.4,Simulada (formato datos.gov.co),True
-TRM-20250202,2025-02-02,3930.82,Simulada (formato datos.gov.co),True
-TRM-20250203,2025-02-03,3920.96,Simulada (formato datos.gov.co),True
-TRM-20250204,2025-02-04,3918.44,Simulada (formato datos.gov.co),True
-TRM-20250205,2025-02-05,3921.2,Simulada (formato datos.gov.co),True
-TRM-20250206,2025-02-06,3932.68,Simulada (formato datos.gov.co),True
-TRM-20250207,2025-02-07,3927.17,Simulada (formato datos.gov.co),True
-TRM-20250208,2025-02-08,3934.47,Simulada (formato datos.gov.co),True
-TRM-20250209,2025-02-09,3930.75,Simulada (formato datos.gov.co),True
-TRM-20250210,2025-02-10,3929.1,Simulada (formato datos.gov.co),True
-TRM-20250211,2025-02-11,3940.71,Simulada (formato datos.gov.co),True
-TRM-20250212,2025-02-12,3912.81,Simulada (formato datos.gov.co),True
-TRM-20250213,2025-02-13,3894.66,Simulada (formato datos.gov.co),True
-TRM-20250214,2025-02-14,3873.91,Simulada (formato datos.gov.co),True
-TRM-20250215,2025-02-15,3841.24,Simulada (formato datos.gov.co),True
-TRM-20250216,2025-02-16,3831.74,Simulada (formato datos.gov.co),True
-TRM-20250217,2025-02-17,3842.23,Simulada (formato datos.gov.co),True
-TRM-20250218,2025-02-18,3838.25,Simulada (formato datos.gov.co),True
-TRM-20250219,2025-02-19,3841.02,Simulada (formato datos.gov.co),True
-TRM-20250220,2025-02-20,3856.26,Simulada (formato datos.gov.co),True
-TRM-20250221,2025-02-21,3874.85,Simulada (formato datos.gov.co),True
-TRM-20250222,2025-02-22,3873.88,Simulada (formato datos.gov.co),True
-TRM-20250223,2025-02-23,3892.83,Simulada (formato datos.gov.co),True
-TRM-20250224,2025-02-24,3894.12,Simulada (formato datos.gov.co),True
-TRM-20250225,2025-02-25,3882.4,Simulada (formato datos.gov.co),True
-TRM-20250226,2025-02-26,3874.08,Simulada (formato datos.gov.co),True
-TRM-20250227,2025-02-27,3853.35,Simulada (formato datos.gov.co),True
-TRM-20250228,2025-02-28,3840.92,Simulada (formato datos.gov.co),True
-TRM-20250301,2025-03-01,3835.91,Simulada (formato datos.gov.co),True
-TRM-20250302,2025-03-02,3847.16,Simulada (formato datos.gov.co),True
-TRM-20250303,2025-03-03,3871.25,Simulada (formato datos.gov.co),True
-TRM-20250304,2025-03-04,3851.9,Simulada (formato datos.gov.co),True
-TRM-20250305,2025-03-05,3857.4,Simulada (formato datos.gov.co),True
-TRM-20250306,2025-03-06,3842.83,Simulada (formato datos.gov.co),True
-TRM-20250307,2025-03-07,3849.47,Simulada (formato datos.gov.co),True
-TRM-20250308,2025-03-08,3847.64,Simulada (formato datos.gov.co),True
-TRM-20250309,2025-03-09,3822.01,Simulada (formato datos.gov.co),True
-TRM-20250310,2025-03-10,3835.0,Simulada (formato datos.gov.co),True
-TRM-20250311,2025-03-11,3826.53,Simulada (formato datos.gov.co),True
-TRM-20250312,2025-03-12,3819.06,Simulada (formato datos.gov.co),True
-TRM-20250313,2025-03-13,3804.08,Simulada (formato datos.gov.co),True
-TRM-20250314,2025-03-14,3794.92,Simulada (formato datos.gov.co),True
-TRM-20250315,2025-03-15,3800.91,Simulada (formato datos.gov.co),True
-TRM-20250316,2025-03-16,3798.26,Simulada (formato datos.gov.co),True
-TRM-20250317,2025-03-17,3802.86,Simulada (formato datos.gov.co),True
-TRM-20250318,2025-03-18,3807.93,Simulada (formato datos.gov.co),True
-TRM-20250319,2025-03-19,3826.42,Simulada (formato datos.gov.co),True
-TRM-20250320,2025-03-20,3821.62,Simulada (formato datos.gov.co),True
-TRM-20250321,2025-03-21,3800.94,Simulada (formato datos.gov.co),True
-TRM-20250322,2025-03-22,3815.89,Simulada (formato datos.gov.co),True
-TRM-20250323,2025-03-23,3811.24,Simulada (formato datos.gov.co),True
-TRM-20250324,2025-03-24,3826.85,Simulada (formato datos.gov.co),True
-TRM-20250325,2025-03-25,3832.22,Simulada (formato datos.gov.co),True
-TRM-20250326,2025-03-26,3830.38,Simulada (formato datos.gov.co),True
-TRM-20250327,2025-03-27,3835.26,Simulada (formato datos.gov.co),True
-TRM-20250328,2025-03-28,3862.58,Simulada (formato datos.gov.co),True
-TRM-20250329,2025-03-29,3891.65,Simulada (formato datos.gov.co),True
-TRM-20250330,2025-03-30,3892.63,Simulada (formato datos.gov.co),True
-TRM-20250331,2025-03-31,3894.87,Simulada (formato datos.gov.co),True
-TRM-20250401,2025-04-01,3909.94,Simulada (formato datos.gov.co),True
-TRM-20250402,2025-04-02,3898.1,Simulada (formato datos.gov.co),True
-TRM-20250403,2025-04-03,3902.76,Simulada (formato datos.gov.co),True
-TRM-20250404,2025-04-04,3902.4,Simulada (formato datos.gov.co),True
-TRM-20250405,2025-04-05,3906.79,Simulada (formato datos.gov.co),True
-TRM-20250406,2025-04-06,3895.13,Simulada (formato datos.gov.co),True
-TRM-20250407,2025-04-07,3872.87,Simulada (formato datos.gov.co),True
-TRM-20250408,2025-04-08,3843.85,Simulada (formato datos.gov.co),True
-TRM-20250409,2025-04-09,3828.21,Simulada (formato datos.gov.co),True
-TRM-20250410,2025-04-10,3821.78,Simulada (formato datos.gov.co),True
-TRM-20250411,2025-04-11,3817.68,Simulada (formato datos.gov.co),True
-TRM-20250412,2025-04-12,3844.8,Simulada (formato datos.gov.co),True
-TRM-20250413,2025-04-13,3860.29,Simulada (formato datos.gov.co),True
-TRM-20250414,2025-04-14,3846.82,Simulada (formato datos.gov.co),True
-TRM-20250415,2025-04-15,3851.68,Simulada (formato datos.gov.co),True
-TRM-20250416,2025-04-16,3845.98,Simulada (formato datos.gov.co),True
-TRM-20250417,2025-04-17,3842.0,Simulada (formato datos.gov.co),True
-TRM-20250418,2025-04-18,3844.6,Simulada (formato datos.gov.co),True
-TRM-20250419,2025-04-19,3853.27,Simulada (formato datos.gov.co),True
-TRM-20250420,2025-04-20,3848.52,Simulada (formato datos.gov.co),True
-TRM-20250421,2025-04-21,3863.41,Simulada (formato datos.gov.co),True
-TRM-20250422,2025-04-22,3847.42,Simulada (formato datos.gov.co),True
-TRM-20250423,2025-04-23,3847.51,Simulada (formato datos.gov.co),True
-TRM-20250424,2025-04-24,3883.88,Simulada (formato datos.gov.co),True
-TRM-20250425,2025-04-25,3887.0,Simulada (formato datos.gov.co),True
-TRM-20250426,2025-04-26,3907.07,Simulada (formato datos.gov.co),True
-TRM-20250427,2025-04-27,3908.35,Simulada (formato datos.gov.co),True
-TRM-20250428,2025-04-28,3916.48,Simulada (formato datos.gov.co),True
-TRM-20250429,2025-04-29,3915.69,Simulada (formato datos.gov.co),True
-TRM-20250430,2025-04-30,3913.3,Simulada (formato datos.gov.co),True
-TRM-20250501,2025-05-01,3902.39,Simulada (formato datos.gov.co),True
-TRM-20250502,2025-05-02,3908.41,Simulada (formato datos.gov.co),True
-TRM-20250503,2025-05-03,3896.49,Simulada (formato datos.gov.co),True
-TRM-20250504,2025-05-04,3905.81,Simulada (formato datos.gov.co),True
-TRM-20250505,2025-05-05,3921.0,Simulada (formato datos.gov.co),True
-TRM-20250506,2025-05-06,3926.13,Simulada (formato datos.gov.co),True
-TRM-20250507,2025-05-07,3922.13,Simulada (formato datos.gov.co),True
-TRM-20250508,2025-05-08,3928.48,Simulada (formato datos.gov.co),True
-TRM-20250509,2025-05-09,3924.16,Simulada (formato datos.gov.co),True
-TRM-20250510,2025-05-10,3937.26,Simulada (formato datos.gov.co),True
-TRM-20250511,2025-05-11,3911.62,Simulada (formato datos.gov.co),True
-TRM-20250512,2025-05-12,3906.92,Simulada (formato datos.gov.co),True
-TRM-20250513,2025-05-13,3879.05,Simulada (formato datos.gov.co),True
-TRM-20250514,2025-05-14,3858.12,Simulada (formato datos.gov.co),True
-TRM-20250515,2025-05-15,3877.21,Simulada (formato datos.gov.co),True
-TRM-20250516,2025-05-16,3889.74,Simulada (formato datos.gov.co),True
-TRM-20250517,2025-05-17,3879.67,Simulada (formato datos.gov.co),True
-TRM-20250518,2025-05-18,3858.64,Simulada (formato datos.gov.co),True
-TRM-20250519,2025-05-19,3817.13,Simulada (formato datos.gov.co),True
-TRM-20250520,2025-05-20,3809.52,Simulada (formato datos.gov.co),True
-TRM-20250521,2025-05-21,3843.41,Simulada (formato datos.gov.co),True
-TRM-20250522,2025-05-22,3849.5,Simulada (formato datos.gov.co),True
-TRM-20250523,2025-05-23,3841.66,Simulada (formato datos.gov.co),True
-TRM-20250524,2025-05-24,3848.17,Simulada (formato datos.gov.co),True
-TRM-20250525,2025-05-25,3826.32,Simulada (formato datos.gov.co),True
-TRM-20250526,2025-05-26,3822.16,Simulada (formato datos.gov.co),True
-TRM-20250527,2025-05-27,3823.55,Simulada (formato datos.gov.co),True
-TRM-20250528,2025-05-28,3822.35,Simulada (formato datos.gov.co),True
-TRM-20250529,2025-05-29,3833.42,Simulada (formato datos.gov.co),True
-TRM-20250530,2025-05-30,3838.24,Simulada (formato datos.gov.co),True
-TRM-20250531,2025-05-31,3847.6,Simulada (formato datos.gov.co),True
-TRM-20250601,2025-06-01,3837.96,Simulada (formato datos.gov.co),True
-TRM-20250602,2025-06-02,3850.53,Simulada (formato datos.gov.co),True
-TRM-20250603,2025-06-03,3873.34,Simulada (formato datos.gov.co),True
-TRM-20250604,2025-06-04,3859.75,Simulada (formato datos.gov.co),True
-TRM-20250605,2025-06-05,3847.33,Simulada (formato datos.gov.co),True
-TRM-20250606,2025-06-06,3866.03,Simulada (formato datos.gov.co),True
-TRM-20250607,2025-06-07,3863.35,Simulada (formato datos.gov.co),True
-TRM-20250608,2025-06-08,3883.0,Simulada (formato datos.gov.co),True
-TRM-20250609,2025-06-09,3876.81,Simulada (formato datos.gov.co),True
-TRM-20250610,2025-06-10,3897.18,Simulada (formato datos.gov.co),True
-TRM-20250611,2025-06-11,3899.02,Simulada (formato datos.gov.co),True
-TRM-20250612,2025-06-12,3902.63,Simulada (formato datos.gov.co),True
-TRM-20250613,2025-06-13,3924.54,Simulada (formato datos.gov.co),True
-TRM-20250614,2025-06-14,3919.47,Simulada (formato datos.gov.co),True
-TRM-20250615,2025-06-15,3906.3,Simulada (formato datos.gov.co),True
-TRM-20250616,2025-06-16,3900.02,Simulada (formato datos.gov.co),True
-TRM-20250617,2025-06-17,3906.35,Simulada (formato datos.gov.co),True
-TRM-20250618,2025-06-18,3884.43,Simulada (formato datos.gov.co),True
-TRM-20250619,2025-06-19,3893.36,Simulada (formato datos.gov.co),True
-TRM-20250620,2025-06-20,3885.81,Simulada (formato datos.gov.co),True
-TRM-20250621,2025-06-21,3901.88,Simulada (formato datos.gov.co),True
-TRM-20250622,2025-06-22,3868.36,Simulada (formato datos.gov.co),True
-TRM-20250623,2025-06-23,3857.35,Simulada (formato datos.gov.co),True
-TRM-20250624,2025-06-24,3833.74,Simulada (formato datos.gov.co),True
-TRM-20250625,2025-06-25,3822.17,Simulada (formato datos.gov.co),True
-TRM-20250626,2025-06-26,3825.64,Simulada (formato datos.gov.co),True
-TRM-20250627,2025-06-27,3823.13,Simulada (formato datos.gov.co),True
-TRM-20250628,2025-06-28,3819.58,Simulada (formato datos.gov.co),True
-TRM-20250629,2025-06-29,3817.36,Simulada (formato datos.gov.co),True
-TRM-20250630,2025-06-30,3820.2,Simulada (formato datos.gov.co),True
-TRM-20250701,2025-07-01,3806.08,Simulada (formato datos.gov.co),True
-TRM-20250702,2025-07-02,3815.98,Simulada (formato datos.gov.co),True
-TRM-20250703,2025-07-03,3825.26,Simulada (formato datos.gov.co),True
-TRM-20250704,2025-07-04,3830.65,Simulada (formato datos.gov.co),True
-TRM-20250705,2025-07-05,3838.44,Simulada (formato datos.gov.co),True
-TRM-20250706,2025-07-06,3842.59,Simulada (formato datos.gov.co),True
-TRM-20250707,2025-07-07,3871.08,Simulada (formato datos.gov.co),True
-TRM-20250708,2025-07-08,3869.86,Simulada (formato datos.gov.co),True
-TRM-20250709,2025-07-09,3865.56,Simulada (formato datos.gov.co),True
-TRM-20250710,2025-07-10,3855.01,Simulada (formato datos.gov.co),True
-TRM-20250711,2025-07-11,3840.56,Simulada (formato datos.gov.co),True
-TRM-20250712,2025-07-12,3823.14,Simulada (formato datos.gov.co),True
-TRM-20250713,2025-07-13,3810.69,Simulada (formato datos.gov.co),True
-TRM-20250714,2025-07-14,3809.7,Simulada (formato datos.gov.co),True
-TRM-20250715,2025-07-15,3814.38,Simulada (formato datos.gov.co),True
-TRM-20250716,2025-07-16,3815.1,Simulada (formato datos.gov.co),True
-TRM-20250717,2025-07-17,3804.38,Simulada (formato datos.gov.co),True
-TRM-20250718,2025-07-18,3816.99,Simulada (formato datos.gov.co),True
-TRM-20250719,2025-07-19,3827.34,Simulada (formato datos.gov.co),True
-TRM-20250720,2025-07-20,3825.1,Simulada (formato datos.gov.co),True
-TRM-20250721,2025-07-21,3815.96,Simulada (formato datos.gov.co),True
-TRM-20250722,2025-07-22,3823.64,Simulada (formato datos.gov.co),True
-TRM-20250723,2025-07-23,3826.27,Simulada (formato datos.gov.co),True
-TRM-20250724,2025-07-24,3806.0,Simulada (formato datos.gov.co),True
-TRM-20250725,2025-07-25,3805.05,Simulada (formato datos.gov.co),True
-TRM-20250726,2025-07-26,3808.71,Simulada (formato datos.gov.co),True
-TRM-20250727,2025-07-27,3796.12,Simulada (formato datos.gov.co),True
-TRM-20250728,2025-07-28,3798.78,Simulada (formato datos.gov.co),True
-TRM-20250729,2025-07-29,3778.41,Simulada (formato datos.gov.co),True
-TRM-20250730,2025-07-30,3797.12,Simulada (formato datos.gov.co),True
-TRM-20250731,2025-07-31,3814.59,Simulada (formato datos.gov.co),True
-TRM-20250801,2025-08-01,3811.05,Simulada (formato datos.gov.co),True
-TRM-20250802,2025-08-02,3816.14,Simulada (formato datos.gov.co),True
-TRM-20250803,2025-08-03,3782.4,Simulada (formato datos.gov.co),True
-TRM-20250804,2025-08-04,3766.21,Simulada (formato datos.gov.co),True
-TRM-20250805,2025-08-05,3762.1,Simulada (formato datos.gov.co),True
-TRM-20250806,2025-08-06,3747.09,Simulada (formato datos.gov.co),True
-TRM-20250807,2025-08-07,3757.09,Simulada (formato datos.gov.co),True
-TRM-20250808,2025-08-08,3785.05,Simulada (formato datos.gov.co),True
-TRM-20250809,2025-08-09,3768.58,Simulada (formato datos.gov.co),True
-TRM-20250810,2025-08-10,3756.86,Simulada (formato datos.gov.co),True
-TRM-20250811,2025-08-11,3760.15,Simulada (formato datos.gov.co),True
-TRM-20250812,2025-08-12,3782.71,Simulada (formato datos.gov.co),True
-TRM-20250813,2025-08-13,3765.59,Simulada (formato datos.gov.co),True
-TRM-20250814,2025-08-14,3769.08,Simulada (formato datos.gov.co),True
-TRM-20250815,2025-08-15,3794.58,Simulada (formato datos.gov.co),True
-TRM-20250816,2025-08-16,3771.45,Simulada (formato datos.gov.co),True
-TRM-20250817,2025-08-17,3753.52,Simulada (formato datos.gov.co),True
-TRM-20250818,2025-08-18,3747.59,Simulada (formato datos.gov.co),True
-TRM-20250819,2025-08-19,3740.3,Simulada (formato datos.gov.co),True
-TRM-20250820,2025-08-20,3751.68,Simulada (formato datos.gov.co),True
-TRM-20250821,2025-08-21,3755.06,Simulada (formato datos.gov.co),True
-TRM-20250822,2025-08-22,3730.21,Simulada (formato datos.gov.co),True
-TRM-20250823,2025-08-23,3737.43,Simulada (formato datos.gov.co),True
-TRM-20250824,2025-08-24,3729.34,Simulada (formato datos.gov.co),True
-TRM-20250825,2025-08-25,3747.18,Simulada (formato datos.gov.co),True
-TRM-20250826,2025-08-26,3738.4,Simulada (formato datos.gov.co),True
-TRM-20250827,2025-08-27,3729.48,Simulada (formato datos.gov.co),True
-TRM-20250828,2025-08-28,3737.06,Simulada (formato datos.gov.co),True
-TRM-20250829,2025-08-29,3747.74,Simulada (formato datos.gov.co),True
-TRM-20250830,2025-08-30,3754.01,Simulada (formato datos.gov.co),True
-TRM-20250831,2025-08-31,3730.42,Simulada (formato datos.gov.co),True
-TRM-20250901,2025-09-01,3737.95,Simulada (formato datos.gov.co),True
-TRM-20250902,2025-09-02,3723.47,Simulada (formato datos.gov.co),True
-TRM-20250903,2025-09-03,3726.76,Simulada (formato datos.gov.co),True
-TRM-20250904,2025-09-04,3706.83,Simulada (formato datos.gov.co),True
-TRM-20250905,2025-09-05,3713.08,Simulada (formato datos.gov.co),True
-TRM-20250906,2025-09-06,3701.79,Simulada (formato datos.gov.co),True
-TRM-20250907,2025-09-07,3683.83,Simulada (formato datos.gov.co),True
-TRM-20250908,2025-09-08,3693.82,Simulada (formato datos.gov.co),True
-TRM-20250909,2025-09-09,3697.21,Simulada (formato datos.gov.co),True
-TRM-20250910,2025-09-10,3688.61,Simulada (formato datos.gov.co),True
-TRM-20250911,2025-09-11,3708.93,Simulada (formato datos.gov.co),True
-TRM-20250912,2025-09-12,3702.76,Simulada (formato datos.gov.co),True
-TRM-20250913,2025-09-13,3703.21,Simulada (formato datos.gov.co),True
-TRM-20250914,2025-09-14,3706.97,Simulada (formato datos.gov.co),True
-TRM-20250915,2025-09-15,3698.3,Simulada (formato datos.gov.co),True
-TRM-20250916,2025-09-16,3704.89,Simulada (formato datos.gov.co),True
-TRM-20250917,2025-09-17,3697.42,Simulada (formato datos.gov.co),True
-TRM-20250918,2025-09-18,3691.66,Simulada (formato datos.gov.co),True
-TRM-20250919,2025-09-19,3710.74,Simulada (formato datos.gov.co),True
-TRM-20250920,2025-09-20,3696.17,Simulada (formato datos.gov.co),True
-TRM-20250921,2025-09-21,3662.39,Simulada (formato datos.gov.co),True
-TRM-20250922,2025-09-22,3684.94,Simulada (formato datos.gov.co),True
-TRM-20250923,2025-09-23,3720.63,Simulada (formato datos.gov.co),True
-TRM-20250924,2025-09-24,3714.96,Simulada (formato datos.gov.co),True
-TRM-20250925,2025-09-25,3687.85,Simulada (formato datos.gov.co),True
-TRM-20250926,2025-09-26,3683.5,Simulada (formato datos.gov.co),True
-TRM-20250927,2025-09-27,3679.49,Simulada (formato datos.gov.co),True
-TRM-20250928,2025-09-28,3676.83,Simulada (formato datos.gov.co),True
-TRM-20250929,2025-09-29,3661.24,Simulada (formato datos.gov.co),True
-TRM-20250930,2025-09-30,3669.36,Simulada (formato datos.gov.co),True
-TRM-20251001,2025-10-01,3676.7,Simulada (formato datos.gov.co),True
-TRM-20251002,2025-10-02,3655.78,Simulada (formato datos.gov.co),True
-TRM-20251003,2025-10-03,3665.57,Simulada (formato datos.gov.co),True
-TRM-20251004,2025-10-04,3694.31,Simulada (formato datos.gov.co),True
-TRM-20251005,2025-10-05,3696.71,Simulada (formato datos.gov.co),True
-TRM-20251006,2025-10-06,3691.99,Simulada (formato datos.gov.co),True
-TRM-20251007,2025-10-07,3690.0,Simulada (formato datos.gov.co),True
-TRM-20251008,2025-10-08,3698.62,Simulada (formato datos.gov.co),True
-TRM-20251009,2025-10-09,3674.39,Simulada (formato datos.gov.co),True
-TRM-20251010,2025-10-10,3676.69,Simulada (formato datos.gov.co),True
-TRM-20251011,2025-10-11,3671.22,Simulada (formato datos.gov.co),True
-TRM-20251012,2025-10-12,3697.09,Simulada (formato datos.gov.co),True
-TRM-20251013,2025-10-13,3694.65,Simulada (formato datos.gov.co),True
-TRM-20251014,2025-10-14,3718.0,Simulada (formato datos.gov.co),True
-TRM-20251015,2025-10-15,3702.55,Simulada (formato datos.gov.co),True
-TRM-20251016,2025-10-16,3710.77,Simulada (formato datos.gov.co),True
-TRM-20251017,2025-10-17,3715.25,Simulada (formato datos.gov.co),True
-TRM-20251018,2025-10-18,3703.08,Simulada (formato datos.gov.co),True
-TRM-20251019,2025-10-19,3705.56,Simulada (formato datos.gov.co),True
-TRM-20251020,2025-10-20,3722.54,Simulada (formato datos.gov.co),True
-TRM-20251021,2025-10-21,3718.0,Simulada (formato datos.gov.co),True
-TRM-20251022,2025-10-22,3694.32,Simulada (formato datos.gov.co),True
-TRM-20251023,2025-10-23,3694.07,Simulada (formato datos.gov.co),True
-TRM-20251024,2025-10-24,3681.44,Simulada (formato datos.gov.co),True
-TRM-20251025,2025-10-25,3676.64,Simulada (formato datos.gov.co),True
-TRM-20251026,2025-10-26,3675.5,Simulada (formato datos.gov.co),True
-TRM-20251027,2025-10-27,3651.62,Simulada (formato datos.gov.co),True
-TRM-20251028,2025-10-28,3629.0,Simulada (formato datos.gov.co),True
-TRM-20251029,2025-10-29,3635.75,Simulada (formato datos.gov.co),True
-TRM-20251030,2025-10-30,3628.43,Simulada (formato datos.gov.co),True
-TRM-20251031,2025-10-31,3600.0,Simulada (formato datos.gov.co),True
-TRM-20251101,2025-11-01,3603.52,Simulada (formato datos.gov.co),True
-TRM-20251102,2025-11-02,3607.33,Simulada (formato datos.gov.co),True
-TRM-20251103,2025-11-03,3600.0,Simulada (formato datos.gov.co),True
-TRM-20251104,2025-11-04,3600.0,Simulada (formato datos.gov.co),True
-TRM-20251105,2025-11-05,3600.0,Simulada (formato datos.gov.co),True
-TRM-20251106,2025-11-06,3600.0,Simulada (formato datos.gov.co),True
-TRM-20251107,2025-11-07,3628.85,Simulada (formato datos.gov.co),True
-TRM-20251108,2025-11-08,3634.73,Simulada (formato datos.gov.co),True
-TRM-20251109,2025-11-09,3640.16,Simulada (formato datos.gov.co),True
-TRM-20251110,2025-11-10,3637.82,Simulada (formato datos.gov.co),True
-TRM-20251111,2025-11-11,3649.26,Simulada (formato datos.gov.co),True
-TRM-20251112,2025-11-12,3658.01,Simulada (formato datos.gov.co),True
-TRM-20251113,2025-11-13,3675.53,Simulada (formato datos.gov.co),True
-TRM-20251114,2025-11-14,3668.23,Simulada (formato datos.gov.co),True
-TRM-20251115,2025-11-15,3662.14,Simulada (formato datos.gov.co),True
-TRM-20251116,2025-11-16,3655.43,Simulada (formato datos.gov.co),True
-TRM-20251117,2025-11-17,3666.5,Simulada (formato datos.gov.co),True
-TRM-20251118,2025-11-18,3687.48,Simulada (formato datos.gov.co),True
-TRM-20251119,2025-11-19,3681.05,Simulada (formato datos.gov.co),True
-TRM-20251120,2025-11-20,3675.11,Simulada (formato datos.gov.co),True
-TRM-20251121,2025-11-21,3679.5,Simulada (formato datos.gov.co),True
-TRM-20251122,2025-11-22,3676.06,Simulada (formato datos.gov.co),True
-TRM-20251123,2025-11-23,3689.39,Simulada (formato datos.gov.co),True
-TRM-20251124,2025-11-24,3657.87,Simulada (formato datos.gov.co),True
-TRM-20251125,2025-11-25,3646.29,Simulada (formato datos.gov.co),True
-TRM-20251126,2025-11-26,3635.34,Simulada (formato datos.gov.co),True
-TRM-20251127,2025-11-27,3602.86,Simulada (formato datos.gov.co),True
-TRM-20251128,2025-11-28,3600.0,Simulada (formato datos.gov.co),True
-TRM-20251129,2025-11-29,3600.0,Simulada (formato datos.gov.co),True
-TRM-20251130,2025-11-30,3600.0,Simulada (formato datos.gov.co),True
-TRM-20251201,2025-12-01,3600.0,Simulada (formato datos.gov.co),True
-TRM-20251202,2025-12-02,3600.0,Simulada (formato datos.gov.co),True
-TRM-20251203,2025-12-03,3600.0,Simulada (formato datos.gov.co),True
-TRM-20251204,2025-12-04,3600.0,Simulada (formato datos.gov.co),True
-TRM-20251205,2025-12-05,3600.0,Simulada (formato datos.gov.co),True
-TRM-20251206,2025-12-06,3600.0,Simulada (formato datos.gov.co),True
-TRM-20251207,2025-12-07,3600.0,Simulada (formato datos.gov.co),True
-TRM-20251208,2025-12-08,3600.0,Simulada (formato datos.gov.co),True
-TRM-20251209,2025-12-09,3600.0,Simulada (formato datos.gov.co),True
-TRM-20251210,2025-12-10,3600.0,Simulada (formato datos.gov.co),True
-TRM-20251211,2025-12-11,3600.0,Simulada (formato datos.gov.co),True
-TRM-20251212,2025-12-12,3600.0,Simulada (formato datos.gov.co),True
-TRM-20251213,2025-12-13,3600.0,Simulada (formato datos.gov.co),True
-TRM-20251214,2025-12-14,3600.0,Simulada (formato datos.gov.co),True
-TRM-20251215,2025-12-15,3600.0,Simulada (formato datos.gov.co),True
-TRM-20251216,2025-12-16,3600.0,Simulada (formato datos.gov.co),True
-TRM-20251217,2025-12-17,3600.0,Simulada (formato datos.gov.co),True
-TRM-20251218,2025-12-18,3600.0,Simulada (formato datos.gov.co),True
-TRM-20251219,2025-12-19,3600.0,Simulada (formato datos.gov.co),True
-TRM-20251220,2025-12-20,3600.0,Simulada (formato datos.gov.co),True
-TRM-20251221,2025-12-21,3600.0,Simulada (formato datos.gov.co),True
-TRM-20251222,2025-12-22,3600.0,Simulada (formato datos.gov.co),True
-TRM-20251223,2025-12-23,3600.0,Simulada (formato datos.gov.co),True
-TRM-20251224,2025-12-24,3600.0,Simulada (formato datos.gov.co),True
-TRM-20251225,2025-12-25,3600.0,Simulada (formato datos.gov.co),True
-TRM-20251226,2025-12-26,3600.0,Simulada (formato datos.gov.co),True
-TRM-20251227,2025-12-27,3600.0,Simulada (formato datos.gov.co),True
-TRM-20251228,2025-12-28,3600.0,Simulada (formato datos.gov.co),True
-TRM-20251229,2025-12-29,3600.0,Simulada (formato datos.gov.co),True
-TRM-20251230,2025-12-30,3600.0,Simulada (formato datos.gov.co),True
-TRM-20251231,2025-12-31,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260101,2026-01-01,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260102,2026-01-02,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260103,2026-01-03,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260104,2026-01-04,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260105,2026-01-05,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260106,2026-01-06,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260107,2026-01-07,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260108,2026-01-08,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260109,2026-01-09,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260110,2026-01-10,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260111,2026-01-11,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260112,2026-01-12,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260113,2026-01-13,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260114,2026-01-14,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260115,2026-01-15,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260116,2026-01-16,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260117,2026-01-17,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260118,2026-01-18,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260119,2026-01-19,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260120,2026-01-20,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260121,2026-01-21,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260122,2026-01-22,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260123,2026-01-23,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260124,2026-01-24,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260125,2026-01-25,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260126,2026-01-26,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260127,2026-01-27,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260128,2026-01-28,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260129,2026-01-29,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260130,2026-01-30,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260131,2026-01-31,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260201,2026-02-01,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260202,2026-02-02,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260203,2026-02-03,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260204,2026-02-04,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260205,2026-02-05,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260206,2026-02-06,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260207,2026-02-07,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260208,2026-02-08,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260209,2026-02-09,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260210,2026-02-10,3607.37,Simulada (formato datos.gov.co),True
-TRM-20260211,2026-02-11,3610.95,Simulada (formato datos.gov.co),True
-TRM-20260212,2026-02-12,3629.86,Simulada (formato datos.gov.co),True
-TRM-20260213,2026-02-13,3630.03,Simulada (formato datos.gov.co),True
-TRM-20260214,2026-02-14,3632.86,Simulada (formato datos.gov.co),True
-TRM-20260215,2026-02-15,3617.56,Simulada (formato datos.gov.co),True
-TRM-20260216,2026-02-16,3623.11,Simulada (formato datos.gov.co),True
-TRM-20260217,2026-02-17,3623.96,Simulada (formato datos.gov.co),True
-TRM-20260218,2026-02-18,3605.72,Simulada (formato datos.gov.co),True
-TRM-20260219,2026-02-19,3605.01,Simulada (formato datos.gov.co),True
-TRM-20260220,2026-02-20,3603.89,Simulada (formato datos.gov.co),True
-TRM-20260221,2026-02-21,3629.05,Simulada (formato datos.gov.co),True
-TRM-20260222,2026-02-22,3641.57,Simulada (formato datos.gov.co),True
-TRM-20260223,2026-02-23,3641.73,Simulada (formato datos.gov.co),True
-TRM-20260224,2026-02-24,3645.22,Simulada (formato datos.gov.co),True
-TRM-20260225,2026-02-25,3645.84,Simulada (formato datos.gov.co),True
-TRM-20260226,2026-02-26,3643.0,Simulada (formato datos.gov.co),True
-TRM-20260227,2026-02-27,3627.84,Simulada (formato datos.gov.co),True
-TRM-20260228,2026-02-28,3625.73,Simulada (formato datos.gov.co),True
-TRM-20260301,2026-03-01,3615.28,Simulada (formato datos.gov.co),True
-TRM-20260302,2026-03-02,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260303,2026-03-03,3604.93,Simulada (formato datos.gov.co),True
-TRM-20260304,2026-03-04,3610.41,Simulada (formato datos.gov.co),True
-TRM-20260305,2026-03-05,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260306,2026-03-06,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260307,2026-03-07,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260308,2026-03-08,3612.45,Simulada (formato datos.gov.co),True
-TRM-20260309,2026-03-09,3626.81,Simulada (formato datos.gov.co),True
-TRM-20260310,2026-03-10,3627.36,Simulada (formato datos.gov.co),True
-TRM-20260311,2026-03-11,3615.52,Simulada (formato datos.gov.co),True
-TRM-20260312,2026-03-12,3600.35,Simulada (formato datos.gov.co),True
-TRM-20260313,2026-03-13,3605.18,Simulada (formato datos.gov.co),True
-TRM-20260314,2026-03-14,3610.49,Simulada (formato datos.gov.co),True
-TRM-20260315,2026-03-15,3628.51,Simulada (formato datos.gov.co),True
-TRM-20260316,2026-03-16,3643.91,Simulada (formato datos.gov.co),True
-TRM-20260317,2026-03-17,3642.06,Simulada (formato datos.gov.co),True
-TRM-20260318,2026-03-18,3624.64,Simulada (formato datos.gov.co),True
-TRM-20260319,2026-03-19,3620.17,Simulada (formato datos.gov.co),True
-TRM-20260320,2026-03-20,3623.21,Simulada (formato datos.gov.co),True
-TRM-20260321,2026-03-21,3620.38,Simulada (formato datos.gov.co),True
-TRM-20260322,2026-03-22,3612.29,Simulada (formato datos.gov.co),True
-TRM-20260323,2026-03-23,3615.83,Simulada (formato datos.gov.co),True
-TRM-20260324,2026-03-24,3608.78,Simulada (formato datos.gov.co),True
-TRM-20260325,2026-03-25,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260326,2026-03-26,3604.35,Simulada (formato datos.gov.co),True
-TRM-20260327,2026-03-27,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260328,2026-03-28,3602.14,Simulada (formato datos.gov.co),True
-TRM-20260329,2026-03-29,3605.96,Simulada (formato datos.gov.co),True
-TRM-20260330,2026-03-30,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260331,2026-03-31,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260401,2026-04-01,3603.4,Simulada (formato datos.gov.co),True
-TRM-20260402,2026-04-02,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260403,2026-04-03,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260404,2026-04-04,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260405,2026-04-05,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260406,2026-04-06,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260407,2026-04-07,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260408,2026-04-08,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260409,2026-04-09,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260410,2026-04-10,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260411,2026-04-11,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260412,2026-04-12,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260413,2026-04-13,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260414,2026-04-14,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260415,2026-04-15,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260416,2026-04-16,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260417,2026-04-17,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260418,2026-04-18,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260419,2026-04-19,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260420,2026-04-20,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260421,2026-04-21,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260422,2026-04-22,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260423,2026-04-23,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260424,2026-04-24,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260425,2026-04-25,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260426,2026-04-26,3631.75,Simulada (formato datos.gov.co),True
-TRM-20260427,2026-04-27,3643.67,Simulada (formato datos.gov.co),True
-TRM-20260428,2026-04-28,3633.76,Simulada (formato datos.gov.co),True
-TRM-20260429,2026-04-29,3647.33,Simulada (formato datos.gov.co),True
-TRM-20260430,2026-04-30,3642.26,Simulada (formato datos.gov.co),True
-TRM-20260501,2026-05-01,3635.41,Simulada (formato datos.gov.co),True
-TRM-20260502,2026-05-02,3648.13,Simulada (formato datos.gov.co),True
-TRM-20260503,2026-05-03,3648.56,Simulada (formato datos.gov.co),True
-TRM-20260504,2026-05-04,3652.46,Simulada (formato datos.gov.co),True
-TRM-20260505,2026-05-05,3652.66,Simulada (formato datos.gov.co),True
-TRM-20260506,2026-05-06,3657.37,Simulada (formato datos.gov.co),True
-TRM-20260507,2026-05-07,3663.32,Simulada (formato datos.gov.co),True
-TRM-20260508,2026-05-08,3636.2,Simulada (formato datos.gov.co),True
-TRM-20260509,2026-05-09,3645.54,Simulada (formato datos.gov.co),True
-TRM-20260510,2026-05-10,3631.79,Simulada (formato datos.gov.co),True
-TRM-20260511,2026-05-11,3611.59,Simulada (formato datos.gov.co),True
-TRM-20260512,2026-05-12,3610.78,Simulada (formato datos.gov.co),True
-TRM-20260513,2026-05-13,3611.95,Simulada (formato datos.gov.co),True
-TRM-20260514,2026-05-14,3602.24,Simulada (formato datos.gov.co),True
-TRM-20260515,2026-05-15,3613.88,Simulada (formato datos.gov.co),True
-TRM-20260516,2026-05-16,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260517,2026-05-17,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260518,2026-05-18,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260519,2026-05-19,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260520,2026-05-20,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260521,2026-05-21,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260522,2026-05-22,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260523,2026-05-23,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260524,2026-05-24,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260525,2026-05-25,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260526,2026-05-26,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260527,2026-05-27,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260528,2026-05-28,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260529,2026-05-29,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260530,2026-05-30,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260531,2026-05-31,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260601,2026-06-01,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260602,2026-06-02,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260603,2026-06-03,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260604,2026-06-04,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260605,2026-06-05,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260606,2026-06-06,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260607,2026-06-07,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260608,2026-06-08,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260609,2026-06-09,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260610,2026-06-10,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260611,2026-06-11,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260612,2026-06-12,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260613,2026-06-13,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260614,2026-06-14,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260615,2026-06-15,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260616,2026-06-16,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260617,2026-06-17,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260618,2026-06-18,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260619,2026-06-19,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260620,2026-06-20,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260621,2026-06-21,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260622,2026-06-22,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260623,2026-06-23,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260624,2026-06-24,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260625,2026-06-25,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260626,2026-06-26,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260627,2026-06-27,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260628,2026-06-28,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260629,2026-06-29,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260630,2026-06-30,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260701,2026-07-01,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260702,2026-07-02,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260703,2026-07-03,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260704,2026-07-04,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260705,2026-07-05,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260706,2026-07-06,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260707,2026-07-07,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260708,2026-07-08,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260709,2026-07-09,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260710,2026-07-10,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260711,2026-07-11,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260712,2026-07-12,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260713,2026-07-13,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260714,2026-07-14,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260715,2026-07-15,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260716,2026-07-16,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260717,2026-07-17,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260718,2026-07-18,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260719,2026-07-19,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260720,2026-07-20,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260721,2026-07-21,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260722,2026-07-22,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260723,2026-07-23,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260724,2026-07-24,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260725,2026-07-25,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260726,2026-07-26,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260727,2026-07-27,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260728,2026-07-28,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260729,2026-07-29,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260730,2026-07-30,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260731,2026-07-31,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260801,2026-08-01,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260802,2026-08-02,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260803,2026-08-03,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260804,2026-08-04,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260805,2026-08-05,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260806,2026-08-06,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260807,2026-08-07,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260808,2026-08-08,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260809,2026-08-09,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260810,2026-08-10,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260811,2026-08-11,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260812,2026-08-12,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260813,2026-08-13,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260814,2026-08-14,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260815,2026-08-15,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260816,2026-08-16,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260817,2026-08-17,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260818,2026-08-18,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260819,2026-08-19,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260820,2026-08-20,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260821,2026-08-21,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260822,2026-08-22,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260823,2026-08-23,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260824,2026-08-24,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260825,2026-08-25,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260826,2026-08-26,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260827,2026-08-27,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260828,2026-08-28,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260829,2026-08-29,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260830,2026-08-30,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260831,2026-08-31,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260901,2026-09-01,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260902,2026-09-02,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260903,2026-09-03,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260904,2026-09-04,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260905,2026-09-05,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260906,2026-09-06,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260907,2026-09-07,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260908,2026-09-08,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260909,2026-09-09,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260910,2026-09-10,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260911,2026-09-11,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260912,2026-09-12,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260913,2026-09-13,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260914,2026-09-14,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260915,2026-09-15,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260916,2026-09-16,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260917,2026-09-17,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260918,2026-09-18,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260919,2026-09-19,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260920,2026-09-20,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260921,2026-09-21,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260922,2026-09-22,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260923,2026-09-23,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260924,2026-09-24,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260925,2026-09-25,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260926,2026-09-26,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260927,2026-09-27,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260928,2026-09-28,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260929,2026-09-29,3600.0,Simulada (formato datos.gov.co),True
-TRM-20260930,2026-09-30,3600.0,Simulada (formato datos.gov.co),True
-TRM-20261001,2026-10-01,3600.0,Simulada (formato datos.gov.co),True
-TRM-20261002,2026-10-02,3600.0,Simulada (formato datos.gov.co),True
-TRM-20261003,2026-10-03,3600.0,Simulada (formato datos.gov.co),True
-TRM-20261004,2026-10-04,3600.0,Simulada (formato datos.gov.co),True
-TRM-20261005,2026-10-05,3600.0,Simulada (formato datos.gov.co),True
-TRM-20261006,2026-10-06,3600.0,Simulada (formato datos.gov.co),True
-TRM-20261007,2026-10-07,3600.0,Simulada (formato datos.gov.co),True
-TRM-20261008,2026-10-08,3600.0,Simulada (formato datos.gov.co),True
-TRM-20261009,2026-10-09,3600.0,Simulada (formato datos.gov.co),True
-TRM-20261010,2026-10-10,3600.0,Simulada (formato datos.gov.co),True
-TRM-20261011,2026-10-11,3600.0,Simulada (formato datos.gov.co),True
-TRM-20261012,2026-10-12,3600.0,Simulada (formato datos.gov.co),True
-TRM-20261013,2026-10-13,3600.0,Simulada (formato datos.gov.co),True
-TRM-20261014,2026-10-14,3600.0,Simulada (formato datos.gov.co),True
-TRM-20261015,2026-10-15,3600.0,Simulada (formato datos.gov.co),True
-TRM-20261016,2026-10-16,3600.0,Simulada (formato datos.gov.co),True
-TRM-20261017,2026-10-17,3600.0,Simulada (formato datos.gov.co),True
-TRM-20261018,2026-10-18,3600.0,Simulada (formato datos.gov.co),True
-TRM-20261019,2026-10-19,3600.0,Simulada (formato datos.gov.co),True
-TRM-20261020,2026-10-20,3600.0,Simulada (formato datos.gov.co),True
-TRM-20261021,2026-10-21,3600.0,Simulada (formato datos.gov.co),True
-TRM-20261022,2026-10-22,3600.0,Simulada (formato datos.gov.co),True
-TRM-20261023,2026-10-23,3600.0,Simulada (formato datos.gov.co),True
-TRM-20261024,2026-10-24,3600.0,Simulada (formato datos.gov.co),True
-TRM-20261025,2026-10-25,3600.0,Simulada (formato datos.gov.co),True
-TRM-20261026,2026-10-26,3600.0,Simulada (formato datos.gov.co),True
-TRM-20261027,2026-10-27,3600.0,Simulada (formato datos.gov.co),True
-TRM-20261028,2026-10-28,3600.0,Simulada (formato datos.gov.co),True
-TRM-20261029,2026-10-29,3600.0,Simulada (formato datos.gov.co),True
-TRM-20261030,2026-10-30,3600.0,Simulada (formato datos.gov.co),True
-TRM-20261031,2026-10-31,3600.0,Simulada (formato datos.gov.co),True
+TRM-20250101,2025-01-01,4121.1,Serie de prueba; no es TRM oficial,True
+TRM-20250102,2025-01-02,4103.21,Serie de prueba; no es TRM oficial,True
+TRM-20250103,2025-01-03,4086.17,Serie de prueba; no es TRM oficial,True
+TRM-20250104,2025-01-04,4080.33,Serie de prueba; no es TRM oficial,True
+TRM-20250105,2025-01-05,4137.83,Serie de prueba; no es TRM oficial,True
+TRM-20250106,2025-01-06,4094.06,Serie de prueba; no es TRM oficial,True
+TRM-20250107,2025-01-07,4143.7,Serie de prueba; no es TRM oficial,True
+TRM-20250108,2025-01-08,4098.82,Serie de prueba; no es TRM oficial,True
+TRM-20250109,2025-01-09,4120.64,Serie de prueba; no es TRM oficial,True
+TRM-20250110,2025-01-10,4170.0,Serie de prueba; no es TRM oficial,True
+TRM-20250111,2025-01-11,4140.84,Serie de prueba; no es TRM oficial,True
+TRM-20250112,2025-01-12,4157.23,Serie de prueba; no es TRM oficial,True
+TRM-20250113,2025-01-13,4126.88,Serie de prueba; no es TRM oficial,True
+TRM-20250114,2025-01-14,4139.1,Serie de prueba; no es TRM oficial,True
+TRM-20250115,2025-01-15,4141.94,Serie de prueba; no es TRM oficial,True
+TRM-20250116,2025-01-16,4170.32,Serie de prueba; no es TRM oficial,True
+TRM-20250117,2025-01-17,4184.32,Serie de prueba; no es TRM oficial,True
+TRM-20250118,2025-01-18,4187.98,Serie de prueba; no es TRM oficial,True
+TRM-20250119,2025-01-19,4152.94,Serie de prueba; no es TRM oficial,True
+TRM-20250120,2025-01-20,4170.57,Serie de prueba; no es TRM oficial,True
+TRM-20250121,2025-01-21,4206.67,Serie de prueba; no es TRM oficial,True
+TRM-20250122,2025-01-22,4160.57,Serie de prueba; no es TRM oficial,True
+TRM-20250123,2025-01-23,4218.76,Serie de prueba; no es TRM oficial,True
+TRM-20250124,2025-01-24,4202.36,Serie de prueba; no es TRM oficial,True
+TRM-20250125,2025-01-25,4190.24,Serie de prueba; no es TRM oficial,True
+TRM-20250126,2025-01-26,4203.27,Serie de prueba; no es TRM oficial,True
+TRM-20250127,2025-01-27,4214.57,Serie de prueba; no es TRM oficial,True
+TRM-20250128,2025-01-28,4205.9,Serie de prueba; no es TRM oficial,True
+TRM-20250129,2025-01-29,4218.45,Serie de prueba; no es TRM oficial,True
+TRM-20250130,2025-01-30,4192.92,Serie de prueba; no es TRM oficial,True
+TRM-20250131,2025-01-31,4237.53,Serie de prueba; no es TRM oficial,True
+TRM-20250201,2025-02-01,4199.38,Serie de prueba; no es TRM oficial,True
+TRM-20250202,2025-02-02,4191.07,Serie de prueba; no es TRM oficial,True
+TRM-20250203,2025-02-03,4244.34,Serie de prueba; no es TRM oficial,True
+TRM-20250204,2025-02-04,4200.94,Serie de prueba; no es TRM oficial,True
+TRM-20250205,2025-02-05,4258.62,Serie de prueba; no es TRM oficial,True
+TRM-20250206,2025-02-06,4263.69,Serie de prueba; no es TRM oficial,True
+TRM-20250207,2025-02-07,4204.56,Serie de prueba; no es TRM oficial,True
+TRM-20250208,2025-02-08,4216.16,Serie de prueba; no es TRM oficial,True
+TRM-20250209,2025-02-09,4239.42,Serie de prueba; no es TRM oficial,True
+TRM-20250210,2025-02-10,4227.52,Serie de prueba; no es TRM oficial,True
+TRM-20250211,2025-02-11,4255.09,Serie de prueba; no es TRM oficial,True
+TRM-20250212,2025-02-12,4231.87,Serie de prueba; no es TRM oficial,True
+TRM-20250213,2025-02-13,4247.69,Serie de prueba; no es TRM oficial,True
+TRM-20250214,2025-02-14,4283.82,Serie de prueba; no es TRM oficial,True
+TRM-20250215,2025-02-15,4279.29,Serie de prueba; no es TRM oficial,True
+TRM-20250216,2025-02-16,4291.29,Serie de prueba; no es TRM oficial,True
+TRM-20250217,2025-02-17,4238.32,Serie de prueba; no es TRM oficial,True
+TRM-20250218,2025-02-18,4260.25,Serie de prueba; no es TRM oficial,True
+TRM-20250219,2025-02-19,4289.97,Serie de prueba; no es TRM oficial,True
+TRM-20250220,2025-02-20,4247.71,Serie de prueba; no es TRM oficial,True
+TRM-20250221,2025-02-21,4273.57,Serie de prueba; no es TRM oficial,True
+TRM-20250222,2025-02-22,4294.74,Serie de prueba; no es TRM oficial,True
+TRM-20250223,2025-02-23,4273.65,Serie de prueba; no es TRM oficial,True
+TRM-20250224,2025-02-24,4241.22,Serie de prueba; no es TRM oficial,True
+TRM-20250225,2025-02-25,4246.9,Serie de prueba; no es TRM oficial,True
+TRM-20250226,2025-02-26,4258.75,Serie de prueba; no es TRM oficial,True
+TRM-20250227,2025-02-27,4256.21,Serie de prueba; no es TRM oficial,True
+TRM-20250228,2025-02-28,4253.96,Serie de prueba; no es TRM oficial,True
+TRM-20250301,2025-03-01,4295.8,Serie de prueba; no es TRM oficial,True
+TRM-20250302,2025-03-02,4290.97,Serie de prueba; no es TRM oficial,True
+TRM-20250303,2025-03-03,4278.36,Serie de prueba; no es TRM oficial,True
+TRM-20250304,2025-03-04,4297.07,Serie de prueba; no es TRM oficial,True
+TRM-20250305,2025-03-05,4257.41,Serie de prueba; no es TRM oficial,True
+TRM-20250306,2025-03-06,4259.1,Serie de prueba; no es TRM oficial,True
+TRM-20250307,2025-03-07,4249.46,Serie de prueba; no es TRM oficial,True
+TRM-20250308,2025-03-08,4276.2,Serie de prueba; no es TRM oficial,True
+TRM-20250309,2025-03-09,4288.55,Serie de prueba; no es TRM oficial,True
+TRM-20250310,2025-03-10,4276.03,Serie de prueba; no es TRM oficial,True
+TRM-20250311,2025-03-11,4256.02,Serie de prueba; no es TRM oficial,True
+TRM-20250312,2025-03-12,4300.95,Serie de prueba; no es TRM oficial,True
+TRM-20250313,2025-03-13,4283.7,Serie de prueba; no es TRM oficial,True
+TRM-20250314,2025-03-14,4272.33,Serie de prueba; no es TRM oficial,True
+TRM-20250315,2025-03-15,4250.28,Serie de prueba; no es TRM oficial,True
+TRM-20250316,2025-03-16,4276.76,Serie de prueba; no es TRM oficial,True
+TRM-20250317,2025-03-17,4268.43,Serie de prueba; no es TRM oficial,True
+TRM-20250318,2025-03-18,4305.9,Serie de prueba; no es TRM oficial,True
+TRM-20250319,2025-03-19,4259.63,Serie de prueba; no es TRM oficial,True
+TRM-20250320,2025-03-20,4302.31,Serie de prueba; no es TRM oficial,True
+TRM-20250321,2025-03-21,4262.21,Serie de prueba; no es TRM oficial,True
+TRM-20250322,2025-03-22,4282.75,Serie de prueba; no es TRM oficial,True
+TRM-20250323,2025-03-23,4268.95,Serie de prueba; no es TRM oficial,True
+TRM-20250324,2025-03-24,4280.0,Serie de prueba; no es TRM oficial,True
+TRM-20250325,2025-03-25,4262.95,Serie de prueba; no es TRM oficial,True
+TRM-20250326,2025-03-26,4272.69,Serie de prueba; no es TRM oficial,True
+TRM-20250327,2025-03-27,4277.64,Serie de prueba; no es TRM oficial,True
+TRM-20250328,2025-03-28,4292.9,Serie de prueba; no es TRM oficial,True
+TRM-20250329,2025-03-29,4232.59,Serie de prueba; no es TRM oficial,True
+TRM-20250330,2025-03-30,4240.51,Serie de prueba; no es TRM oficial,True
+TRM-20250331,2025-03-31,4283.01,Serie de prueba; no es TRM oficial,True
+TRM-20250401,2025-04-01,4271.57,Serie de prueba; no es TRM oficial,True
+TRM-20250402,2025-04-02,4262.68,Serie de prueba; no es TRM oficial,True
+TRM-20250403,2025-04-03,4228.77,Serie de prueba; no es TRM oficial,True
+TRM-20250404,2025-04-04,4270.55,Serie de prueba; no es TRM oficial,True
+TRM-20250405,2025-04-05,4233.92,Serie de prueba; no es TRM oficial,True
+TRM-20250406,2025-04-06,4238.73,Serie de prueba; no es TRM oficial,True
+TRM-20250407,2025-04-07,4204.26,Serie de prueba; no es TRM oficial,True
+TRM-20250408,2025-04-08,4231.65,Serie de prueba; no es TRM oficial,True
+TRM-20250409,2025-04-09,4201.17,Serie de prueba; no es TRM oficial,True
+TRM-20250410,2025-04-10,4200.18,Serie de prueba; no es TRM oficial,True
+TRM-20250411,2025-04-11,4192.46,Serie de prueba; no es TRM oficial,True
+TRM-20250412,2025-04-12,4187.56,Serie de prueba; no es TRM oficial,True
+TRM-20250413,2025-04-13,4202.17,Serie de prueba; no es TRM oficial,True
+TRM-20250414,2025-04-14,4245.32,Serie de prueba; no es TRM oficial,True
+TRM-20250415,2025-04-15,4223.64,Serie de prueba; no es TRM oficial,True
+TRM-20250416,2025-04-16,4186.71,Serie de prueba; no es TRM oficial,True
+TRM-20250417,2025-04-17,4185.5,Serie de prueba; no es TRM oficial,True
+TRM-20250418,2025-04-18,4230.8,Serie de prueba; no es TRM oficial,True
+TRM-20250419,2025-04-19,4164.95,Serie de prueba; no es TRM oficial,True
+TRM-20250420,2025-04-20,4173.79,Serie de prueba; no es TRM oficial,True
+TRM-20250421,2025-04-21,4186.35,Serie de prueba; no es TRM oficial,True
+TRM-20250422,2025-04-22,4203.02,Serie de prueba; no es TRM oficial,True
+TRM-20250423,2025-04-23,4182.7,Serie de prueba; no es TRM oficial,True
+TRM-20250424,2025-04-24,4191.61,Serie de prueba; no es TRM oficial,True
+TRM-20250425,2025-04-25,4168.56,Serie de prueba; no es TRM oficial,True
+TRM-20250426,2025-04-26,4185.79,Serie de prueba; no es TRM oficial,True
+TRM-20250427,2025-04-27,4170.77,Serie de prueba; no es TRM oficial,True
+TRM-20250428,2025-04-28,4185.54,Serie de prueba; no es TRM oficial,True
+TRM-20250429,2025-04-29,4128.18,Serie de prueba; no es TRM oficial,True
+TRM-20250430,2025-04-30,4132.98,Serie de prueba; no es TRM oficial,True
+TRM-20250501,2025-05-01,4176.26,Serie de prueba; no es TRM oficial,True
+TRM-20250502,2025-05-02,4177.79,Serie de prueba; no es TRM oficial,True
+TRM-20250503,2025-05-03,4143.33,Serie de prueba; no es TRM oficial,True
+TRM-20250504,2025-05-04,4156.61,Serie de prueba; no es TRM oficial,True
+TRM-20250505,2025-05-05,4149.69,Serie de prueba; no es TRM oficial,True
+TRM-20250506,2025-05-06,4156.53,Serie de prueba; no es TRM oficial,True
+TRM-20250507,2025-05-07,4109.44,Serie de prueba; no es TRM oficial,True
+TRM-20250508,2025-05-08,4118.11,Serie de prueba; no es TRM oficial,True
+TRM-20250509,2025-05-09,4096.03,Serie de prueba; no es TRM oficial,True
+TRM-20250510,2025-05-10,4129.68,Serie de prueba; no es TRM oficial,True
+TRM-20250511,2025-05-11,4104.65,Serie de prueba; no es TRM oficial,True
+TRM-20250512,2025-05-12,4098.54,Serie de prueba; no es TRM oficial,True
+TRM-20250513,2025-05-13,4104.58,Serie de prueba; no es TRM oficial,True
+TRM-20250514,2025-05-14,4064.74,Serie de prueba; no es TRM oficial,True
+TRM-20250515,2025-05-15,4077.85,Serie de prueba; no es TRM oficial,True
+TRM-20250516,2025-05-16,4079.99,Serie de prueba; no es TRM oficial,True
+TRM-20250517,2025-05-17,4063.75,Serie de prueba; no es TRM oficial,True
+TRM-20250518,2025-05-18,4096.98,Serie de prueba; no es TRM oficial,True
+TRM-20250519,2025-05-19,4063.26,Serie de prueba; no es TRM oficial,True
+TRM-20250520,2025-05-20,4061.98,Serie de prueba; no es TRM oficial,True
+TRM-20250521,2025-05-21,4087.28,Serie de prueba; no es TRM oficial,True
+TRM-20250522,2025-05-22,4043.25,Serie de prueba; no es TRM oficial,True
+TRM-20250523,2025-05-23,4036.76,Serie de prueba; no es TRM oficial,True
+TRM-20250524,2025-05-24,4036.35,Serie de prueba; no es TRM oficial,True
+TRM-20250525,2025-05-25,4041.16,Serie de prueba; no es TRM oficial,True
+TRM-20250526,2025-05-26,4065.65,Serie de prueba; no es TRM oficial,True
+TRM-20250527,2025-05-27,4053.11,Serie de prueba; no es TRM oficial,True
+TRM-20250528,2025-05-28,4004.13,Serie de prueba; no es TRM oficial,True
+TRM-20250529,2025-05-29,4002.0,Serie de prueba; no es TRM oficial,True
+TRM-20250530,2025-05-30,4042.52,Serie de prueba; no es TRM oficial,True
+TRM-20250531,2025-05-31,4008.11,Serie de prueba; no es TRM oficial,True
+TRM-20250601,2025-06-01,4054.72,Serie de prueba; no es TRM oficial,True
+TRM-20250602,2025-06-02,4005.24,Serie de prueba; no es TRM oficial,True
+TRM-20250603,2025-06-03,4016.89,Serie de prueba; no es TRM oficial,True
+TRM-20250604,2025-06-04,3979.95,Serie de prueba; no es TRM oficial,True
+TRM-20250605,2025-06-05,3995.5,Serie de prueba; no es TRM oficial,True
+TRM-20250606,2025-06-06,4016.42,Serie de prueba; no es TRM oficial,True
+TRM-20250607,2025-06-07,3974.68,Serie de prueba; no es TRM oficial,True
+TRM-20250608,2025-06-08,3993.18,Serie de prueba; no es TRM oficial,True
+TRM-20250609,2025-06-09,4005.41,Serie de prueba; no es TRM oficial,True
+TRM-20250610,2025-06-10,3967.0,Serie de prueba; no es TRM oficial,True
+TRM-20250611,2025-06-11,3965.02,Serie de prueba; no es TRM oficial,True
+TRM-20250612,2025-06-12,3955.45,Serie de prueba; no es TRM oficial,True
+TRM-20250613,2025-06-13,3962.0,Serie de prueba; no es TRM oficial,True
+TRM-20250614,2025-06-14,3993.62,Serie de prueba; no es TRM oficial,True
+TRM-20250615,2025-06-15,3958.94,Serie de prueba; no es TRM oficial,True
+TRM-20250616,2025-06-16,4004.42,Serie de prueba; no es TRM oficial,True
+TRM-20250617,2025-06-17,3945.76,Serie de prueba; no es TRM oficial,True
+TRM-20250618,2025-06-18,3944.71,Serie de prueba; no es TRM oficial,True
+TRM-20250619,2025-06-19,3986.12,Serie de prueba; no es TRM oficial,True
+TRM-20250620,2025-06-20,3926.27,Serie de prueba; no es TRM oficial,True
+TRM-20250621,2025-06-21,3927.58,Serie de prueba; no es TRM oficial,True
+TRM-20250622,2025-06-22,3975.92,Serie de prueba; no es TRM oficial,True
+TRM-20250623,2025-06-23,3949.26,Serie de prueba; no es TRM oficial,True
+TRM-20250624,2025-06-24,3952.96,Serie de prueba; no es TRM oficial,True
+TRM-20250625,2025-06-25,3942.71,Serie de prueba; no es TRM oficial,True
+TRM-20250626,2025-06-26,3965.24,Serie de prueba; no es TRM oficial,True
+TRM-20250627,2025-06-27,3930.25,Serie de prueba; no es TRM oficial,True
+TRM-20250628,2025-06-28,3956.97,Serie de prueba; no es TRM oficial,True
+TRM-20250629,2025-06-29,3941.62,Serie de prueba; no es TRM oficial,True
+TRM-20250630,2025-06-30,3948.27,Serie de prueba; no es TRM oficial,True
+TRM-20250701,2025-07-01,3903.87,Serie de prueba; no es TRM oficial,True
+TRM-20250702,2025-07-02,3933.37,Serie de prueba; no es TRM oficial,True
+TRM-20250703,2025-07-03,3917.56,Serie de prueba; no es TRM oficial,True
+TRM-20250704,2025-07-04,3959.85,Serie de prueba; no es TRM oficial,True
+TRM-20250705,2025-07-05,3905.18,Serie de prueba; no es TRM oficial,True
+TRM-20250706,2025-07-06,3956.57,Serie de prueba; no es TRM oficial,True
+TRM-20250707,2025-07-07,3938.18,Serie de prueba; no es TRM oficial,True
+TRM-20250708,2025-07-08,3932.7,Serie de prueba; no es TRM oficial,True
+TRM-20250709,2025-07-09,3892.54,Serie de prueba; no es TRM oficial,True
+TRM-20250710,2025-07-10,3952.18,Serie de prueba; no es TRM oficial,True
+TRM-20250711,2025-07-11,3893.93,Serie de prueba; no es TRM oficial,True
+TRM-20250712,2025-07-12,3937.02,Serie de prueba; no es TRM oficial,True
+TRM-20250713,2025-07-13,3900.85,Serie de prueba; no es TRM oficial,True
+TRM-20250714,2025-07-14,3896.24,Serie de prueba; no es TRM oficial,True
+TRM-20250715,2025-07-15,3897.34,Serie de prueba; no es TRM oficial,True
+TRM-20250716,2025-07-16,3945.67,Serie de prueba; no es TRM oficial,True
+TRM-20250717,2025-07-17,3947.5,Serie de prueba; no es TRM oficial,True
+TRM-20250718,2025-07-18,3918.07,Serie de prueba; no es TRM oficial,True
+TRM-20250719,2025-07-19,3931.13,Serie de prueba; no es TRM oficial,True
+TRM-20250720,2025-07-20,3937.2,Serie de prueba; no es TRM oficial,True
+TRM-20250721,2025-07-21,3896.11,Serie de prueba; no es TRM oficial,True
+TRM-20250722,2025-07-22,3951.19,Serie de prueba; no es TRM oficial,True
+TRM-20250723,2025-07-23,3949.89,Serie de prueba; no es TRM oficial,True
+TRM-20250724,2025-07-24,3934.94,Serie de prueba; no es TRM oficial,True
+TRM-20250725,2025-07-25,3950.15,Serie de prueba; no es TRM oficial,True
+TRM-20250726,2025-07-26,3919.61,Serie de prueba; no es TRM oficial,True
+TRM-20250727,2025-07-27,3937.61,Serie de prueba; no es TRM oficial,True
+TRM-20250728,2025-07-28,3944.19,Serie de prueba; no es TRM oficial,True
+TRM-20250729,2025-07-29,3960.34,Serie de prueba; no es TRM oficial,True
+TRM-20250730,2025-07-30,3946.28,Serie de prueba; no es TRM oficial,True
+TRM-20250731,2025-07-31,3943.32,Serie de prueba; no es TRM oficial,True
+TRM-20250801,2025-08-01,3906.49,Serie de prueba; no es TRM oficial,True
+TRM-20250802,2025-08-02,3905.46,Serie de prueba; no es TRM oficial,True
+TRM-20250803,2025-08-03,3950.71,Serie de prueba; no es TRM oficial,True
+TRM-20250804,2025-08-04,3967.72,Serie de prueba; no es TRM oficial,True
+TRM-20250805,2025-08-05,3955.4,Serie de prueba; no es TRM oficial,True
+TRM-20250806,2025-08-06,3925.46,Serie de prueba; no es TRM oficial,True
+TRM-20250807,2025-08-07,3939.68,Serie de prueba; no es TRM oficial,True
+TRM-20250808,2025-08-08,3912.48,Serie de prueba; no es TRM oficial,True
+TRM-20250809,2025-08-09,3975.96,Serie de prueba; no es TRM oficial,True
+TRM-20250810,2025-08-10,3942.03,Serie de prueba; no es TRM oficial,True
+TRM-20250811,2025-08-11,3965.57,Serie de prueba; no es TRM oficial,True
+TRM-20250812,2025-08-12,3953.46,Serie de prueba; no es TRM oficial,True
+TRM-20250813,2025-08-13,3979.64,Serie de prueba; no es TRM oficial,True
+TRM-20250814,2025-08-14,3962.4,Serie de prueba; no es TRM oficial,True
+TRM-20250815,2025-08-15,3991.33,Serie de prueba; no es TRM oficial,True
+TRM-20250816,2025-08-16,3938.81,Serie de prueba; no es TRM oficial,True
+TRM-20250817,2025-08-17,3964.07,Serie de prueba; no es TRM oficial,True
+TRM-20250818,2025-08-18,3978.5,Serie de prueba; no es TRM oficial,True
+TRM-20250819,2025-08-19,3963.92,Serie de prueba; no es TRM oficial,True
+TRM-20250820,2025-08-20,3992.62,Serie de prueba; no es TRM oficial,True
+TRM-20250821,2025-08-21,3957.62,Serie de prueba; no es TRM oficial,True
+TRM-20250822,2025-08-22,3976.55,Serie de prueba; no es TRM oficial,True
+TRM-20250823,2025-08-23,3969.71,Serie de prueba; no es TRM oficial,True
+TRM-20250824,2025-08-24,3999.71,Serie de prueba; no es TRM oficial,True
+TRM-20250825,2025-08-25,3983.92,Serie de prueba; no es TRM oficial,True
+TRM-20250826,2025-08-26,3979.04,Serie de prueba; no es TRM oficial,True
+TRM-20250827,2025-08-27,3985.73,Serie de prueba; no es TRM oficial,True
+TRM-20250828,2025-08-28,4002.95,Serie de prueba; no es TRM oficial,True
+TRM-20250829,2025-08-29,3983.29,Serie de prueba; no es TRM oficial,True
+TRM-20250830,2025-08-30,4009.91,Serie de prueba; no es TRM oficial,True
+TRM-20250831,2025-08-31,4018.22,Serie de prueba; no es TRM oficial,True
+TRM-20250901,2025-09-01,4048.34,Serie de prueba; no es TRM oficial,True
+TRM-20250902,2025-09-02,4035.4,Serie de prueba; no es TRM oficial,True
+TRM-20250903,2025-09-03,4027.26,Serie de prueba; no es TRM oficial,True
+TRM-20250904,2025-09-04,4050.51,Serie de prueba; no es TRM oficial,True
+TRM-20250905,2025-09-05,4046.56,Serie de prueba; no es TRM oficial,True
+TRM-20250906,2025-09-06,4026.27,Serie de prueba; no es TRM oficial,True
+TRM-20250907,2025-09-07,4031.21,Serie de prueba; no es TRM oficial,True
+TRM-20250908,2025-09-08,4059.06,Serie de prueba; no es TRM oficial,True
+TRM-20250909,2025-09-09,4015.61,Serie de prueba; no es TRM oficial,True
+TRM-20250910,2025-09-10,4019.92,Serie de prueba; no es TRM oficial,True
+TRM-20250911,2025-09-11,4034.96,Serie de prueba; no es TRM oficial,True
+TRM-20250912,2025-09-12,4071.59,Serie de prueba; no es TRM oficial,True
+TRM-20250913,2025-09-13,4095.42,Serie de prueba; no es TRM oficial,True
+TRM-20250914,2025-09-14,4038.76,Serie de prueba; no es TRM oficial,True
+TRM-20250915,2025-09-15,4049.99,Serie de prueba; no es TRM oficial,True
+TRM-20250916,2025-09-16,4094.97,Serie de prueba; no es TRM oficial,True
+TRM-20250917,2025-09-17,4098.74,Serie de prueba; no es TRM oficial,True
+TRM-20250918,2025-09-18,4097.43,Serie de prueba; no es TRM oficial,True
+TRM-20250919,2025-09-19,4091.91,Serie de prueba; no es TRM oficial,True
+TRM-20250920,2025-09-20,4070.11,Serie de prueba; no es TRM oficial,True
+TRM-20250921,2025-09-21,4129.19,Serie de prueba; no es TRM oficial,True
+TRM-20250922,2025-09-22,4073.63,Serie de prueba; no es TRM oficial,True
+TRM-20250923,2025-09-23,4118.6,Serie de prueba; no es TRM oficial,True
+TRM-20250924,2025-09-24,4108.6,Serie de prueba; no es TRM oficial,True
+TRM-20250925,2025-09-25,4098.39,Serie de prueba; no es TRM oficial,True
+TRM-20250926,2025-09-26,4147.27,Serie de prueba; no es TRM oficial,True
+TRM-20250927,2025-09-27,4091.84,Serie de prueba; no es TRM oficial,True
+TRM-20250928,2025-09-28,4153.28,Serie de prueba; no es TRM oficial,True
+TRM-20250929,2025-09-29,4127.15,Serie de prueba; no es TRM oficial,True
+TRM-20250930,2025-09-30,4162.8,Serie de prueba; no es TRM oficial,True
+TRM-20251001,2025-10-01,4166.79,Serie de prueba; no es TRM oficial,True
+TRM-20251002,2025-10-02,4141.8,Serie de prueba; no es TRM oficial,True
+TRM-20251003,2025-10-03,4152.03,Serie de prueba; no es TRM oficial,True
+TRM-20251004,2025-10-04,4163.33,Serie de prueba; no es TRM oficial,True
+TRM-20251005,2025-10-05,4130.97,Serie de prueba; no es TRM oficial,True
+TRM-20251006,2025-10-06,4172.7,Serie de prueba; no es TRM oficial,True
+TRM-20251007,2025-10-07,4156.68,Serie de prueba; no es TRM oficial,True
+TRM-20251008,2025-10-08,4197.25,Serie de prueba; no es TRM oficial,True
+TRM-20251009,2025-10-09,4137.01,Serie de prueba; no es TRM oficial,True
+TRM-20251010,2025-10-10,4199.8,Serie de prueba; no es TRM oficial,True
+TRM-20251011,2025-10-11,4197.06,Serie de prueba; no es TRM oficial,True
+TRM-20251012,2025-10-12,4170.9,Serie de prueba; no es TRM oficial,True
+TRM-20251013,2025-10-13,4170.54,Serie de prueba; no es TRM oficial,True
+TRM-20251014,2025-10-14,4193.6,Serie de prueba; no es TRM oficial,True
+TRM-20251015,2025-10-15,4209.01,Serie de prueba; no es TRM oficial,True
+TRM-20251016,2025-10-16,4215.14,Serie de prueba; no es TRM oficial,True
+TRM-20251017,2025-10-17,4212.76,Serie de prueba; no es TRM oficial,True
+TRM-20251018,2025-10-18,4211.2,Serie de prueba; no es TRM oficial,True
+TRM-20251019,2025-10-19,4196.11,Serie de prueba; no es TRM oficial,True
+TRM-20251020,2025-10-20,4183.73,Serie de prueba; no es TRM oficial,True
+TRM-20251021,2025-10-21,4191.39,Serie de prueba; no es TRM oficial,True
+TRM-20251022,2025-10-22,4216.66,Serie de prueba; no es TRM oficial,True
+TRM-20251023,2025-10-23,4193.98,Serie de prueba; no es TRM oficial,True
+TRM-20251024,2025-10-24,4244.72,Serie de prueba; no es TRM oficial,True
+TRM-20251025,2025-10-25,4203.63,Serie de prueba; no es TRM oficial,True
+TRM-20251026,2025-10-26,4225.68,Serie de prueba; no es TRM oficial,True
+TRM-20251027,2025-10-27,4264.18,Serie de prueba; no es TRM oficial,True
+TRM-20251028,2025-10-28,4247.0,Serie de prueba; no es TRM oficial,True
+TRM-20251029,2025-10-29,4221.8,Serie de prueba; no es TRM oficial,True
+TRM-20251030,2025-10-30,4242.63,Serie de prueba; no es TRM oficial,True
+TRM-20251031,2025-10-31,4255.78,Serie de prueba; no es TRM oficial,True
+TRM-20251101,2025-11-01,4231.16,Serie de prueba; no es TRM oficial,True
+TRM-20251102,2025-11-02,4273.01,Serie de prueba; no es TRM oficial,True
+TRM-20251103,2025-11-03,4260.39,Serie de prueba; no es TRM oficial,True
+TRM-20251104,2025-11-04,4285.15,Serie de prueba; no es TRM oficial,True
+TRM-20251105,2025-11-05,4246.03,Serie de prueba; no es TRM oficial,True
+TRM-20251106,2025-11-06,4225.53,Serie de prueba; no es TRM oficial,True
+TRM-20251107,2025-11-07,4248.56,Serie de prueba; no es TRM oficial,True
+TRM-20251108,2025-11-08,4236.4,Serie de prueba; no es TRM oficial,True
+TRM-20251109,2025-11-09,4240.06,Serie de prueba; no es TRM oficial,True
+TRM-20251110,2025-11-10,4256.41,Serie de prueba; no es TRM oficial,True
+TRM-20251111,2025-11-11,4279.2,Serie de prueba; no es TRM oficial,True
+TRM-20251112,2025-11-12,4265.79,Serie de prueba; no es TRM oficial,True
+TRM-20251113,2025-11-13,4284.57,Serie de prueba; no es TRM oficial,True
+TRM-20251114,2025-11-14,4271.1,Serie de prueba; no es TRM oficial,True
+TRM-20251115,2025-11-15,4286.13,Serie de prueba; no es TRM oficial,True
+TRM-20251116,2025-11-16,4290.93,Serie de prueba; no es TRM oficial,True
+TRM-20251117,2025-11-17,4282.91,Serie de prueba; no es TRM oficial,True
+TRM-20251118,2025-11-18,4254.62,Serie de prueba; no es TRM oficial,True
+TRM-20251119,2025-11-19,4298.65,Serie de prueba; no es TRM oficial,True
+TRM-20251120,2025-11-20,4296.71,Serie de prueba; no es TRM oficial,True
+TRM-20251121,2025-11-21,4272.21,Serie de prueba; no es TRM oficial,True
+TRM-20251122,2025-11-22,4299.35,Serie de prueba; no es TRM oficial,True
+TRM-20251123,2025-11-23,4311.86,Serie de prueba; no es TRM oficial,True
+TRM-20251124,2025-11-24,4268.29,Serie de prueba; no es TRM oficial,True
+TRM-20251125,2025-11-25,4302.4,Serie de prueba; no es TRM oficial,True
+TRM-20251126,2025-11-26,4304.57,Serie de prueba; no es TRM oficial,True
+TRM-20251127,2025-11-27,4308.59,Serie de prueba; no es TRM oficial,True
+TRM-20251128,2025-11-28,4306.78,Serie de prueba; no es TRM oficial,True
+TRM-20251129,2025-11-29,4301.41,Serie de prueba; no es TRM oficial,True
+TRM-20251130,2025-11-30,4276.38,Serie de prueba; no es TRM oficial,True
+TRM-20251201,2025-12-01,4259.38,Serie de prueba; no es TRM oficial,True
+TRM-20251202,2025-12-02,4308.39,Serie de prueba; no es TRM oficial,True
+TRM-20251203,2025-12-03,4247.06,Serie de prueba; no es TRM oficial,True
+TRM-20251204,2025-12-04,4306.65,Serie de prueba; no es TRM oficial,True
+TRM-20251205,2025-12-05,4258.61,Serie de prueba; no es TRM oficial,True
+TRM-20251206,2025-12-06,4243.31,Serie de prueba; no es TRM oficial,True
+TRM-20251207,2025-12-07,4288.46,Serie de prueba; no es TRM oficial,True
+TRM-20251208,2025-12-08,4308.49,Serie de prueba; no es TRM oficial,True
+TRM-20251209,2025-12-09,4283.82,Serie de prueba; no es TRM oficial,True
+TRM-20251210,2025-12-10,4252.65,Serie de prueba; no es TRM oficial,True
+TRM-20251211,2025-12-11,4273.29,Serie de prueba; no es TRM oficial,True
+TRM-20251212,2025-12-12,4269.35,Serie de prueba; no es TRM oficial,True
+TRM-20251213,2025-12-13,4258.17,Serie de prueba; no es TRM oficial,True
+TRM-20251214,2025-12-14,4288.84,Serie de prueba; no es TRM oficial,True
+TRM-20251215,2025-12-15,4296.16,Serie de prueba; no es TRM oficial,True
+TRM-20251216,2025-12-16,4252.47,Serie de prueba; no es TRM oficial,True
+TRM-20251217,2025-12-17,4239.03,Serie de prueba; no es TRM oficial,True
+TRM-20251218,2025-12-18,4256.3,Serie de prueba; no es TRM oficial,True
+TRM-20251219,2025-12-19,4257.28,Serie de prueba; no es TRM oficial,True
+TRM-20251220,2025-12-20,4245.84,Serie de prueba; no es TRM oficial,True
+TRM-20251221,2025-12-21,4261.67,Serie de prueba; no es TRM oficial,True
+TRM-20251222,2025-12-22,4269.88,Serie de prueba; no es TRM oficial,True
+TRM-20251223,2025-12-23,4263.5,Serie de prueba; no es TRM oficial,True
+TRM-20251224,2025-12-24,4262.04,Serie de prueba; no es TRM oficial,True
+TRM-20251225,2025-12-25,4232.84,Serie de prueba; no es TRM oficial,True
+TRM-20251226,2025-12-26,4248.03,Serie de prueba; no es TRM oficial,True
+TRM-20251227,2025-12-27,4233.97,Serie de prueba; no es TRM oficial,True
+TRM-20251228,2025-12-28,4224.36,Serie de prueba; no es TRM oficial,True
+TRM-20251229,2025-12-29,4220.16,Serie de prueba; no es TRM oficial,True
+TRM-20251230,2025-12-30,4195.15,Serie de prueba; no es TRM oficial,True
+TRM-20251231,2025-12-31,4212.06,Serie de prueba; no es TRM oficial,True
+TRM-20260101,2026-01-01,4188.13,Serie de prueba; no es TRM oficial,True
+TRM-20260102,2026-01-02,4226.9,Serie de prueba; no es TRM oficial,True
+TRM-20260103,2026-01-03,4214.81,Serie de prueba; no es TRM oficial,True
+TRM-20260104,2026-01-04,4178.59,Serie de prueba; no es TRM oficial,True
+TRM-20260105,2026-01-05,4238.31,Serie de prueba; no es TRM oficial,True
+TRM-20260106,2026-01-06,4182.95,Serie de prueba; no es TRM oficial,True
+TRM-20260107,2026-01-07,4190.77,Serie de prueba; no es TRM oficial,True
+TRM-20260108,2026-01-08,4198.91,Serie de prueba; no es TRM oficial,True
+TRM-20260109,2026-01-09,4197.51,Serie de prueba; no es TRM oficial,True
+TRM-20260110,2026-01-10,4224.2,Serie de prueba; no es TRM oficial,True
+TRM-20260111,2026-01-11,4200.98,Serie de prueba; no es TRM oficial,True
+TRM-20260112,2026-01-12,4184.24,Serie de prueba; no es TRM oficial,True
+TRM-20260113,2026-01-13,4155.01,Serie de prueba; no es TRM oficial,True
+TRM-20260114,2026-01-14,4205.37,Serie de prueba; no es TRM oficial,True
+TRM-20260115,2026-01-15,4179.88,Serie de prueba; no es TRM oficial,True
+TRM-20260116,2026-01-16,4146.8,Serie de prueba; no es TRM oficial,True
+TRM-20260117,2026-01-17,4174.25,Serie de prueba; no es TRM oficial,True
+TRM-20260118,2026-01-18,4149.58,Serie de prueba; no es TRM oficial,True
+TRM-20260119,2026-01-19,4185.97,Serie de prueba; no es TRM oficial,True
+TRM-20260120,2026-01-20,4182.9,Serie de prueba; no es TRM oficial,True
+TRM-20260121,2026-01-21,4127.45,Serie de prueba; no es TRM oficial,True
+TRM-20260122,2026-01-22,4109.07,Serie de prueba; no es TRM oficial,True
+TRM-20260123,2026-01-23,4167.44,Serie de prueba; no es TRM oficial,True
+TRM-20260124,2026-01-24,4099.73,Serie de prueba; no es TRM oficial,True
+TRM-20260125,2026-01-25,4118.32,Serie de prueba; no es TRM oficial,True
+TRM-20260126,2026-01-26,4129.71,Serie de prueba; no es TRM oficial,True
+TRM-20260127,2026-01-27,4110.7,Serie de prueba; no es TRM oficial,True
+TRM-20260128,2026-01-28,4140.92,Serie de prueba; no es TRM oficial,True
+TRM-20260129,2026-01-29,4095.65,Serie de prueba; no es TRM oficial,True
+TRM-20260130,2026-01-30,4116.91,Serie de prueba; no es TRM oficial,True
+TRM-20260131,2026-01-31,4089.95,Serie de prueba; no es TRM oficial,True
+TRM-20260201,2026-02-01,4073.77,Serie de prueba; no es TRM oficial,True
+TRM-20260202,2026-02-02,4110.66,Serie de prueba; no es TRM oficial,True
+TRM-20260203,2026-02-03,4094.76,Serie de prueba; no es TRM oficial,True
+TRM-20260204,2026-02-04,4103.44,Serie de prueba; no es TRM oficial,True
+TRM-20260205,2026-02-05,4116.36,Serie de prueba; no es TRM oficial,True
+TRM-20260206,2026-02-06,4097.13,Serie de prueba; no es TRM oficial,True
+TRM-20260207,2026-02-07,4045.25,Serie de prueba; no es TRM oficial,True
+TRM-20260208,2026-02-08,4051.92,Serie de prueba; no es TRM oficial,True
+TRM-20260209,2026-02-09,4032.71,Serie de prueba; no es TRM oficial,True
+TRM-20260210,2026-02-10,4082.76,Serie de prueba; no es TRM oficial,True
+TRM-20260211,2026-02-11,4041.05,Serie de prueba; no es TRM oficial,True
+TRM-20260212,2026-02-12,4068.42,Serie de prueba; no es TRM oficial,True
+TRM-20260213,2026-02-13,4081.32,Serie de prueba; no es TRM oficial,True
+TRM-20260214,2026-02-14,4040.01,Serie de prueba; no es TRM oficial,True
+TRM-20260215,2026-02-15,4021.62,Serie de prueba; no es TRM oficial,True
+TRM-20260216,2026-02-16,4039.23,Serie de prueba; no es TRM oficial,True
+TRM-20260217,2026-02-17,4033.02,Serie de prueba; no es TRM oficial,True
+TRM-20260218,2026-02-18,4042.95,Serie de prueba; no es TRM oficial,True
+TRM-20260219,2026-02-19,4034.05,Serie de prueba; no es TRM oficial,True
+TRM-20260220,2026-02-20,3990.55,Serie de prueba; no es TRM oficial,True
+TRM-20260221,2026-02-21,4047.07,Serie de prueba; no es TRM oficial,True
+TRM-20260222,2026-02-22,4007.61,Serie de prueba; no es TRM oficial,True
+TRM-20260223,2026-02-23,4015.87,Serie de prueba; no es TRM oficial,True
+TRM-20260224,2026-02-24,4012.86,Serie de prueba; no es TRM oficial,True
+TRM-20260225,2026-02-25,3984.44,Serie de prueba; no es TRM oficial,True
+TRM-20260226,2026-02-26,3994.78,Serie de prueba; no es TRM oficial,True
+TRM-20260227,2026-02-27,3967.01,Serie de prueba; no es TRM oficial,True
+TRM-20260228,2026-02-28,4026.17,Serie de prueba; no es TRM oficial,True
+TRM-20260301,2026-03-01,4010.79,Serie de prueba; no es TRM oficial,True
+TRM-20260302,2026-03-02,3987.77,Serie de prueba; no es TRM oficial,True
+TRM-20260303,2026-03-03,3984.83,Serie de prueba; no es TRM oficial,True
+TRM-20260304,2026-03-04,3955.47,Serie de prueba; no es TRM oficial,True
+TRM-20260305,2026-03-05,3973.47,Serie de prueba; no es TRM oficial,True
+TRM-20260306,2026-03-06,3996.85,Serie de prueba; no es TRM oficial,True
+TRM-20260307,2026-03-07,3953.73,Serie de prueba; no es TRM oficial,True
+TRM-20260308,2026-03-08,3940.4,Serie de prueba; no es TRM oficial,True
+TRM-20260309,2026-03-09,3988.97,Serie de prueba; no es TRM oficial,True
+TRM-20260310,2026-03-10,3990.23,Serie de prueba; no es TRM oficial,True
+TRM-20260311,2026-03-11,3972.28,Serie de prueba; no es TRM oficial,True
+TRM-20260312,2026-03-12,3930.02,Serie de prueba; no es TRM oficial,True
+TRM-20260313,2026-03-13,3921.27,Serie de prueba; no es TRM oficial,True
+TRM-20260314,2026-03-14,3959.25,Serie de prueba; no es TRM oficial,True
+TRM-20260315,2026-03-15,3970.53,Serie de prueba; no es TRM oficial,True
+TRM-20260316,2026-03-16,3923.09,Serie de prueba; no es TRM oficial,True
+TRM-20260317,2026-03-17,3961.58,Serie de prueba; no es TRM oficial,True
+TRM-20260318,2026-03-18,3925.32,Serie de prueba; no es TRM oficial,True
+TRM-20260319,2026-03-19,3964.53,Serie de prueba; no es TRM oficial,True
+TRM-20260320,2026-03-20,3959.4,Serie de prueba; no es TRM oficial,True
+TRM-20260321,2026-03-21,3944.13,Serie de prueba; no es TRM oficial,True
+TRM-20260322,2026-03-22,3952.4,Serie de prueba; no es TRM oficial,True
+TRM-20260323,2026-03-23,3930.26,Serie de prueba; no es TRM oficial,True
+TRM-20260324,2026-03-24,3949.76,Serie de prueba; no es TRM oficial,True
+TRM-20260325,2026-03-25,3904.73,Serie de prueba; no es TRM oficial,True
+TRM-20260326,2026-03-26,3921.7,Serie de prueba; no es TRM oficial,True
+TRM-20260327,2026-03-27,3930.43,Serie de prueba; no es TRM oficial,True
+TRM-20260328,2026-03-28,3917.74,Serie de prueba; no es TRM oficial,True
+TRM-20260329,2026-03-29,3919.19,Serie de prueba; no es TRM oficial,True
+TRM-20260330,2026-03-30,3895.24,Serie de prueba; no es TRM oficial,True
+TRM-20260331,2026-03-31,3952.31,Serie de prueba; no es TRM oficial,True
+TRM-20260401,2026-04-01,3945.58,Serie de prueba; no es TRM oficial,True
+TRM-20260402,2026-04-02,3905.44,Serie de prueba; no es TRM oficial,True
+TRM-20260403,2026-04-03,3933.49,Serie de prueba; no es TRM oficial,True
+TRM-20260404,2026-04-04,3941.16,Serie de prueba; no es TRM oficial,True
+TRM-20260405,2026-04-05,3885.59,Serie de prueba; no es TRM oficial,True
+TRM-20260406,2026-04-06,3936.66,Serie de prueba; no es TRM oficial,True
+TRM-20260407,2026-04-07,3927.36,Serie de prueba; no es TRM oficial,True
+TRM-20260408,2026-04-08,3940.76,Serie de prueba; no es TRM oficial,True
+TRM-20260409,2026-04-09,3941.28,Serie de prueba; no es TRM oficial,True
+TRM-20260410,2026-04-10,3895.64,Serie de prueba; no es TRM oficial,True
+TRM-20260411,2026-04-11,3890.65,Serie de prueba; no es TRM oficial,True
+TRM-20260412,2026-04-12,3908.02,Serie de prueba; no es TRM oficial,True
+TRM-20260413,2026-04-13,3917.1,Serie de prueba; no es TRM oficial,True
+TRM-20260414,2026-04-14,3946.49,Serie de prueba; no es TRM oficial,True
+TRM-20260415,2026-04-15,3900.51,Serie de prueba; no es TRM oficial,True
+TRM-20260416,2026-04-16,3948.92,Serie de prueba; no es TRM oficial,True
+TRM-20260417,2026-04-17,3913.71,Serie de prueba; no es TRM oficial,True
+TRM-20260418,2026-04-18,3945.91,Serie de prueba; no es TRM oficial,True
+TRM-20260419,2026-04-19,3935.31,Serie de prueba; no es TRM oficial,True
+TRM-20260420,2026-04-20,3919.27,Serie de prueba; no es TRM oficial,True
+TRM-20260421,2026-04-21,3922.27,Serie de prueba; no es TRM oficial,True
+TRM-20260422,2026-04-22,3955.23,Serie de prueba; no es TRM oficial,True
+TRM-20260423,2026-04-23,3926.08,Serie de prueba; no es TRM oficial,True
+TRM-20260424,2026-04-24,3911.84,Serie de prueba; no es TRM oficial,True
+TRM-20260425,2026-04-25,3908.34,Serie de prueba; no es TRM oficial,True
+TRM-20260426,2026-04-26,3958.95,Serie de prueba; no es TRM oficial,True
+TRM-20260427,2026-04-27,3912.54,Serie de prueba; no es TRM oficial,True
+TRM-20260428,2026-04-28,3958.28,Serie de prueba; no es TRM oficial,True
+TRM-20260429,2026-04-29,3939.46,Serie de prueba; no es TRM oficial,True
+TRM-20260430,2026-04-30,3922.23,Serie de prueba; no es TRM oficial,True
+TRM-20260501,2026-05-01,3917.78,Serie de prueba; no es TRM oficial,True
+TRM-20260502,2026-05-02,3942.42,Serie de prueba; no es TRM oficial,True
+TRM-20260503,2026-05-03,3933.98,Serie de prueba; no es TRM oficial,True
+TRM-20260504,2026-05-04,3959.54,Serie de prueba; no es TRM oficial,True
+TRM-20260505,2026-05-05,3972.54,Serie de prueba; no es TRM oficial,True
+TRM-20260506,2026-05-06,3957.03,Serie de prueba; no es TRM oficial,True
+TRM-20260507,2026-05-07,3985.37,Serie de prueba; no es TRM oficial,True
+TRM-20260508,2026-05-08,3990.66,Serie de prueba; no es TRM oficial,True
+TRM-20260509,2026-05-09,3967.02,Serie de prueba; no es TRM oficial,True
+TRM-20260510,2026-05-10,3980.9,Serie de prueba; no es TRM oficial,True
+TRM-20260511,2026-05-11,3965.8,Serie de prueba; no es TRM oficial,True
+TRM-20260512,2026-05-12,3947.5,Serie de prueba; no es TRM oficial,True
+TRM-20260513,2026-05-13,3994.21,Serie de prueba; no es TRM oficial,True
+TRM-20260514,2026-05-14,4002.01,Serie de prueba; no es TRM oficial,True
+TRM-20260515,2026-05-15,3989.02,Serie de prueba; no es TRM oficial,True
+TRM-20260516,2026-05-16,3990.39,Serie de prueba; no es TRM oficial,True
+TRM-20260517,2026-05-17,3978.95,Serie de prueba; no es TRM oficial,True
+TRM-20260518,2026-05-18,3983.67,Serie de prueba; no es TRM oficial,True
+TRM-20260519,2026-05-19,3975.48,Serie de prueba; no es TRM oficial,True
+TRM-20260520,2026-05-20,4020.34,Serie de prueba; no es TRM oficial,True
+TRM-20260521,2026-05-21,3995.28,Serie de prueba; no es TRM oficial,True
+TRM-20260522,2026-05-22,4038.89,Serie de prueba; no es TRM oficial,True
+TRM-20260523,2026-05-23,4046.69,Serie de prueba; no es TRM oficial,True
+TRM-20260524,2026-05-24,4029.55,Serie de prueba; no es TRM oficial,True
+TRM-20260525,2026-05-25,4002.69,Serie de prueba; no es TRM oficial,True
+TRM-20260526,2026-05-26,4002.43,Serie de prueba; no es TRM oficial,True
+TRM-20260527,2026-05-27,4037.61,Serie de prueba; no es TRM oficial,True
+TRM-20260528,2026-05-28,4043.99,Serie de prueba; no es TRM oficial,True
+TRM-20260529,2026-05-29,4046.57,Serie de prueba; no es TRM oficial,True
+TRM-20260530,2026-05-30,4075.26,Serie de prueba; no es TRM oficial,True
+TRM-20260531,2026-05-31,4064.96,Serie de prueba; no es TRM oficial,True
+TRM-20260601,2026-06-01,4043.59,Serie de prueba; no es TRM oficial,True
+TRM-20260602,2026-06-02,4030.74,Serie de prueba; no es TRM oficial,True
+TRM-20260603,2026-06-03,4028.86,Serie de prueba; no es TRM oficial,True
+TRM-20260604,2026-06-04,4047.67,Serie de prueba; no es TRM oficial,True
+TRM-20260605,2026-06-05,4045.17,Serie de prueba; no es TRM oficial,True
+TRM-20260606,2026-06-06,4050.21,Serie de prueba; no es TRM oficial,True
+TRM-20260607,2026-06-07,4100.53,Serie de prueba; no es TRM oficial,True
+TRM-20260608,2026-06-08,4065.71,Serie de prueba; no es TRM oficial,True
+TRM-20260609,2026-06-09,4049.96,Serie de prueba; no es TRM oficial,True
+TRM-20260610,2026-06-10,4072.35,Serie de prueba; no es TRM oficial,True
+TRM-20260611,2026-06-11,4083.52,Serie de prueba; no es TRM oficial,True
+TRM-20260612,2026-06-12,4105.91,Serie de prueba; no es TRM oficial,True
+TRM-20260613,2026-06-13,4104.32,Serie de prueba; no es TRM oficial,True
+TRM-20260614,2026-06-14,4113.43,Serie de prueba; no es TRM oficial,True
+TRM-20260615,2026-06-15,4129.71,Serie de prueba; no es TRM oficial,True
+TRM-20260616,2026-06-16,4129.33,Serie de prueba; no es TRM oficial,True
+TRM-20260617,2026-06-17,4150.46,Serie de prueba; no es TRM oficial,True
+TRM-20260618,2026-06-18,4133.2,Serie de prueba; no es TRM oficial,True
+TRM-20260619,2026-06-19,4125.17,Serie de prueba; no es TRM oficial,True
+TRM-20260620,2026-06-20,4108.18,Serie de prueba; no es TRM oficial,True
+TRM-20260621,2026-06-21,4102.88,Serie de prueba; no es TRM oficial,True
+TRM-20260622,2026-06-22,4167.41,Serie de prueba; no es TRM oficial,True
+TRM-20260623,2026-06-23,4113.93,Serie de prueba; no es TRM oficial,True
+TRM-20260624,2026-06-24,4179.38,Serie de prueba; no es TRM oficial,True
+TRM-20260625,2026-06-25,4154.04,Serie de prueba; no es TRM oficial,True
+TRM-20260626,2026-06-26,4182.89,Serie de prueba; no es TRM oficial,True
+TRM-20260627,2026-06-27,4135.46,Serie de prueba; no es TRM oficial,True
+TRM-20260628,2026-06-28,4166.79,Serie de prueba; no es TRM oficial,True
+TRM-20260629,2026-06-29,4148.11,Serie de prueba; no es TRM oficial,True
+TRM-20260630,2026-06-30,4186.54,Serie de prueba; no es TRM oficial,True
+TRM-20260701,2026-07-01,4147.13,Serie de prueba; no es TRM oficial,True
+TRM-20260702,2026-07-02,4148.38,Serie de prueba; no es TRM oficial,True
+TRM-20260703,2026-07-03,4156.44,Serie de prueba; no es TRM oficial,True
+TRM-20260704,2026-07-04,4200.95,Serie de prueba; no es TRM oficial,True
+TRM-20260705,2026-07-05,4219.91,Serie de prueba; no es TRM oficial,True
+TRM-20260706,2026-07-06,4225.07,Serie de prueba; no es TRM oficial,True
+TRM-20260707,2026-07-07,4202.11,Serie de prueba; no es TRM oficial,True
+TRM-20260708,2026-07-08,4234.66,Serie de prueba; no es TRM oficial,True
+TRM-20260709,2026-07-09,4214.07,Serie de prueba; no es TRM oficial,True
+TRM-20260710,2026-07-10,4235.88,Serie de prueba; no es TRM oficial,True
+TRM-20260711,2026-07-11,4238.02,Serie de prueba; no es TRM oficial,True
+TRM-20260712,2026-07-12,4200.05,Serie de prueba; no es TRM oficial,True
+TRM-20260713,2026-07-13,4204.26,Serie de prueba; no es TRM oficial,True
+TRM-20260714,2026-07-14,4211.57,Serie de prueba; no es TRM oficial,True
+TRM-20260715,2026-07-15,4200.76,Serie de prueba; no es TRM oficial,True
+TRM-20260716,2026-07-16,4219.13,Serie de prueba; no es TRM oficial,True
+TRM-20260717,2026-07-17,4213.8,Serie de prueba; no es TRM oficial,True
+TRM-20260718,2026-07-18,4236.51,Serie de prueba; no es TRM oficial,True
+TRM-20260719,2026-07-19,4241.22,Serie de prueba; no es TRM oficial,True
+TRM-20260720,2026-07-20,4230.03,Serie de prueba; no es TRM oficial,True
+TRM-20260721,2026-07-21,4266.32,Serie de prueba; no es TRM oficial,True
+TRM-20260722,2026-07-22,4233.68,Serie de prueba; no es TRM oficial,True
+TRM-20260723,2026-07-23,4267.91,Serie de prueba; no es TRM oficial,True
+TRM-20260724,2026-07-24,4217.38,Serie de prueba; no es TRM oficial,True
+TRM-20260725,2026-07-25,4252.46,Serie de prueba; no es TRM oficial,True
+TRM-20260726,2026-07-26,4280.03,Serie de prueba; no es TRM oficial,True
+TRM-20260727,2026-07-27,4263.14,Serie de prueba; no es TRM oficial,True
+TRM-20260728,2026-07-28,4276.93,Serie de prueba; no es TRM oficial,True
+TRM-20260729,2026-07-29,4251.76,Serie de prueba; no es TRM oficial,True
+TRM-20260730,2026-07-30,4296.24,Serie de prueba; no es TRM oficial,True
+TRM-20260731,2026-07-31,4251.95,Serie de prueba; no es TRM oficial,True
+TRM-20260801,2026-08-01,4288.58,Serie de prueba; no es TRM oficial,True
+TRM-20260802,2026-08-02,4265.99,Serie de prueba; no es TRM oficial,True
+TRM-20260803,2026-08-03,4283.53,Serie de prueba; no es TRM oficial,True
+TRM-20260804,2026-08-04,4302.27,Serie de prueba; no es TRM oficial,True
+TRM-20260805,2026-08-05,4278.68,Serie de prueba; no es TRM oficial,True
+TRM-20260806,2026-08-06,4268.72,Serie de prueba; no es TRM oficial,True
+TRM-20260807,2026-08-07,4293.41,Serie de prueba; no es TRM oficial,True
+TRM-20260808,2026-08-08,4277.59,Serie de prueba; no es TRM oficial,True
+TRM-20260809,2026-08-09,4247.5,Serie de prueba; no es TRM oficial,True
+TRM-20260810,2026-08-10,4280.54,Serie de prueba; no es TRM oficial,True
+TRM-20260811,2026-08-11,4291.28,Serie de prueba; no es TRM oficial,True
+TRM-20260812,2026-08-12,4253.99,Serie de prueba; no es TRM oficial,True
+TRM-20260813,2026-08-13,4275.83,Serie de prueba; no es TRM oficial,True
+TRM-20260814,2026-08-14,4278.24,Serie de prueba; no es TRM oficial,True
+TRM-20260815,2026-08-15,4285.8,Serie de prueba; no es TRM oficial,True
+TRM-20260816,2026-08-16,4263.46,Serie de prueba; no es TRM oficial,True
+TRM-20260817,2026-08-17,4256.19,Serie de prueba; no es TRM oficial,True
+TRM-20260818,2026-08-18,4273.31,Serie de prueba; no es TRM oficial,True
+TRM-20260819,2026-08-19,4275.76,Serie de prueba; no es TRM oficial,True
+TRM-20260820,2026-08-20,4279.22,Serie de prueba; no es TRM oficial,True
+TRM-20260821,2026-08-21,4249.21,Serie de prueba; no es TRM oficial,True
+TRM-20260822,2026-08-22,4310.84,Serie de prueba; no es TRM oficial,True
+TRM-20260823,2026-08-23,4304.49,Serie de prueba; no es TRM oficial,True
+TRM-20260824,2026-08-24,4257.98,Serie de prueba; no es TRM oficial,True
+TRM-20260825,2026-08-25,4283.23,Serie de prueba; no es TRM oficial,True
+TRM-20260826,2026-08-26,4261.62,Serie de prueba; no es TRM oficial,True
+TRM-20260827,2026-08-27,4302.77,Serie de prueba; no es TRM oficial,True
+TRM-20260828,2026-08-28,4278.08,Serie de prueba; no es TRM oficial,True
+TRM-20260829,2026-08-29,4258.67,Serie de prueba; no es TRM oficial,True
+TRM-20260830,2026-08-30,4290.83,Serie de prueba; no es TRM oficial,True
+TRM-20260831,2026-08-31,4271.49,Serie de prueba; no es TRM oficial,True
+TRM-20260901,2026-09-01,4267.75,Serie de prueba; no es TRM oficial,True
+TRM-20260902,2026-09-02,4296.49,Serie de prueba; no es TRM oficial,True
+TRM-20260903,2026-09-03,4295.88,Serie de prueba; no es TRM oficial,True
+TRM-20260904,2026-09-04,4253.64,Serie de prueba; no es TRM oficial,True
+TRM-20260905,2026-09-05,4249.19,Serie de prueba; no es TRM oficial,True
+TRM-20260906,2026-09-06,4268.83,Serie de prueba; no es TRM oficial,True
+TRM-20260907,2026-09-07,4280.01,Serie de prueba; no es TRM oficial,True
+TRM-20260908,2026-09-08,4274.28,Serie de prueba; no es TRM oficial,True
+TRM-20260909,2026-09-09,4284.02,Serie de prueba; no es TRM oficial,True
+TRM-20260910,2026-09-10,4286.97,Serie de prueba; no es TRM oficial,True
+TRM-20260911,2026-09-11,4246.21,Serie de prueba; no es TRM oficial,True
+TRM-20260912,2026-09-12,4228.41,Serie de prueba; no es TRM oficial,True
+TRM-20260913,2026-09-13,4242.89,Serie de prueba; no es TRM oficial,True
+TRM-20260914,2026-09-14,4229.6,Serie de prueba; no es TRM oficial,True
+TRM-20260915,2026-09-15,4223.53,Serie de prueba; no es TRM oficial,True
+TRM-20260916,2026-09-16,4271.22,Serie de prueba; no es TRM oficial,True
+TRM-20260917,2026-09-17,4224.15,Serie de prueba; no es TRM oficial,True
+TRM-20260918,2026-09-18,4227.84,Serie de prueba; no es TRM oficial,True
+TRM-20260919,2026-09-19,4258.41,Serie de prueba; no es TRM oficial,True
+TRM-20260920,2026-09-20,4251.81,Serie de prueba; no es TRM oficial,True
+TRM-20260921,2026-09-21,4242.0,Serie de prueba; no es TRM oficial,True
+TRM-20260922,2026-09-22,4242.86,Serie de prueba; no es TRM oficial,True
+TRM-20260923,2026-09-23,4201.86,Serie de prueba; no es TRM oficial,True
+TRM-20260924,2026-09-24,4200.85,Serie de prueba; no es TRM oficial,True
+TRM-20260925,2026-09-25,4216.07,Serie de prueba; no es TRM oficial,True
+TRM-20260926,2026-09-26,4200.9,Serie de prueba; no es TRM oficial,True
+TRM-20260927,2026-09-27,4177.13,Serie de prueba; no es TRM oficial,True
+TRM-20260928,2026-09-28,4175.31,Serie de prueba; no es TRM oficial,True
+TRM-20260929,2026-09-29,4176.48,Serie de prueba; no es TRM oficial,True
+TRM-20260930,2026-09-30,4197.5,Serie de prueba; no es TRM oficial,True
+TRM-20261001,2026-10-01,4181.74,Serie de prueba; no es TRM oficial,True
+TRM-20261002,2026-10-02,4181.46,Serie de prueba; no es TRM oficial,True
+TRM-20261003,2026-10-03,4176.16,Serie de prueba; no es TRM oficial,True
+TRM-20261004,2026-10-04,4197.59,Serie de prueba; no es TRM oficial,True
+TRM-20261005,2026-10-05,4161.51,Serie de prueba; no es TRM oficial,True
+TRM-20261006,2026-10-06,4148.78,Serie de prueba; no es TRM oficial,True
+TRM-20261007,2026-10-07,4191.87,Serie de prueba; no es TRM oficial,True
+TRM-20261008,2026-10-08,4166.55,Serie de prueba; no es TRM oficial,True
+TRM-20261009,2026-10-09,4128.23,Serie de prueba; no es TRM oficial,True
+TRM-20261010,2026-10-10,4180.92,Serie de prueba; no es TRM oficial,True
+TRM-20261011,2026-10-11,4153.63,Serie de prueba; no es TRM oficial,True
+TRM-20261012,2026-10-12,4151.3,Serie de prueba; no es TRM oficial,True
+TRM-20261013,2026-10-13,4127.48,Serie de prueba; no es TRM oficial,True
+TRM-20261014,2026-10-14,4123.97,Serie de prueba; no es TRM oficial,True
+TRM-20261015,2026-10-15,4154.72,Serie de prueba; no es TRM oficial,True
+TRM-20261016,2026-10-16,4136.54,Serie de prueba; no es TRM oficial,True
+TRM-20261017,2026-10-17,4136.64,Serie de prueba; no es TRM oficial,True
+TRM-20261018,2026-10-18,4131.41,Serie de prueba; no es TRM oficial,True
+TRM-20261019,2026-10-19,4107.58,Serie de prueba; no es TRM oficial,True
+TRM-20261020,2026-10-20,4089.06,Serie de prueba; no es TRM oficial,True
+TRM-20261021,2026-10-21,4080.38,Serie de prueba; no es TRM oficial,True
+TRM-20261022,2026-10-22,4106.72,Serie de prueba; no es TRM oficial,True
+TRM-20261023,2026-10-23,4111.28,Serie de prueba; no es TRM oficial,True
+TRM-20261024,2026-10-24,4068.26,Serie de prueba; no es TRM oficial,True
+TRM-20261025,2026-10-25,4090.05,Serie de prueba; no es TRM oficial,True
+TRM-20261026,2026-10-26,4051.48,Serie de prueba; no es TRM oficial,True
+TRM-20261027,2026-10-27,4085.19,Serie de prueba; no es TRM oficial,True
+TRM-20261028,2026-10-28,4100.43,Serie de prueba; no es TRM oficial,True
+TRM-20261029,2026-10-29,4072.66,Serie de prueba; no es TRM oficial,True
+TRM-20261030,2026-10-30,4038.78,Serie de prueba; no es TRM oficial,True
+TRM-20261031,2026-10-31,4029.85,Serie de prueba; no es TRM oficial,True

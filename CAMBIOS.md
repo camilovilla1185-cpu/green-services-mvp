@@ -239,3 +239,30 @@ Si ese archivo se construyó para mostrar crecimiento, hay que revisar los datos
 - Los meses de renovación por producto siguen siendo un supuesto (`data/catalogo_facturacion.csv`):
   conviene validarlos con Green.
 - Los segmentos, la base instalada (174) y las alertas (69) no cambian con esto.
+
+
+# 21 de noviembre de 2026 · Datos oficiales del reto
+
+El tablero ahora usa **el paquete oficial de recursos de prueba** que entregó la organización
+(`data/ejemplos/paquete_oficial/`) en lugar de los datos que habíamos generado.
+
+**Qué se respeta del paquete:** ventas anuladas excluidas (36, quedan en Rechazos con su motivo);
+descuento aplicado; dólares convertidos con la tasa de prueba del mismo día; base instalada real
+(`base_instalada.csv`, con fecha de fin) para las renovaciones; nombres reales de producto del paquete;
+y sus parámetros (`parametros_prueba.json`): corte 31/10/2026, frío con 90 días o más sin comprar,
+frecuente con 8 o más transacciones, aviso de renovación a 45 días y horizonte de predicción de 30 días.
+
+**Validación automática** (sección Confiabilidad), contra `05_Validacion`:
+
+| Indicador | Referencia oficial | Tablero |
+|---|---|---|
+| Clientes | 120 | 120 ✅ |
+| Transacciones confirmadas | 1.371 | 1.371 ✅ |
+| Ingreso (COP) | 5.647.449.456,36 | 5.647.449.456,37 ✅ (redondeo) |
+| Clientes fríos | 41 | 41 ✅ |
+| Renovaciones próximas | 26 | 26 ✅ |
+
+**Notas:** el paquete no trae comerciales, así que todos los clientes aparecen como «Sin asignar».
+Los datos empiezan en enero de 2025, así que el tablero no muestra variación anual de ventas
+(no hay 12 meses anteriores completos). Los otros conjuntos (generador y `ventas_prueba_green_2`)
+siguen disponibles en **Cargar datos**.

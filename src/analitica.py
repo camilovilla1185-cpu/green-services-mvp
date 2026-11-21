@@ -75,18 +75,48 @@ def _quintil(s: pd.Series) -> pd.Series:
 
 
 def _segmento(c) -> str:
+    # Frío primero: un cliente reciente que ya dejó de comprar no debe verse como «Nuevo»
+    if c.recencia_dias >= cfg.DIAS_RIESGO:
+        return "Frío"
     if c.antiguedad_dias <= cfg.DIAS_CLIENTE_NUEVO:
         return "Nuevo"
-    if c.recencia_dias > cfg.DIAS_RIESGO:
-        return "Frío"
     if c.recencia_dias > cfg.DIAS_ACTIVO:
         # Un cliente que por costumbre compra cada 5 meses no está "en riesgo" al cuarto mes
         if pd.notna(c.ciclo_recompra_dias) and c.recencia_dias <= 1.25 * c.ciclo_recompra_dias:
             return "Ocasional"
         return "En riesgo"
-    if c.meses_con_compra_12m >= cfg.MIN_COMPRAS_FRECUENTE:
+    if cfg.MIN_TRANSACCIONES_FRECUENTE:  # regla definida por la fuente (paquete oficial)
+        if c.facturas_historicas >= cfg.MIN_TRANSACCIONES_FRECUENTE:
+            return "Frecuente"
+    elif c.meses_con_compra_12m >= cfg.MIN_COMPRAS_FRECUENTE:
         return "Frecuente"
     return "Ocasional"
+
+
+def renovaciones_desde_base(base: pd.DataFrame, ventas: pd.DataFrame, productos: pd.DataFrame,
+                            corte: pd.Timestamp) -> pd.DataFrame:
+    """Cuando la fuente trae la base instalada (instalaciones con fecha de fin), se usan esas
+    fechas reales en vez de estimar el vencimiento desde la última venta. Por cliente y
+    producto se toma la instalación más reciente (si ya se renovó, no hay alerta)."""
+    b = base.copy()
+    b["fecha_inicio"] = pd.to_datetime(b.fecha_inicio, errors="coerce")
+    b["fecha_fin"] = pd.to_datetime(b.fecha_fin, errors="coerce")
+    b = b[b.fecha_inicio <= corte].sort_values("fecha_fin")
+    ult = b.groupby(["cliente_id", "producto_id"]).last().reset_index()
+    p = productos.rename(columns={"nombre": "producto"})[["producto_id", "producto", "categoria",
+                                                           "meses_renovacion"]]
+    ult = ult.merge(p, on="producto_id", how="left")
+    # Valor en juego: lo último que el cliente pagó por ese producto
+    vv = (ventas[ventas.fecha <= corte].sort_values("fecha")
+          .groupby(["cliente_id", "producto_id"]).valor_cop.last().rename("valor_ultimo_cop"))
+    ult = ult.merge(vv.reset_index(), on=["cliente_id", "producto_id"], how="left")
+    ult["valor_ultimo_cop"] = ult.valor_ultimo_cop.fillna(0)
+    ult = ult.rename(columns={"fecha_inicio": "ultima_compra", "fecha_fin": "vence"})
+    ult["factura_origen"] = "instalación " + ult.instalacion_id.astype(str)
+    ult["dias_para_vencer"] = (ult.vence - corte).dt.days
+    return ult[["cliente_id", "producto_id", "producto", "categoria", "meses_renovacion",
+                "ultima_compra", "valor_ultimo_cop", "factura_origen", "vence", "dias_para_vencer",
+                "instalacion_id", "unidades"]]
 
 
 def renovaciones(ventas: pd.DataFrame, corte: pd.Timestamp) -> pd.DataFrame:
@@ -122,7 +152,10 @@ def alertas(ficha: pd.DataFrame, ren: pd.DataFrame,
             "accion": "Llamar hoy y enviar cotización de renovación" if vencida
             else "Enviar cotización de renovación antes del vencimiento",
             "fecha_limite": r.vence,
-            "evidencia": f"Factura {r.factura_origen} del {r.ultima_compra:%d/%m/%Y}",
+            "evidencia": (f"Base instalada: {str(r.factura_origen).split(' ', 1)[1]} "
+                          f"(vigente desde {r.ultima_compra:%d/%m/%Y})"
+                          if str(r.factura_origen).startswith("instalación ")
+                          else f"Factura {r.factura_origen} del {r.ultima_compra:%d/%m/%Y}"),
         })
 
     # 2. Clientes valiosos que se están enfriando (usa la predicción si existe)
@@ -136,7 +169,7 @@ def alertas(ficha: pd.DataFrame, ren: pd.DataFrame,
         if (tiene_riesgo and prob < 0.5) or (not tiene_riesgo and atrasado) or c.segmento == "En riesgo":
             detalle = f"{int(c.recencia_dias)} días sin comprar (suele comprar cada {int(ciclo)})"
             if tiene_riesgo:
-                detalle += f"; probabilidad de compra en 90 días: {prob:.0%}"
+                detalle += f"; probabilidad de compra en {cfg.HORIZONTE_DIAS} días: {prob:.0%}"
             a.append({
                 "cliente_id": c.cliente_id, "nombre": c.nombre, "comercial": c.comercial,
                 "tipo": "Cliente valioso en riesgo",

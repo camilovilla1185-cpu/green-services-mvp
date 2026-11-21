@@ -1,19 +1,11 @@
-producto_id,nombre,categoria,precio_lista,moneda,meses_renovacion,fuente,dato_ficticio
-P01,Producto H,Cybersecurity,38,USD,12,ERP maestro de productos (simulado),True
-P02,Producto K,End User Solutions,95,USD,12,ERP maestro de productos (simulado),True
-P03,Producto C,Cloud & Data Center,620,USD,12,ERP maestro de productos (simulado),True
-P04,Producto I,Cybersecurity,1450,USD,12,ERP maestro de productos (simulado),True
-P05,Producto F,Cloud & Data Center,7800,USD,36,ERP maestro de productos (simulado),True
-P06,Producto G,Cloud & Data Center,2100,USD,36,ERP maestro de productos (simulado),True
-P07,Producto J,End User Solutions,1150,USD,36,ERP maestro de productos (simulado),True
-P08,Producto A,Cloud & Data Center,5400,USD,36,ERP maestro de productos (simulado),True
-P09,Producto B,Cloud & Data Center,900,USD,24,ERP maestro de productos (simulado),True
-P10,Producto E,Cloud & Data Center,180000,COP,0,ERP maestro de productos (simulado),True
-P11,Producto L,End User Solutions,45000,COP,0,ERP maestro de productos (simulado),True
-P12,Producto D,Cloud & Data Center,1900000,COP,0,ERP maestro de productos (simulado),True
-P13,Producto P,Professional Services,420000,COP,0,ERP maestro de productos (simulado),True
-P14,Producto O,Professional Services,9500,COP,0,ERP maestro de productos (simulado),True
-P15,Producto N,Professional Services,85000,COP,0,ERP maestro de productos (simulado),True
-P16,Producto Q,Professional Services,1300000,COP,0,ERP maestro de productos (simulado),True
-P17,Producto M,FLEX GPT,260000,COP,0,ERP maestro de productos (simulado),True
-P18,Producto R,Professional Services,14000000,COP,0,ERP maestro de productos (simulado),True
+producto_id,nombre,categoria,tipo,precio_lista,moneda,costo_referencia,meses_renovacion,fuente,dato_ficticio
+PRO01,Licencia de gestión documental,Software,Recurrente,180,USD,111.6,12,Paquete oficial de recursos de prueba (productos.csv),True
+PRO02,Servicio de respaldo,Continuidad,Recurrente,350000,COP,217000.0,12,Paquete oficial de recursos de prueba (productos.csv),True
+PRO03,Soporte operativo,Soporte,Recurrente,480000,COP,297600.0,6,Paquete oficial de recursos de prueba (productos.csv),True
+PRO04,Implementación documental,Servicios,Único,2800000,COP,1736000.0,0,Paquete oficial de recursos de prueba (productos.csv),True
+PRO05,Migración de información,Servicios,Único,1900000,COP,1178000.0,0,Paquete oficial de recursos de prueba (productos.csv),True
+PRO06,Almacenamiento de información,Continuidad,Recurrente,85,USD,52.7,12,Paquete oficial de recursos de prueba (productos.csv),True
+PRO07,Capacitación de usuarios,Servicios,Único,720000,COP,446400.0,0,Paquete oficial de recursos de prueba (productos.csv),True
+PRO08,Licencia de consulta,Software,Recurrente,95,USD,58.9,12,Paquete oficial de recursos de prueba (productos.csv),True
+PRO09,Revisión de continuidad,Servicios,Único,1150000,COP,713000.0,0,Paquete oficial de recursos de prueba (productos.csv),True
+PRO10,Digitalización de prueba,Servicios,Único,650000,COP,403000.0,0,Paquete oficial de recursos de prueba (productos.csv),True

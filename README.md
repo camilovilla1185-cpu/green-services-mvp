@@ -106,7 +106,24 @@ Alerta AL-202610-0001 · Renovación vencida · Textiles Magdalena Ltda.
 
 ---
 
-## 4. Usarlo con datos reales
+## 4. Fuentes de datos
+
+### Por defecto · Paquete oficial de recursos del reto
+El tablero viene procesado con `data/ejemplos/paquete_oficial/`, el paquete
+«Green_Services_Recursos_de_Prueba» que entregó la organización (120 clientes,
+10 productos, 1.407 ventas, 240 compras, 243 instalaciones, TRM de prueba). Se
+respetan sus reglas: ventas anuladas excluidas, descuento aplicado, dólares con la
+tasa del mismo día, base instalada con sus fechas reales y los parámetros de
+`parametros_prueba.json` (corte 31/10/2026, frío con 90 días sin comprar,
+frecuente con 8 transacciones, aviso de renovación a 45 días, horizonte de 30 días).
+En **Confiabilidad** se compara automáticamente con las cifras de `05_Validacion`.
+
+```bash
+python -m src.pipeline --paquete data/ejemplos/paquete_oficial     # o la ruta al .zip
+```
+También desde el tablero: **Cargar datos → Opción C** (subir el .zip) o **Otros
+conjuntos de datos → Usar el paquete oficial**.
+
 
 ### Opción A · Una sola exportación de facturación
 Si la plataforma de facturación exporta un archivo plano (una fila por línea
@@ -164,6 +181,7 @@ green_mvp/
 │  ├─ generar_datos.py     datos ficticios con trazabilidad
 │  ├─ estilo.py            colores de marca, logo, CSS y plantilla de gráficas
 │  ├─ etl.py               ingesta, validación, TRM, margen, bitácora
+│  ├─ importar_paquete_oficial.py  importa el paquete oficial del reto
 │  ├─ importar_facturacion.py  convierte una exportación plana de facturación
 │  ├─ analitica.py         ficha 360, segmentos, renovaciones, alertas
 │  ├─ modelo.py            probabilidad de recompra y pronóstico

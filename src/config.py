@@ -35,6 +35,48 @@ DIAS_AVISO_RENOVACION = 60  # alertar renovaciones que vencen en los próximos N
 HORIZONTE_DIAS = 90     # ¿volverá a comprar en los próximos 90 días?
 SEMILLA = 42
 
+# Regla de cliente frecuente: por defecto, meses distintos con compra en 12 meses
+# (MIN_COMPRAS_FRECUENTE). Si la fuente define otra regla (p. ej. el paquete oficial
+# del reto: 8 transacciones confirmadas), se usa MIN_TRANSACCIONES_FRECUENTE.
+MIN_TRANSACCIONES_FRECUENTE: int | None = None
+FECHA_CORTE = None  # None = la fecha de la última venta
+MONEDAS_ADMITIDAS = {"COP", "USD"}
+
+# --- Parámetros de la fuente de datos ---------------------------------------
+# Si en data/raw/ hay un parametros.json (como parametros_prueba.json del paquete
+# oficial), sus valores reemplazan a los de arriba. Se aplican con aplicar_parametros().
+ARCHIVO_PARAMETROS = DATOS_CRUDOS / "parametros.json"
+_DEFECTO = {k: globals()[k] for k in ("DIAS_ACTIVO", "DIAS_RIESGO", "MIN_COMPRAS_FRECUENTE",
+                                       "DIAS_CLIENTE_NUEVO", "DIAS_AVISO_RENOVACION",
+                                       "HORIZONTE_DIAS", "MIN_TRANSACCIONES_FRECUENTE",
+                                       "FECHA_CORTE")}
+
+
+def aplicar_parametros() -> dict:
+    """Restablece los valores por defecto y aplica los de data/raw/parametros.json, si existe.
+    Devuelve los parámetros en uso (para mostrarlos en el tablero)."""
+    import json
+    g = globals()
+    g.update(_DEFECTO)
+    fuente = "valores por defecto del MVP"
+    if ARCHIVO_PARAMETROS.exists():
+        p = json.loads(ARCHIVO_PARAMETROS.read_text(encoding="utf-8-sig"))
+        if "frio_dias_sin_compra" in p:
+            g["DIAS_RIESGO"] = int(p["frio_dias_sin_compra"])
+            g["DIAS_ACTIVO"] = max(30, int(p["frio_dias_sin_compra"]) * 2 // 3)
+            g["DIAS_CLIENTE_NUEVO"] = min(_DEFECTO["DIAS_CLIENTE_NUEVO"], int(p["frio_dias_sin_compra"]))
+        if "frecuente_min_transacciones" in p:
+            g["MIN_TRANSACCIONES_FRECUENTE"] = int(p["frecuente_min_transacciones"])
+        if "renovacion_dias" in p:
+            g["DIAS_AVISO_RENOVACION"] = int(p["renovacion_dias"])
+        if "horizonte_prediccion_dias" in p:
+            g["HORIZONTE_DIAS"] = int(p["horizonte_prediccion_dias"])
+        if "fecha_corte" in p:
+            g["FECHA_CORTE"] = p["fecha_corte"]
+        fuente = "parametros.json de la fuente de datos"
+    return {"fuente": fuente, **{k: g[k] for k in _DEFECTO}}
+
+
 # Columnas mínimas que el ETL espera en cada archivo de entrada.
 ESQUEMA = {
     "clientes": ["cliente_id", "nit", "nombre", "sector", "ciudad", "comercial"],

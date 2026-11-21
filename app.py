@@ -23,6 +23,8 @@ ORDEN_SEG = list(COLOR_SEG)
 
 st.set_page_config(page_title="Operaciones · Green Services", page_icon="🌿", layout="wide")
 MARCA = estilo.aplicar_estilo()
+PARAM = cfg.aplicar_parametros()
+H = cfg.HORIZONTE_DIAS  # horizonte de la probabilidad de compra (días)
 VERDE = MARCA["color_principal"]
 
 
@@ -71,11 +73,11 @@ def a_excel(df: pd.DataFrame) -> bytes:
 # ---------------------------------------------------------------- sin datos
 if not (P / "metricas.json").exists():
     encabezado("Tablero de Operaciones", "Inteligencia operativa y comercial")
-    st.info("Todavía no hay datos procesados. Puede cargar archivos reales en la sección "
-            "**Cargar datos** o generar un conjunto de prueba con datos ficticios.")
-    if st.button("Generar datos de prueba y procesar", type="primary"):
-        with st.spinner("Generando y procesando..."):
-            pipeline.ejecutar(demo=True)
+    st.info("Todavía no hay datos procesados. Puede cargar archivos en la sección "
+            "**Cargar datos** o procesar el paquete oficial de recursos del reto.")
+    if st.button("Procesar el paquete oficial del reto", type="primary"):
+        with st.spinner("Procesando..."):
+            pipeline.ejecutar(paquete=cfg.RAIZ / "data" / "ejemplos" / "paquete_oficial")
         st.rerun()
     st.stop()
 
@@ -112,9 +114,15 @@ if pagina == "Resumen":
     st.caption("Últimos 12 meses frente a los 12 anteriores. Cifras en pesos; las ventas en "
                "dólares se convierten con la TRM del día de cada factura.")
     k = st.columns(5)
-    var = v12.valor_cop.sum() / v12_ant.valor_cop.sum() - 1 if len(v12_ant) else None
+    # Solo se compara si los datos cubren completos los 12 meses anteriores
+    historia_completa = D["ventas"].fecha.min() <= hace12 - pd.DateOffset(months=12) + pd.Timedelta(days=31)
+    var = (v12.valor_cop.sum() / v12_ant.valor_cop.sum() - 1
+           if len(v12_ant) and historia_completa else None)
     k[0].metric("Ventas 12 meses", cop(v12.valor_cop.sum()),
-                f"{var:+.1%}" if var is not None else None)
+                f"{var:+.1%}" if var is not None else None,
+                help=None if var is not None else
+                f"Los datos empiezan el {D['ventas'].fecha.min():%d/%m/%Y}: no hay 12 meses anteriores "
+                "completos para comparar.")
     hay_costos = v12.margen_cop.notna().any()
     k[1].metric("Margen bruto",
                 f"{v12.margen_cop.sum() / v12.loc[v12.margen_cop.notna(), 'valor_cop'].sum():.1%}"
@@ -250,7 +258,7 @@ elif pagina == "Clientes y segmentos":
                  width="stretch",
                  column_config={"ventas_12m_cop": st.column_config.NumberColumn("Ventas 12m", format="$%d"),
                                 "prob_pct": st.column_config.ProgressColumn(
-                                    "Prob. compra 90 días", format="%.0f%%", min_value=0, max_value=100),
+                                    f"Prob. compra {H} días", format="%.0f%%", min_value=0, max_value=100),
                                 "recencia_dias": "Días sin comprar",
                                 "ciclo_recompra_dias": "Ciclo (días)"})
     st.download_button("Descargar en Excel", a_excel(ficha[cols]), "segmentos.xlsx")
@@ -285,7 +293,7 @@ elif pagina == "Ficha del cliente":
     k[2].metric("Días sin comprar", int(c.recencia_dias),
                 help=f"Última compra {c.ultima_compra:%d/%m/%Y}, factura {c.ultima_factura}")
     k[3].metric("Compra cada", f"{c.ciclo_recompra_dias:.0f} días" if pd.notna(c.ciclo_recompra_dias) else "—")
-    k[4].metric("Prob. compra 90 días", f"{c.prob_compra_90d:.0%}" if pd.notna(c.prob_compra_90d) else "—")
+    k[4].metric(f"Prob. compra {H} días", f"{c.prob_compra_90d:.0%}" if pd.notna(c.prob_compra_90d) else "—")
 
     al_c = alertas[alertas.cliente_id == eleccion]
     for r in al_c.itertuples():
@@ -368,7 +376,27 @@ elif pagina == "Trazabilidad":
         r = alertas.set_index("alerta_id").loc[aid]
         st.markdown(f"**{r.tipo}** para **{r.nombre}** ({r.cliente_id}).  \nRegla que la disparó: "
                     f"{r.detalle}.  \nSoporte: {r.evidencia}.")
-        factura = r.evidencia.split("ctura ")[1].split(" ")[0]
+        if str(r.evidencia).startswith("Base instalada: "):
+            inst_id = r.evidencia.split(": ")[1].split(" ")[0]
+            base = pd.read_csv(P / "base_instalada.csv") if (P / "base_instalada.csv").exists() else pd.DataFrame()
+            fila = base[base.instalacion_id == inst_id]
+            if fila.empty:
+                st.error("No se encontró la instalación citada.")
+                st.stop()
+            fila = fila.iloc[0]
+            st.markdown(f"**Instalación `{inst_id}`** (archivo `base_instalada.csv` de la fuente): producto "
+                        f"`{fila.producto_id}`, {fila.unidades} unidad(es), vigente del {fila.fecha_inicio} "
+                        f"al **{fila.fecha_fin}**.")
+            previas = D["ventas"][(D["ventas"].cliente_id == fila.cliente_id) &
+                                  (D["ventas"].producto_id == fila.producto_id)].sort_values("fecha")
+            if previas.empty:
+                st.info("El cliente no tiene ventas de ese producto en los datos; la alerta se basa solo "
+                        "en la base instalada.")
+                st.stop()
+            factura = previas.factura.iloc[-1]
+            st.caption("Abajo: la última venta de ese producto a este cliente.")
+        else:
+            factura = r.evidencia.split("ctura ")[1].split(" ")[0]
     else:
         factura = st.text_input("Número de factura", ventas.factura.iloc[-1])
     lin = D["ventas"][D["ventas"].factura == factura]
@@ -418,10 +446,22 @@ elif pagina == "Trazabilidad":
 elif pagina == "Confiabilidad":
     encabezado("¿Qué tanto se puede confiar en las predicciones?",
                "Pruebas hacia atrás: el modelo se entrena con el pasado y se califica con lo que pasó después.")
+    vo = met.get("validacion_oficial")
+    if vo:
+        st.subheader("Validación contra las cifras oficiales del reto")
+        tabla_v = pd.DataFrame(vo["comparacion"])
+        tabla_v["coincide"] = tabla_v.coincide.map({True: "✅ Sí", False: "❌ No"})
+        st.dataframe(tabla_v.rename(columns={"indicador": "Indicador", "referencia": "Referencia oficial",
+                                             "tablero": "Este tablero", "coincide": "¿Coincide?"}),
+                     hide_index=True, width="stretch")
+        st.caption(f"Comparado con 05_Validacion del paquete oficial (corte {vo['fecha_corte_referencia']}). "
+                   "Ingreso: ventas confirmadas con descuento, dólares convertidos con la tasa del mismo día. "
+                   f"Frío: {cfg.DIAS_RIESGO} días o más sin comprar.")
+        st.divider()
     r = met["riesgo"]
     st.markdown(
         "La probabilidad de compra se probó **hacia atrás**: se tomaron cuatro fechas del pasado, se "
-        "entrenó solo con lo que se sabía en cada una y se verificó quién compró en los 90 días siguientes. "
+        f"entrenó solo con lo que se sabía en cada una y se verificó quién compró en los {H} días siguientes. "
         "Se compara con la regla que usaría cualquier persona: *quien lleva más días sin comprar es "
         "quien tiene más riesgo*.")
     pr = pd.DataFrame(r["pruebas"])
@@ -484,8 +524,28 @@ elif pagina == "Cargar datos":
             except Exception as e:  # mostrar el problema en palabras simples
                 st.error(f"No se pudo procesar: {e}")
 
+    st.subheader("Opción C · Paquete oficial de recursos del reto (.zip)")
+    st.markdown("El .zip «Green_Services_Recursos_de_Prueba» tal como lo entregaron (o una versión "
+                "nueva con la misma estructura). Toma también sus parámetros y su base instalada.")
+    zip_paq = st.file_uploader("Paquete .zip", type=["zip"], key="paquete")
+    if zip_paq and st.button("Importar paquete y procesar", type="primary", key="btn_paq"):
+        with st.spinner("Importando y procesando..."):
+            try:
+                pipeline.ejecutar(paquete=zip_paq.getvalue())
+                st.cache_data.clear()
+                st.rerun()
+            except Exception as e:
+                st.error(f"No se pudo procesar: {e}")
+
     st.divider()
-    st.subheader("Datos de prueba (ficticios)")
+    st.subheader("Otros conjuntos de datos")
+    paquete = cfg.RAIZ / "data" / "ejemplos" / "paquete_oficial"
+    if paquete.exists() and st.button("Usar el paquete oficial del reto (120 clientes) — recomendado",
+                                      type="primary"):
+        with st.spinner("Procesando..."):
+            pipeline.ejecutar(paquete=paquete)
+        st.cache_data.clear()
+        st.rerun()
     ejemplo = cfg.RAIZ / "data" / "ejemplos" / "ventas_prueba_green_2.csv"
     c1, c2 = st.columns(2)
     if ejemplo.exists() and c1.button("Usar «ventas_prueba_green_2» (401 clientes, 2022–2026)"):
